@@ -123,6 +123,14 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetScanListenerPortTcpParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetScanListenerPortTcpSslParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetSparseDiskgroupEnabledParameters(val interface{}) error {
 	return nil
 }

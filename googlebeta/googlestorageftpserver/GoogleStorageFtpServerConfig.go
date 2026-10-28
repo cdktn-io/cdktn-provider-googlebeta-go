@@ -24,17 +24,17 @@ type GoogleStorageFtpServerConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The access type for this SFTP server. Possible values: INTERNAL, EXTERNAL Possible values: ["INTERNAL", "EXTERNAL"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#access_type GoogleStorageFtpServer#access_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#access_type GoogleStorageFtpServer#access_type}
 	AccessType *string `field:"required" json:"accessType" yaml:"accessType"`
 	// The location (region) of the Storage FTP Server.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#location GoogleStorageFtpServer#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#location GoogleStorageFtpServer#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// A unique ID for the server.
 	//
 	// Must start with a lowercase letter, and end with a lowercase letter or number. Can contain lowercase letters, numbers, and hyphens. Maximum 30 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#server_id GoogleStorageFtpServer#server_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#server_id GoogleStorageFtpServer#server_id}
 	ServerId *string `field:"required" json:"serverId" yaml:"serverId"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -46,37 +46,37 @@ type GoogleStorageFtpServerConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#deletion_policy GoogleStorageFtpServer#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#deletion_policy GoogleStorageFtpServer#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// A display name for the server.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#display_name GoogleStorageFtpServer#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#display_name GoogleStorageFtpServer#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// external_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#external_config GoogleStorageFtpServer#external_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#external_config GoogleStorageFtpServer#external_config}
 	ExternalConfig *GoogleStorageFtpServerExternalConfig `field:"optional" json:"externalConfig" yaml:"externalConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#id GoogleStorageFtpServer#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#id GoogleStorageFtpServer#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// internal_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#internal_config GoogleStorageFtpServer#internal_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#internal_config GoogleStorageFtpServer#internal_config}
 	InternalConfig *GoogleStorageFtpServerInternalConfig `field:"optional" json:"internalConfig" yaml:"internalConfig"`
 	// A set of key/value label pairs to assign to the Storage FTP Server.
 	//
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#labels GoogleStorageFtpServer#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#labels GoogleStorageFtpServer#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#project GoogleStorageFtpServer#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#project GoogleStorageFtpServer#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#timeouts GoogleStorageFtpServer#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#timeouts GoogleStorageFtpServer#timeouts}
 	Timeouts *GoogleStorageFtpServerTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

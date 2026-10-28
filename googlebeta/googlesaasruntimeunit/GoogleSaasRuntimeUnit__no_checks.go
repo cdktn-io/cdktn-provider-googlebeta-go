@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnit) validateSetAnnotationsParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSaasRuntimeUnit) validateSetApplicationParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSaasRuntimeUnit) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

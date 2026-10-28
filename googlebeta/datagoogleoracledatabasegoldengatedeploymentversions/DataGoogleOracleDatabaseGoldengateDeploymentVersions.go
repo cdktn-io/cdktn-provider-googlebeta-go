@@ -5,14 +5,14 @@ package datagoogleoracledatabasegoldengatedeploymentversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleoracledatabasegoldengatedeploymentversions/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagoogleoracledatabasegoldengatedeploymentversions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_oracle_database_goldengate_deployment_versions google_oracle_database_goldengate_deployment_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_oracle_database_goldengate_deployment_versions google_oracle_database_goldengate_deployment_versions}.
 type DataGoogleOracleDatabaseGoldengateDeploymentVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseGoldengateDeploymentVersions) Terrafo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_oracle_database_goldengate_deployment_versions google_oracle_database_goldengate_deployment_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_oracle_database_goldengate_deployment_versions google_oracle_database_goldengate_deployment_versions} Data Source.
 func NewDataGoogleOracleDatabaseGoldengateDeploymentVersions(scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseGoldengateDeploymentVersionsConfig) DataGoogleOracleDatabaseGoldengateDeploymentVersions {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataGoogleOracleDatabaseGoldengateDeploymentVersions(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_oracle_database_goldengate_deployment_versions google_oracle_database_goldengate_deployment_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_oracle_database_goldengate_deployment_versions google_oracle_database_goldengate_deployment_versions} Data Source.
 func NewDataGoogleOracleDatabaseGoldengateDeploymentVersions_Override(d DataGoogleOracleDatabaseGoldengateDeploymentVersions, scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseGoldengateDeploymentVersionsConfig) {
 	_init_.Initialize()
 

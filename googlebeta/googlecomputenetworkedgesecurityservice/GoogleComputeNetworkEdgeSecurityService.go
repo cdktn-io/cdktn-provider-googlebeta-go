@@ -5,14 +5,14 @@ package googlecomputenetworkedgesecurityservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkedgesecurityservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputenetworkedgesecurityservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service}.
 type GoogleComputeNetworkEdgeSecurityService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -59,6 +59,8 @@ type GoogleComputeNetworkEdgeSecurityService interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() GoogleComputeNetworkEdgeSecurityServiceParamsOutputReference
+	ParamsInput() *GoogleComputeNetworkEdgeSecurityServiceParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -168,6 +170,7 @@ type GoogleComputeNetworkEdgeSecurityService interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutParams(value *GoogleComputeNetworkEdgeSecurityServiceParams)
 	PutTimeouts(value *GoogleComputeNetworkEdgeSecurityServiceTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -188,6 +191,7 @@ type GoogleComputeNetworkEdgeSecurityService interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetRegion()
 	ResetSecurityPolicy()
@@ -419,6 +423,26 @@ func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) Node() constructs.No
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) Params() GoogleComputeNetworkEdgeSecurityServiceParamsOutputReference {
+	var returns GoogleComputeNetworkEdgeSecurityServiceParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) ParamsInput() *GoogleComputeNetworkEdgeSecurityServiceParams {
+	var returns *GoogleComputeNetworkEdgeSecurityServiceParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -590,7 +614,7 @@ func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
 func NewGoogleComputeNetworkEdgeSecurityService(scope constructs.Construct, id *string, config *GoogleComputeNetworkEdgeSecurityServiceConfig) GoogleComputeNetworkEdgeSecurityService {
 	_init_.Initialize()
 
@@ -608,7 +632,7 @@ func NewGoogleComputeNetworkEdgeSecurityService(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
 func NewGoogleComputeNetworkEdgeSecurityService_Override(g GoogleComputeNetworkEdgeSecurityService, scope constructs.Construct, id *string, config *GoogleComputeNetworkEdgeSecurityServiceConfig) {
 	_init_.Initialize()
 
@@ -1133,6 +1157,17 @@ func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) OverrideLogicalId(ne
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) PutParams(value *GoogleComputeNetworkEdgeSecurityServiceParams) {
+	if err := g.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) PutTimeouts(value *GoogleComputeNetworkEdgeSecurityServiceTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1183,6 +1218,14 @@ func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) ResetOverrideLogical
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) ResetParams() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParams",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package googlebiglakehivetableiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivetableiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebiglakehivetableiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_biglake_hive_table_iam_policy google_biglake_hive_table_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_biglake_hive_table_iam_policy google_biglake_hive_table_iam_policy}.
 type GoogleBiglakeHiveTableIamPolicy interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_GoogleBiglakeHiveTableIamPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_biglake_hive_table_iam_policy google_biglake_hive_table_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_biglake_hive_table_iam_policy google_biglake_hive_table_iam_policy} Resource.
 func NewGoogleBiglakeHiveTableIamPolicy(scope constructs.Construct, id *string, config *GoogleBiglakeHiveTableIamPolicyConfig) GoogleBiglakeHiveTableIamPolicy {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewGoogleBiglakeHiveTableIamPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_biglake_hive_table_iam_policy google_biglake_hive_table_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_biglake_hive_table_iam_policy google_biglake_hive_table_iam_policy} Resource.
 func NewGoogleBiglakeHiveTableIamPolicy_Override(g GoogleBiglakeHiveTableIamPolicy, scope constructs.Construct, id *string, config *GoogleBiglakeHiveTableIamPolicyConfig) {
 	_init_.Initialize()
 

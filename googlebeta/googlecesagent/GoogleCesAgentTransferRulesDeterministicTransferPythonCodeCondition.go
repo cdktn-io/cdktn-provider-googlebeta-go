@@ -7,7 +7,7 @@ package googlecesagent
 type GoogleCesAgentTransferRulesDeterministicTransferPythonCodeCondition struct {
 	// The python code to execute. The function must be named 'should_trigger_transfer_callback'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
 	PythonCode *string `field:"required" json:"pythonCode" yaml:"pythonCode"`
 }
 

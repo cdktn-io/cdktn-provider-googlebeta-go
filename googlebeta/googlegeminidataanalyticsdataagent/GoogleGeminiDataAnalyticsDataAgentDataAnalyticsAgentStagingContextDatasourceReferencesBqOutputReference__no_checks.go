@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingCo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqOutputReference) validatePutPropertyGraphReferencesParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqOutputReference) validatePutTableReferencesParameters(value interface{}) error {
 	return nil
 }

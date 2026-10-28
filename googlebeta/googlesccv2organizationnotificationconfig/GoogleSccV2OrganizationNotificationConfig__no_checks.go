@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleSccV2OrganizationNotificationConfig) validateSetCountPa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccV2OrganizationNotificationConfig) validateSetDeletionNotificationsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccV2OrganizationNotificationConfig) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }

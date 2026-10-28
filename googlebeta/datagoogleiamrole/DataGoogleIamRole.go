@@ -5,14 +5,14 @@ package datagoogleiamrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleiamrole/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagoogleiamrole/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_iam_role google_iam_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_iam_role google_iam_role}.
 type DataGoogleIamRole interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -343,7 +343,7 @@ func (j *jsiiProxy_DataGoogleIamRole) Title() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_iam_role google_iam_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_iam_role google_iam_role} Data Source.
 func NewDataGoogleIamRole(scope constructs.Construct, id *string, config *DataGoogleIamRoleConfig) DataGoogleIamRole {
 	_init_.Initialize()
 
@@ -361,7 +361,7 @@ func NewDataGoogleIamRole(scope constructs.Construct, id *string, config *DataGo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_iam_role google_iam_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_iam_role google_iam_role} Data Source.
 func NewDataGoogleIamRole_Override(d DataGoogleIamRole, scope constructs.Construct, id *string, config *DataGoogleIamRoleConfig) {
 	_init_.Initialize()
 

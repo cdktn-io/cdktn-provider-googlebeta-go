@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfig
 	return nil
 }
 
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReference) validateSetEnableAutomaticFailoverParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReference) validateSetEnableNestedVirtualizationParameters(val interface{}) error {
 	return nil
 }

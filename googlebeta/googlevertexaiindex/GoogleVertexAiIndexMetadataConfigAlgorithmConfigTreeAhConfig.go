@@ -5,16 +5,24 @@ package googlevertexaiindex
 
 
 type GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig struct {
+	// The default fraction of leaf nodes that any query may be searched.
+	//
+	// Must be in
+	// range 0.0-1.0, exclusive. The default value is 0.05 if not set.
+	// This value can only be set when creating the index.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_index#fraction_leaf_nodes_to_search GoogleVertexAiIndex#fraction_leaf_nodes_to_search}
+	FractionLeafNodesToSearch *float64 `field:"optional" json:"fractionLeafNodesToSearch" yaml:"fractionLeafNodesToSearch"`
 	// Number of embeddings on each leaf node. The default value is 1000 if not set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_index#leaf_node_embedding_count GoogleVertexAiIndex#leaf_node_embedding_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_index#leaf_node_embedding_count GoogleVertexAiIndex#leaf_node_embedding_count}
 	LeafNodeEmbeddingCount *float64 `field:"optional" json:"leafNodeEmbeddingCount" yaml:"leafNodeEmbeddingCount"`
 	// The default percentage of leaf nodes that any query may be searched.
 	//
 	// Must be in
 	// range 1-100, inclusive. The default value is 10 (means 10%) if not set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_index#leaf_nodes_to_search_percent GoogleVertexAiIndex#leaf_nodes_to_search_percent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_index#leaf_nodes_to_search_percent GoogleVertexAiIndex#leaf_nodes_to_search_percent}
 	LeafNodesToSearchPercent *float64 `field:"optional" json:"leafNodesToSearchPercent" yaml:"leafNodesToSearchPercent"`
 }
 

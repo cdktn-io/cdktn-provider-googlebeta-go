@@ -5,9 +5,9 @@ package googleoracledatabasecloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasecloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleoracledatabasecloudvmcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -83,7 +83,11 @@ type GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference interface {
 	ScanDnsRecordId() *string
 	ScanIpIds() *[]*string
 	ScanListenerPortTcp() *float64
+	SetScanListenerPortTcp(val *float64)
+	ScanListenerPortTcpInput() *float64
 	ScanListenerPortTcpSsl() *float64
+	SetScanListenerPortTcpSsl(val *float64)
+	ScanListenerPortTcpSslInput() *float64
 	Shape() *string
 	SparseDiskgroupEnabled() interface{}
 	SetSparseDiskgroupEnabled(val interface{})
@@ -149,6 +153,8 @@ type GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference interface {
 	ResetMemorySizeGb()
 	ResetNodeCount()
 	ResetOcpuCount()
+	ResetScanListenerPortTcp()
+	ResetScanListenerPortTcpSsl()
 	ResetSparseDiskgroupEnabled()
 	ResetSshPublicKeys()
 	ResetTimeZone()
@@ -599,11 +605,31 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) 
 	return returns
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) ScanListenerPortTcpInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"scanListenerPortTcpInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) ScanListenerPortTcpSsl() *float64 {
 	var returns *float64
 	_jsii_.Get(
 		j,
 		"scanListenerPortTcpSsl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) ScanListenerPortTcpSslInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"scanListenerPortTcpSslInput",
 		&returns,
 	)
 	return returns
@@ -983,6 +1009,28 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference)S
 	)
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference)SetScanListenerPortTcp(val *float64) {
+	if err := j.validateSetScanListenerPortTcpParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"scanListenerPortTcp",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference)SetScanListenerPortTcpSsl(val *float64) {
+	if err := j.validateSetScanListenerPortTcpSslParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"scanListenerPortTcpSsl",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference)SetSparseDiskgroupEnabled(val interface{}) {
 	if err := j.validateSetSparseDiskgroupEnabledParameters(val); err != nil {
 		panic(err)
@@ -1349,6 +1397,22 @@ func (g *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) 
 	_jsii_.InvokeVoid(
 		g,
 		"resetOcpuCount",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) ResetScanListenerPortTcp() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScanListenerPortTcp",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) ResetScanListenerPortTcpSsl() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScanListenerPortTcpSsl",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package googlegkehubfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkehubfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegkehubfleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet}.
 type GoogleGkeHubFleet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -589,7 +589,7 @@ func (j *jsiiProxy_GoogleGkeHubFleet) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource.
 func NewGoogleGkeHubFleet(scope constructs.Construct, id *string, config *GoogleGkeHubFleetConfig) GoogleGkeHubFleet {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewGoogleGkeHubFleet(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource.
 func NewGoogleGkeHubFleet_Override(g GoogleGkeHubFleet, scope constructs.Construct, id *string, config *GoogleGkeHubFleetConfig) {
 	_init_.Initialize()
 

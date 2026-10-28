@@ -5,14 +5,14 @@ package datagoogleiamworkloadidentitypooljwks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleiamworkloadidentitypooljwks/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagoogleiamworkloadidentitypooljwks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_iam_workload_identity_pool_jwks google_iam_workload_identity_pool_jwks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_iam_workload_identity_pool_jwks google_iam_workload_identity_pool_jwks}.
 type DataGoogleIamWorkloadIdentityPoolJwks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DataGoogleIamWorkloadIdentityPoolJwks) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_iam_workload_identity_pool_jwks google_iam_workload_identity_pool_jwks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_iam_workload_identity_pool_jwks google_iam_workload_identity_pool_jwks} Data Source.
 func NewDataGoogleIamWorkloadIdentityPoolJwks(scope constructs.Construct, id *string, config *DataGoogleIamWorkloadIdentityPoolJwksConfig) DataGoogleIamWorkloadIdentityPoolJwks {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewDataGoogleIamWorkloadIdentityPoolJwks(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_iam_workload_identity_pool_jwks google_iam_workload_identity_pool_jwks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_iam_workload_identity_pool_jwks google_iam_workload_identity_pool_jwks} Data Source.
 func NewDataGoogleIamWorkloadIdentityPoolJwks_Override(d DataGoogleIamWorkloadIdentityPoolJwks, scope constructs.Construct, id *string, config *DataGoogleIamWorkloadIdentityPoolJwksConfig) {
 	_init_.Initialize()
 

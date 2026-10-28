@@ -5,14 +5,14 @@ package googlebigqueryreservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryreservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryreservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation google_bigquery_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation google_bigquery_reservation}.
 type GoogleBigqueryReservation interface {
 	cdktn.TerraformResource
 	Autoscale() GoogleBigqueryReservationAutoscaleOutputReference
@@ -97,6 +97,8 @@ type GoogleBigqueryReservation interface {
 	ScalingMode() *string
 	SetScalingMode(val *string)
 	ScalingModeInput() *string
+	SchedulingPolicy() GoogleBigqueryReservationSchedulingPolicyOutputReference
+	SchedulingPolicyInput() *GoogleBigqueryReservationSchedulingPolicy
 	SecondaryLocation() *string
 	SetSecondaryLocation(val *string)
 	SecondaryLocationInput() *string
@@ -192,6 +194,7 @@ type GoogleBigqueryReservation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAutoscale(value *GoogleBigqueryReservationAutoscale)
+	PutSchedulingPolicy(value *GoogleBigqueryReservationSchedulingPolicy)
 	PutTimeouts(value *GoogleBigqueryReservationTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -221,6 +224,7 @@ type GoogleBigqueryReservation interface {
 	ResetProject()
 	ResetReservationGroup()
 	ResetScalingMode()
+	ResetSchedulingPolicy()
 	ResetSecondaryLocation()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -680,6 +684,26 @@ func (j *jsiiProxy_GoogleBigqueryReservation) ScalingModeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBigqueryReservation) SchedulingPolicy() GoogleBigqueryReservationSchedulingPolicyOutputReference {
+	var returns GoogleBigqueryReservationSchedulingPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"schedulingPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryReservation) SchedulingPolicyInput() *GoogleBigqueryReservationSchedulingPolicy {
+	var returns *GoogleBigqueryReservationSchedulingPolicy
+	_jsii_.Get(
+		j,
+		"schedulingPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBigqueryReservation) SecondaryLocation() *string {
 	var returns *string
 	_jsii_.Get(
@@ -781,7 +805,7 @@ func (j *jsiiProxy_GoogleBigqueryReservation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation google_bigquery_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation google_bigquery_reservation} Resource.
 func NewGoogleBigqueryReservation(scope constructs.Construct, id *string, config *GoogleBigqueryReservationConfig) GoogleBigqueryReservation {
 	_init_.Initialize()
 
@@ -799,7 +823,7 @@ func NewGoogleBigqueryReservation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation google_bigquery_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation google_bigquery_reservation} Resource.
 func NewGoogleBigqueryReservation_Override(g GoogleBigqueryReservation, scope constructs.Construct, id *string, config *GoogleBigqueryReservationConfig) {
 	_init_.Initialize()
 
@@ -1412,6 +1436,17 @@ func (g *jsiiProxy_GoogleBigqueryReservation) PutAutoscale(value *GoogleBigquery
 	)
 }
 
+func (g *jsiiProxy_GoogleBigqueryReservation) PutSchedulingPolicy(value *GoogleBigqueryReservationSchedulingPolicy) {
+	if err := g.validatePutSchedulingPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSchedulingPolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBigqueryReservation) PutTimeouts(value *GoogleBigqueryReservationTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1534,6 +1569,14 @@ func (g *jsiiProxy_GoogleBigqueryReservation) ResetScalingMode() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetScalingMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryReservation) ResetSchedulingPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSchedulingPolicy",
 		nil, // no parameters
 	)
 }

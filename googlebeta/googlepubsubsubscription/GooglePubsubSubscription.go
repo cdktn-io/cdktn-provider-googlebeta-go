@@ -5,14 +5,14 @@ package googlepubsubsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlepubsubsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlepubsubsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription google_pubsub_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription google_pubsub_subscription}.
 type GooglePubsubSubscription interface {
 	cdktn.TerraformResource
 	AckDeadlineSeconds() *float64
@@ -20,6 +20,8 @@ type GooglePubsubSubscription interface {
 	AckDeadlineSecondsInput() *float64
 	BigqueryConfig() GooglePubsubSubscriptionBigqueryConfigOutputReference
 	BigqueryConfigInput() *GooglePubsubSubscriptionBigqueryConfig
+	BigtableConfig() GooglePubsubSubscriptionBigtableConfigOutputReference
+	BigtableConfigInput() *GooglePubsubSubscriptionBigtableConfig
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	CloudStorageConfig() GooglePubsubSubscriptionCloudStorageConfigOutputReference
@@ -198,6 +200,7 @@ type GooglePubsubSubscription interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutBigqueryConfig(value *GooglePubsubSubscriptionBigqueryConfig)
+	PutBigtableConfig(value *GooglePubsubSubscriptionBigtableConfig)
 	PutCloudStorageConfig(value *GooglePubsubSubscriptionCloudStorageConfig)
 	PutDeadLetterPolicy(value *GooglePubsubSubscriptionDeadLetterPolicy)
 	PutExpirationPolicy(value *GooglePubsubSubscriptionExpirationPolicy)
@@ -220,6 +223,7 @@ type GooglePubsubSubscription interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAckDeadlineSeconds()
 	ResetBigqueryConfig()
+	ResetBigtableConfig()
 	ResetCloudStorageConfig()
 	ResetDeadLetterPolicy()
 	ResetDeletionPolicy()
@@ -302,6 +306,26 @@ func (j *jsiiProxy_GooglePubsubSubscription) BigqueryConfigInput() *GooglePubsub
 	_jsii_.Get(
 		j,
 		"bigqueryConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePubsubSubscription) BigtableConfig() GooglePubsubSubscriptionBigtableConfigOutputReference {
+	var returns GooglePubsubSubscriptionBigtableConfigOutputReference
+	_jsii_.Get(
+		j,
+		"bigtableConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePubsubSubscription) BigtableConfigInput() *GooglePubsubSubscriptionBigtableConfig {
+	var returns *GooglePubsubSubscriptionBigtableConfig
+	_jsii_.Get(
+		j,
+		"bigtableConfigInput",
 		&returns,
 	)
 	return returns
@@ -868,7 +892,7 @@ func (j *jsiiProxy_GooglePubsubSubscription) TopicInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription google_pubsub_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription google_pubsub_subscription} Resource.
 func NewGooglePubsubSubscription(scope constructs.Construct, id *string, config *GooglePubsubSubscriptionConfig) GooglePubsubSubscription {
 	_init_.Initialize()
 
@@ -886,7 +910,7 @@ func NewGooglePubsubSubscription(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription google_pubsub_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription google_pubsub_subscription} Resource.
 func NewGooglePubsubSubscription_Override(g GooglePubsubSubscription, scope constructs.Construct, id *string, config *GooglePubsubSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -1488,6 +1512,17 @@ func (g *jsiiProxy_GooglePubsubSubscription) PutBigqueryConfig(value *GooglePubs
 	)
 }
 
+func (g *jsiiProxy_GooglePubsubSubscription) PutBigtableConfig(value *GooglePubsubSubscriptionBigtableConfig) {
+	if err := g.validatePutBigtableConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putBigtableConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GooglePubsubSubscription) PutCloudStorageConfig(value *GooglePubsubSubscriptionCloudStorageConfig) {
 	if err := g.validatePutCloudStorageConfigParameters(value); err != nil {
 		panic(err)
@@ -1588,6 +1623,14 @@ func (g *jsiiProxy_GooglePubsubSubscription) ResetBigqueryConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBigqueryConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GooglePubsubSubscription) ResetBigtableConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBigtableConfig",
 		nil, // no parameters
 	)
 }

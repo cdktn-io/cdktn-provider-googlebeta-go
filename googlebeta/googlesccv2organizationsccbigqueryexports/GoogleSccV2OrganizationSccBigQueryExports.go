@@ -5,14 +5,14 @@ package googlesccv2organizationsccbigqueryexports
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2organizationsccbigqueryexports/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesccv2organizationsccbigqueryexports/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_scc_big_query_exports google_scc_v2_organization_scc_big_query_exports}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_scc_big_query_exports google_scc_v2_organization_scc_big_query_exports}.
 type GoogleSccV2OrganizationSccBigQueryExports interface {
 	cdktn.TerraformResource
 	BigQueryExportId() *string
@@ -34,6 +34,9 @@ type GoogleSccV2OrganizationSccBigQueryExports interface {
 	Dataset() *string
 	SetDataset(val *string)
 	DatasetInput() *string
+	DeletionNotificationsEnabled() interface{}
+	SetDeletionNotificationsEnabled(val interface{})
+	DeletionNotificationsEnabledInput() interface{}
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -188,6 +191,7 @@ type GoogleSccV2OrganizationSccBigQueryExports interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDataset()
+	ResetDeletionNotificationsEnabled()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFilter()
@@ -310,6 +314,26 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) DatasetInput() *st
 	_jsii_.Get(
 		j,
 		"datasetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) DeletionNotificationsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) DeletionNotificationsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -626,7 +650,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_scc_big_query_exports google_scc_v2_organization_scc_big_query_exports} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_scc_big_query_exports google_scc_v2_organization_scc_big_query_exports} Resource.
 func NewGoogleSccV2OrganizationSccBigQueryExports(scope constructs.Construct, id *string, config *GoogleSccV2OrganizationSccBigQueryExportsConfig) GoogleSccV2OrganizationSccBigQueryExports {
 	_init_.Initialize()
 
@@ -644,7 +668,7 @@ func NewGoogleSccV2OrganizationSccBigQueryExports(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_scc_big_query_exports google_scc_v2_organization_scc_big_query_exports} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_scc_big_query_exports google_scc_v2_organization_scc_big_query_exports} Resource.
 func NewGoogleSccV2OrganizationSccBigQueryExports_Override(g GoogleSccV2OrganizationSccBigQueryExports, scope constructs.Construct, id *string, config *GoogleSccV2OrganizationSccBigQueryExportsConfig) {
 	_init_.Initialize()
 
@@ -695,6 +719,17 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports)SetDataset(val *str
 	_jsii_.Set(
 		j,
 		"dataset",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports)SetDeletionNotificationsEnabled(val interface{}) {
+	if err := j.validateSetDeletionNotificationsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionNotificationsEnabled",
 		val,
 	)
 }
@@ -1217,6 +1252,14 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) ResetDataset() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataset",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) ResetDeletionNotificationsEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionNotificationsEnabled",
 		nil, // no parameters
 	)
 }

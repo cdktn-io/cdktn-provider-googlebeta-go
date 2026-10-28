@@ -5,16 +5,17 @@ package googlebackupdrbackupplanassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrbackupplanassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrbackupplanassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_backup_plan_association google_backup_dr_backup_plan_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_backup_plan_association google_backup_dr_backup_plan_association}.
 type GoogleBackupDrBackupPlanAssociation interface {
 	cdktn.TerraformResource
+	AutoProtectionPolicyBinding() *string
 	BackupPlan() *string
 	SetBackupPlan(val *string)
 	BackupPlanAssociationId() *string
@@ -217,6 +218,16 @@ type GoogleBackupDrBackupPlanAssociation interface {
 // The jsii proxy struct for GoogleBackupDrBackupPlanAssociation
 type jsiiProxy_GoogleBackupDrBackupPlanAssociation struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleBackupDrBackupPlanAssociation) AutoProtectionPolicyBinding() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"autoProtectionPolicyBinding",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleBackupDrBackupPlanAssociation) BackupPlan() *string {
@@ -610,7 +621,7 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlanAssociation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_backup_plan_association google_backup_dr_backup_plan_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_backup_plan_association google_backup_dr_backup_plan_association} Resource.
 func NewGoogleBackupDrBackupPlanAssociation(scope constructs.Construct, id *string, config *GoogleBackupDrBackupPlanAssociationConfig) GoogleBackupDrBackupPlanAssociation {
 	_init_.Initialize()
 
@@ -628,7 +639,7 @@ func NewGoogleBackupDrBackupPlanAssociation(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_backup_plan_association google_backup_dr_backup_plan_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_backup_plan_association google_backup_dr_backup_plan_association} Resource.
 func NewGoogleBackupDrBackupPlanAssociation_Override(g GoogleBackupDrBackupPlanAssociation, scope constructs.Construct, id *string, config *GoogleBackupDrBackupPlanAssociationConfig) {
 	_init_.Initialize()
 

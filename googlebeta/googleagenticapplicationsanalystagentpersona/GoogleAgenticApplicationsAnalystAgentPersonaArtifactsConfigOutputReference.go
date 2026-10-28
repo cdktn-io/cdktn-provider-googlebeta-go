@@ -5,14 +5,16 @@ package googleagenticapplicationsanalystagentpersona
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleagenticapplicationsanalystagentpersona/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference interface {
 	cdktn.ComplexObject
+	AuditTrailExportOptions() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptionsOutputReference
+	AuditTrailExportOptionsInput() *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -72,10 +74,12 @@ type GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAuditTrailExportOptions(value *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions)
 	PutDocumentGenerationOptions(value *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions)
 	PutMethodologyExportOptions(value *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions)
 	PutSlideGenerationOptions(value *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions)
 	PutVisualizationOptions(value *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions)
+	ResetAuditTrailExportOptions()
 	ResetDocumentGenerationOptions()
 	ResetMethodologyExportOptions()
 	ResetSlideGenerationOptions()
@@ -93,6 +97,26 @@ type GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference 
 // The jsii proxy struct for GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference
 type jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) AuditTrailExportOptions() GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptionsOutputReference {
+	var returns GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"auditTrailExportOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) AuditTrailExportOptionsInput() *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions {
+	var returns *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions
+	_jsii_.Get(
+		j,
+		"auditTrailExportOptionsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -514,6 +538,17 @@ func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOu
 	return returns
 }
 
+func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) PutAuditTrailExportOptions(value *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions) {
+	if err := g.validatePutAuditTrailExportOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAuditTrailExportOptions",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) PutDocumentGenerationOptions(value *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions) {
 	if err := g.validatePutDocumentGenerationOptionsParameters(value); err != nil {
 		panic(err)
@@ -555,6 +590,14 @@ func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOu
 		g,
 		"putVisualizationOptions",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) ResetAuditTrailExportOptions() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAuditTrailExportOptions",
+		nil, // no parameters
 	)
 }
 

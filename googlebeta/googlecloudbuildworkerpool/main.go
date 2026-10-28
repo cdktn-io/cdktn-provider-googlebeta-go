@@ -274,10 +274,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetEnableNestedVirtualization", GoMethod: "ResetEnableNestedVirtualization"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMachineType", GoMethod: "ResetMachineType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNoExternalIp", GoMethod: "ResetNoExternalIp"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWorkerRelease", GoMethod: "ResetWorkerRelease"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "workerRelease", GoGetter: "WorkerRelease"},
+			_jsii_.MemberProperty{JsiiProperty: "workerReleaseInput", GoGetter: "WorkerReleaseInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference{}

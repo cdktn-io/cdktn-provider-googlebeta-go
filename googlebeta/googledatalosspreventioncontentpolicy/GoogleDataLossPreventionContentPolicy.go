@@ -5,14 +5,14 @@ package googledatalosspreventioncontentpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatalosspreventioncontentpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledatalosspreventioncontentpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy google_data_loss_prevention_content_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy google_data_loss_prevention_content_policy}.
 type GoogleDataLossPreventionContentPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -674,7 +674,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionContentPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy google_data_loss_prevention_content_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy google_data_loss_prevention_content_policy} Resource.
 func NewGoogleDataLossPreventionContentPolicy(scope constructs.Construct, id *string, config *GoogleDataLossPreventionContentPolicyConfig) GoogleDataLossPreventionContentPolicy {
 	_init_.Initialize()
 
@@ -692,7 +692,7 @@ func NewGoogleDataLossPreventionContentPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy google_data_loss_prevention_content_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy google_data_loss_prevention_content_policy} Resource.
 func NewGoogleDataLossPreventionContentPolicy_Override(g GoogleDataLossPreventionContentPolicy, scope constructs.Construct, id *string, config *GoogleDataLossPreventionContentPolicyConfig) {
 	_init_.Initialize()
 

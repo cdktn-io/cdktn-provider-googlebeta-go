@@ -5,9 +5,9 @@ package googlehypercomputeclustercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,9 @@ type GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesO
 	Fqn() *string
 	InternalValue() *GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances
 	SetInternalValue(val *GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances)
+	NetworkTags() *[]*string
+	SetNetworkTags(val *[]*string)
+	NetworkTagsInput() *[]*string
 	Reservation() *string
 	SetReservation(val *string)
 	ReservationInput() *string
@@ -67,6 +70,7 @@ type GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesO
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetNetworkTags()
 	ResetReservation()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewRese
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference) NetworkTags() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference) NetworkTagsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTagsInput",
 		&returns,
 	)
 	return returns
@@ -230,6 +254,17 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewRese
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference)SetNetworkTags(val *[]*string) {
+	if err := j.validateSetNetworkTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkTags",
 		val,
 	)
 }
@@ -451,6 +486,14 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewRese
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference) ResetNetworkTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkTags",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference) ResetReservation() {

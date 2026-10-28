@@ -5,14 +5,14 @@ package googlecloudrunv2workerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2workerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecloudrunv2workerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
 type GoogleCloudRunV2WorkerPool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -958,7 +958,7 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
 func NewGoogleCloudRunV2WorkerPool(scope constructs.Construct, id *string, config *GoogleCloudRunV2WorkerPoolConfig) GoogleCloudRunV2WorkerPool {
 	_init_.Initialize()
 
@@ -976,7 +976,7 @@ func NewGoogleCloudRunV2WorkerPool(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
 func NewGoogleCloudRunV2WorkerPool_Override(g GoogleCloudRunV2WorkerPool, scope constructs.Construct, id *string, config *GoogleCloudRunV2WorkerPoolConfig) {
 	_init_.Initialize()
 

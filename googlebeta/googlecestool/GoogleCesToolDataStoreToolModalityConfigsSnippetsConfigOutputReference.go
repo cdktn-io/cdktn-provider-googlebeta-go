@@ -5,9 +5,9 @@ package googlecestool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecestool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecestool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference inte
 	Fqn() *string
 	InternalValue() *GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig
 	SetInternalValue(val *GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig)
+	MaxSnippets() *float64
+	SetMaxSnippets(val *float64)
+	MaxSnippetsInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference inte
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnableSnippets()
+	ResetMaxSnippets()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutput
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference) MaxSnippets() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maxSnippets",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference) MaxSnippetsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maxSnippetsInput",
 		&returns,
 	)
 	return returns
@@ -241,6 +265,17 @@ func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutput
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference)SetMaxSnippets(val *float64) {
+	if err := j.validateSetMaxSnippetsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"maxSnippets",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutput
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnableSnippets",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference) ResetMaxSnippets() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMaxSnippets",
 		nil, // no parameters
 	)
 }

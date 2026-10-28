@@ -5,9 +5,9 @@ package googlevertexaipersistentresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaipersistentresource/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaipersistentresource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputReference interfac
 	Fqn() *string
 	InternalValue() *GoogleVertexAiPersistentResourceResourceRuntimeSpec
 	SetInternalValue(val *GoogleVertexAiPersistentResourceResourceRuntimeSpec)
+	RaySpec() GoogleVertexAiPersistentResourceResourceRuntimeSpecRaySpecOutputReference
+	RaySpecInput() *GoogleVertexAiPersistentResourceResourceRuntimeSpecRaySpec
 	ServiceAccountSpec() GoogleVertexAiPersistentResourceResourceRuntimeSpecServiceAccountSpecOutputReference
 	ServiceAccountSpecInput() *GoogleVertexAiPersistentResourceResourceRuntimeSpecServiceAccountSpec
 	// Experimental.
@@ -66,7 +68,9 @@ type GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputReference interfac
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutRaySpec(value *GoogleVertexAiPersistentResourceResourceRuntimeSpecRaySpec)
 	PutServiceAccountSpec(value *GoogleVertexAiPersistentResourceResourceRuntimeSpecServiceAccountSpec)
+	ResetRaySpec()
 	ResetServiceAccountSpec()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputRefe
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputReference) RaySpec() GoogleVertexAiPersistentResourceResourceRuntimeSpecRaySpecOutputReference {
+	var returns GoogleVertexAiPersistentResourceResourceRuntimeSpecRaySpecOutputReference
+	_jsii_.Get(
+		j,
+		"raySpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputReference) RaySpecInput() *GoogleVertexAiPersistentResourceResourceRuntimeSpecRaySpec {
+	var returns *GoogleVertexAiPersistentResourceResourceRuntimeSpecRaySpec
+	_jsii_.Get(
+		j,
+		"raySpecInput",
 		&returns,
 	)
 	return returns
@@ -442,6 +466,17 @@ func (g *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputRefe
 	return returns
 }
 
+func (g *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputReference) PutRaySpec(value *GoogleVertexAiPersistentResourceResourceRuntimeSpecRaySpec) {
+	if err := g.validatePutRaySpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRaySpec",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputReference) PutServiceAccountSpec(value *GoogleVertexAiPersistentResourceResourceRuntimeSpecServiceAccountSpec) {
 	if err := g.validatePutServiceAccountSpecParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (g *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputRefe
 		g,
 		"putServiceAccountSpec",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputReference) ResetRaySpec() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRaySpec",
+		nil, // no parameters
 	)
 }
 

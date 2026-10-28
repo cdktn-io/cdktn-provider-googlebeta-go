@@ -5,14 +5,14 @@ package googlediscoveryenginesearchengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesearchengine/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlediscoveryenginesearchengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_search_engine google_discovery_engine_search_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_search_engine google_discovery_engine_search_engine}.
 type GoogleDiscoveryEngineSearchEngine interface {
 	cdktn.TerraformResource
 	AppType() *string
@@ -84,6 +84,9 @@ type GoogleDiscoveryEngineSearchEngine interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	ModelConfigs() *map[string]*string
+	SetModelConfigs(val *map[string]*string)
+	ModelConfigsInput() *map[string]*string
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -219,6 +222,7 @@ type GoogleDiscoveryEngineSearchEngine interface {
 	ResetIndustryVertical()
 	ResetKmsKeyName()
 	ResetKnowledgeGraphConfig()
+	ResetModelConfigs()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -632,6 +636,26 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) ModelConfigs() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"modelConfigs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) ModelConfigsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"modelConfigsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -803,7 +827,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
 func NewGoogleDiscoveryEngineSearchEngine(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineSearchEngineConfig) GoogleDiscoveryEngineSearchEngine {
 	_init_.Initialize()
 
@@ -821,7 +845,7 @@ func NewGoogleDiscoveryEngineSearchEngine(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
 func NewGoogleDiscoveryEngineSearchEngine_Override(g GoogleDiscoveryEngineSearchEngine, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineSearchEngineConfig) {
 	_init_.Initialize()
 
@@ -1009,6 +1033,17 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine)SetModelConfigs(val *map[string]*string) {
+	if err := j.validateSetModelConfigsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"modelConfigs",
 		val,
 	)
 }
@@ -1546,6 +1581,14 @@ func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngine) ResetKnowledgeGraphConfig(
 	_jsii_.InvokeVoid(
 		g,
 		"resetKnowledgeGraphConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngine) ResetModelConfigs() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetModelConfigs",
 		nil, // no parameters
 	)
 }

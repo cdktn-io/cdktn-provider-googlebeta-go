@@ -5,9 +5,9 @@ package googlecloudsecuritycomplianceframeworkdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudsecuritycomplianceframeworkdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecloudsecuritycomplianceframeworkdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,9 @@ type GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReference int
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Update() *string
+	SetUpdate(val *string)
+	UpdateInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReference int
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
+	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutpu
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReference) Update() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"update",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReference) UpdateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutpu
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReference)SetUpdate(val *string) {
+	if err := j.validateSetUpdateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"update",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutpu
 	_jsii_.InvokeVoid(
 		g,
 		"resetDelete",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReference) ResetUpdate() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUpdate",
 		nil, // no parameters
 	)
 }

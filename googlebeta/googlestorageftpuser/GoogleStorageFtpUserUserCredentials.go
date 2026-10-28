@@ -7,17 +7,17 @@ package googlestorageftpuser
 type GoogleStorageFtpUserUserCredentials struct {
 	// The name of the credential.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#credential_name GoogleStorageFtpUser#credential_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#credential_name GoogleStorageFtpUser#credential_name}
 	CredentialName *string `field:"optional" json:"credentialName" yaml:"credentialName"`
 	// The type of the credential.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#credential_type GoogleStorageFtpUser#credential_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#credential_type GoogleStorageFtpUser#credential_type}
 	CredentialType *string `field:"optional" json:"credentialType" yaml:"credentialType"`
 	// The SSH public key body.
 	//
 	// A file either absolute or relative path should be provided which contains the ssh public key using file() interpolation in Terraform, not recommended to have key as a literal string in config.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#ssh_public_key_body GoogleStorageFtpUser#ssh_public_key_body}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#ssh_public_key_body GoogleStorageFtpUser#ssh_public_key_body}
 	SshPublicKeyBody *string `field:"optional" json:"sshPublicKeyBody" yaml:"sshPublicKeyBody"`
 }
 

@@ -5,14 +5,14 @@ package googlesecuresourcemanagerhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook}.
 type GoogleSecureSourceManagerHook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -696,7 +696,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerHook) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewGoogleSecureSourceManagerHook(scope constructs.Construct, id *string, config *GoogleSecureSourceManagerHookConfig) GoogleSecureSourceManagerHook {
 	_init_.Initialize()
 
@@ -714,7 +714,7 @@ func NewGoogleSecureSourceManagerHook(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewGoogleSecureSourceManagerHook_Override(g GoogleSecureSourceManagerHook, scope constructs.Construct, id *string, config *GoogleSecureSourceManagerHookConfig) {
 	_init_.Initialize()
 

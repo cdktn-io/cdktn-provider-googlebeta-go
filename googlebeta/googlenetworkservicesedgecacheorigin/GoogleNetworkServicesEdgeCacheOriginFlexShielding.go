@@ -12,7 +12,7 @@ type GoogleNetworkServicesEdgeCacheOriginFlexShielding struct {
 	// [FlexShieldingRegion](https://cloud.google.com/media-cdn/docs/reference/rest/v1/projects.locations.edgeCacheOrigins#FlexShieldingRegion)
 	// for the full list of supported regions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_edge_cache_origin#flex_shielding_regions GoogleNetworkServicesEdgeCacheOrigin#flex_shielding_regions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_services_edge_cache_origin#flex_shielding_regions GoogleNetworkServicesEdgeCacheOrigin#flex_shielding_regions}
 	FlexShieldingRegions *[]*string `field:"optional" json:"flexShieldingRegions" yaml:"flexShieldingRegions"`
 }
 

@@ -5,9 +5,9 @@ package googlegeminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQu
 	NaturalLanguageQuestion() *string
 	SetNaturalLanguageQuestion(val *string)
 	NaturalLanguageQuestionInput() *string
+	Parameters() GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesParametersList
+	ParametersInput() interface{}
 	SqlQuery() *string
 	SetSqlQuery(val *string)
 	SqlQueryInput() *string
@@ -70,7 +72,9 @@ type GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQu
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutParameters(value interface{})
 	ResetNaturalLanguageQuestion()
+	ResetParameters()
 	ResetSqlQuery()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingCo
 	_jsii_.Get(
 		j,
 		"naturalLanguageQuestionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) Parameters() GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesParametersList {
+	var returns GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesParametersList
+	_jsii_.Get(
+		j,
+		"parameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) ParametersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"parametersInput",
 		&returns,
 	)
 	return returns
@@ -488,10 +512,29 @@ func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingCo
 	return returns
 }
 
+func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) PutParameters(value interface{}) {
+	if err := g.validatePutParametersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putParameters",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) ResetNaturalLanguageQuestion() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetNaturalLanguageQuestion",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) ResetParameters() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParameters",
 		nil, // no parameters
 	)
 }

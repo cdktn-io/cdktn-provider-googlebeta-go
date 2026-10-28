@@ -5,14 +5,14 @@ package googlecolabnotebookexecution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabnotebookexecution/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecolabnotebookexecution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}.
 type GoogleColabNotebookExecution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -65,6 +65,9 @@ type GoogleColabNotebookExecution interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	KernelName() *string
+	SetKernelName(val *string)
+	KernelNameInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -212,6 +215,7 @@ type GoogleColabNotebookExecution interface {
 	ResetExecutionUser()
 	ResetGcsNotebookSource()
 	ResetId()
+	ResetKernelName()
 	ResetNotebookExecutionJobId()
 	ResetNotebookRuntimeTemplateResourceName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -528,6 +532,26 @@ func (j *jsiiProxy_GoogleColabNotebookExecution) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleColabNotebookExecution) KernelName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kernelName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabNotebookExecution) KernelNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kernelNameInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleColabNotebookExecution) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -749,7 +773,7 @@ func (j *jsiiProxy_GoogleColabNotebookExecution) WorkbenchRuntimeInput() *Google
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewGoogleColabNotebookExecution(scope constructs.Construct, id *string, config *GoogleColabNotebookExecutionConfig) GoogleColabNotebookExecution {
 	_init_.Initialize()
 
@@ -767,7 +791,7 @@ func NewGoogleColabNotebookExecution(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewGoogleColabNotebookExecution_Override(g GoogleColabNotebookExecution, scope constructs.Construct, id *string, config *GoogleColabNotebookExecutionConfig) {
 	_init_.Initialize()
 
@@ -878,6 +902,17 @@ func (j *jsiiProxy_GoogleColabNotebookExecution)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleColabNotebookExecution)SetKernelName(val *string) {
+	if err := j.validateSetKernelNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kernelName",
 		val,
 	)
 }
@@ -1473,6 +1508,14 @@ func (g *jsiiProxy_GoogleColabNotebookExecution) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleColabNotebookExecution) ResetKernelName() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetKernelName",
 		nil, // no parameters
 	)
 }

@@ -477,6 +477,51 @@ func init() {
 		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions",
+		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptionsOutputReference",
+		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptionsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "appendAuditTrail", GoGetter: "AppendAuditTrail"},
+			_jsii_.MemberProperty{JsiiProperty: "appendAuditTrailInput", GoGetter: "AppendAuditTrailInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "exportAuditTrailArtifact", GoGetter: "ExportAuditTrailArtifact"},
+			_jsii_.MemberProperty{JsiiProperty: "exportAuditTrailArtifactInput", GoGetter: "ExportAuditTrailArtifactInput"},
+			_jsii_.MemberProperty{JsiiProperty: "exportFormat", GoGetter: "ExportFormat"},
+			_jsii_.MemberProperty{JsiiProperty: "exportFormatInput", GoGetter: "ExportFormatInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAppendAuditTrail", GoMethod: "ResetAppendAuditTrail"},
+			_jsii_.MemberMethod{JsiiMethod: "resetExportAuditTrailArtifact", GoMethod: "ResetExportAuditTrailArtifact"},
+			_jsii_.MemberMethod{JsiiMethod: "resetExportFormat", GoMethod: "ResetExportFormat"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptionsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions",
 		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions)(nil)).Elem(),
 	)
@@ -903,6 +948,8 @@ func init() {
 		"@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference",
 		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "auditTrailExportOptions", GoGetter: "AuditTrailExportOptions"},
+			_jsii_.MemberProperty{JsiiProperty: "auditTrailExportOptionsInput", GoGetter: "AuditTrailExportOptionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -924,10 +971,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "methodologyExportOptions", GoGetter: "MethodologyExportOptions"},
 			_jsii_.MemberProperty{JsiiProperty: "methodologyExportOptionsInput", GoGetter: "MethodologyExportOptionsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAuditTrailExportOptions", GoMethod: "PutAuditTrailExportOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putDocumentGenerationOptions", GoMethod: "PutDocumentGenerationOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putMethodologyExportOptions", GoMethod: "PutMethodologyExportOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putSlideGenerationOptions", GoMethod: "PutSlideGenerationOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putVisualizationOptions", GoMethod: "PutVisualizationOptions"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAuditTrailExportOptions", GoMethod: "ResetAuditTrailExportOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDocumentGenerationOptions", GoMethod: "ResetDocumentGenerationOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMethodologyExportOptions", GoMethod: "ResetMethodologyExportOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSlideGenerationOptions", GoMethod: "ResetSlideGenerationOptions"},

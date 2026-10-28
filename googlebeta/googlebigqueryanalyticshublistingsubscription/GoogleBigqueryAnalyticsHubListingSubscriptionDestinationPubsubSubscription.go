@@ -7,7 +7,7 @@ package googlebigqueryanalyticshublistingsubscription
 type GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscription struct {
 	// pubsub_subscription block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_listing_subscription#pubsub_subscription GoogleBigqueryAnalyticsHubListingSubscription#pubsub_subscription}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_listing_subscription#pubsub_subscription GoogleBigqueryAnalyticsHubListingSubscription#pubsub_subscription}
 	PubsubSubscription *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubSubscription `field:"required" json:"pubsubSubscription" yaml:"pubsubSubscription"`
 }
 

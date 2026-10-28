@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingCo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) validatePutParametersParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

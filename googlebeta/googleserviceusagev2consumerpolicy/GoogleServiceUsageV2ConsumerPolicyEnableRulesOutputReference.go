@@ -5,14 +5,17 @@ package googleserviceusagev2consumerpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleserviceusagev2consumerpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleserviceusagev2consumerpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference interface {
 	cdktn.ComplexObject
+	Catalogs() *[]*string
+	SetCatalogs(val *[]*string)
+	CatalogsInput() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -30,8 +33,8 @@ type GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
+	InternalValue() *GoogleServiceUsageV2ConsumerPolicyEnableRules
+	SetInternalValue(val *GoogleServiceUsageV2ConsumerPolicyEnableRules)
 	Services() *[]*string
 	SetServices(val *[]*string)
 	ServicesInput() *[]*string
@@ -67,6 +70,7 @@ type GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetCatalogs()
 	ResetServices()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -81,6 +85,26 @@ type GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference interface {
 // The jsii proxy struct for GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference
 type jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) Catalogs() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"catalogs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) CatalogsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"catalogsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) ComplexObjectIndex() interface{} {
@@ -123,8 +147,8 @@ func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) InternalValue() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) InternalValue() *GoogleServiceUsageV2ConsumerPolicyEnableRules {
+	var returns *GoogleServiceUsageV2ConsumerPolicyEnableRules
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -174,30 +198,41 @@ func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)
 }
 
 
-func NewGoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference {
+func NewGoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewGoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
+	if err := validateNewGoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference",
-		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
 
 	return &j
 }
 
-func NewGoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference_Override(g GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference_Override(g GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference",
-		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		[]interface{}{terraformResource, terraformAttribute},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)SetCatalogs(val *[]*string) {
+	if err := j.validateSetCatalogsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"catalogs",
+		val,
 	)
 }
 
@@ -223,7 +258,7 @@ func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)
 	)
 }
 
-func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)SetInternalValue(val interface{}) {
+func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)SetInternalValue(val *GoogleServiceUsageV2ConsumerPolicyEnableRules) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}
@@ -451,6 +486,14 @@ func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) ResetCatalogs() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCatalogs",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) ResetServices() {

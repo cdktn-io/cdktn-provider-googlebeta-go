@@ -5,14 +5,14 @@ package datagooglecloudrunv2workerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecloudrunv2workerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglecloudrunv2workerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
 type DataGoogleCloudRunV2WorkerPool interface {
 	cdktn.TerraformDataSource
 	Annotations() cdktn.StringMap
@@ -699,7 +699,7 @@ func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Data Source.
 func NewDataGoogleCloudRunV2WorkerPool(scope constructs.Construct, id *string, config *DataGoogleCloudRunV2WorkerPoolConfig) DataGoogleCloudRunV2WorkerPool {
 	_init_.Initialize()
 
@@ -717,7 +717,7 @@ func NewDataGoogleCloudRunV2WorkerPool(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Data Source.
 func NewDataGoogleCloudRunV2WorkerPool_Override(d DataGoogleCloudRunV2WorkerPool, scope constructs.Construct, id *string, config *DataGoogleCloudRunV2WorkerPoolConfig) {
 	_init_.Initialize()
 

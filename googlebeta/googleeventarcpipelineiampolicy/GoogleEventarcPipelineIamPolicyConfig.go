@@ -22,18 +22,18 @@ type GoogleEventarcPipelineIamPolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_eventarc_pipeline_iam_policy#pipeline_id GoogleEventarcPipelineIamPolicy#pipeline_id}.
 	PipelineId *string `field:"required" json:"pipelineId" yaml:"pipelineId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_eventarc_pipeline_iam_policy#policy_data GoogleEventarcPipelineIamPolicy#policy_data}.
 	PolicyData *string `field:"required" json:"policyData" yaml:"policyData"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_eventarc_pipeline_iam_policy#id GoogleEventarcPipelineIamPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_eventarc_pipeline_iam_policy#location GoogleEventarcPipelineIamPolicy#location}.
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_eventarc_pipeline_iam_policy#project GoogleEventarcPipelineIamPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

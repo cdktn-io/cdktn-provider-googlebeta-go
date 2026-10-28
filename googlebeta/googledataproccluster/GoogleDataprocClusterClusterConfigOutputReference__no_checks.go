@@ -83,11 +83,19 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutMasterFlexibleConfigParameters(value *GoogleDataprocClusterClusterConfigMasterFlexibleConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutMetastoreConfigParameters(value *GoogleDataprocClusterClusterConfigMetastoreConfig) error {
 	return nil
 }
 
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutPreemptibleWorkerConfigParameters(value *GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutSecondaryWorkerFlexibleConfigParameters(value *GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig) error {
 	return nil
 }
 
@@ -100,6 +108,10 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePu
 }
 
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutWorkerConfigParameters(value *GoogleDataprocClusterClusterConfigWorkerConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutWorkerFlexibleConfigParameters(value *GoogleDataprocClusterClusterConfigWorkerFlexibleConfig) error {
 	return nil
 }
 

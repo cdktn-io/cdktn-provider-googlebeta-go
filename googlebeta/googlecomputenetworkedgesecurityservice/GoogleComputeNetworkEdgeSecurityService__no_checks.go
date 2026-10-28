@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) validateOverrideLogi
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) validatePutParamsParameters(value *GoogleComputeNetworkEdgeSecurityServiceParams) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) validatePutTimeoutsParameters(value *GoogleComputeNetworkEdgeSecurityServiceTimeouts) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_container_cluster google_container_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_container_cluster google_container_cluster}.
 type DataGoogleContainerCluster interface {
 	cdktn.TerraformDataSource
 	AddonsConfig() DataGoogleContainerClusterAddonsConfigList
@@ -143,6 +143,7 @@ type DataGoogleContainerCluster interface {
 	ResourceLabels() cdktn.StringMap
 	ResourceUsageExportConfig() DataGoogleContainerClusterResourceUsageExportConfigList
 	RollbackSafeUpgrade() DataGoogleContainerClusterRollbackSafeUpgradeList
+	ScheduleUpgradeConfig() DataGoogleContainerClusterScheduleUpgradeConfigList
 	SecretManagerConfig() DataGoogleContainerClusterSecretManagerConfigList
 	SecretSyncConfig() DataGoogleContainerClusterSecretSyncConfigList
 	SecurityPostureConfig() DataGoogleContainerClusterSecurityPostureConfigList
@@ -1269,6 +1270,16 @@ func (j *jsiiProxy_DataGoogleContainerCluster) RollbackSafeUpgrade() DataGoogleC
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleContainerCluster) ScheduleUpgradeConfig() DataGoogleContainerClusterScheduleUpgradeConfigList {
+	var returns DataGoogleContainerClusterScheduleUpgradeConfigList
+	_jsii_.Get(
+		j,
+		"scheduleUpgradeConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleContainerCluster) SecretManagerConfig() DataGoogleContainerClusterSecretManagerConfigList {
 	var returns DataGoogleContainerClusterSecretManagerConfigList
 	_jsii_.Get(
@@ -1460,7 +1471,7 @@ func (j *jsiiProxy_DataGoogleContainerCluster) WorkloadIdentityConfig() DataGoog
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_container_cluster google_container_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_container_cluster google_container_cluster} Data Source.
 func NewDataGoogleContainerCluster(scope constructs.Construct, id *string, config *DataGoogleContainerClusterConfig) DataGoogleContainerCluster {
 	_init_.Initialize()
 
@@ -1478,7 +1489,7 @@ func NewDataGoogleContainerCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_container_cluster google_container_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_container_cluster google_container_cluster} Data Source.
 func NewDataGoogleContainerCluster_Override(d DataGoogleContainerCluster, scope constructs.Construct, id *string, config *DataGoogleContainerClusterConfig) {
 	_init_.Initialize()
 

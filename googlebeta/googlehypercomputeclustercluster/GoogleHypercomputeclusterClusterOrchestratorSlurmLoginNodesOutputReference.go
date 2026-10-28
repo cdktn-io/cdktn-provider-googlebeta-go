@@ -5,9 +5,9 @@ package googlehypercomputeclustercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -50,6 +50,9 @@ type GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference 
 	MachineType() *string
 	SetMachineType(val *string)
 	MachineTypeInput() *string
+	NetworkTags() *[]*string
+	SetNetworkTags(val *[]*string)
+	NetworkTagsInput() *[]*string
 	StartupScript() *string
 	SetStartupScript(val *string)
 	StartupScriptInput() *string
@@ -96,6 +99,7 @@ type GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference 
 	ResetEnableOsLogin()
 	ResetEnablePublicIps()
 	ResetLabels()
+	ResetNetworkTags()
 	ResetStartupScript()
 	ResetStorageConfigs()
 	// Produce the Token's value at resolution time.
@@ -293,6 +297,26 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOu
 	return returns
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference) NetworkTags() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference) NetworkTagsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference) StartupScript() *string {
 	var returns *string
 	_jsii_.Get(
@@ -485,6 +509,17 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOu
 	_jsii_.Set(
 		j,
 		"machineType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference)SetNetworkTags(val *[]*string) {
+	if err := j.validateSetNetworkTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkTags",
 		val,
 	)
 }
@@ -769,6 +804,14 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOu
 	_jsii_.InvokeVoid(
 		g,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference) ResetNetworkTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkTags",
 		nil, // no parameters
 	)
 }

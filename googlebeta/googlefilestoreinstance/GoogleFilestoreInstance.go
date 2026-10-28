@@ -5,14 +5,14 @@ package googlefilestoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefilestoreinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlefilestoreinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_filestore_instance google_filestore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_filestore_instance google_filestore_instance}.
 type GoogleFilestoreInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -899,7 +899,7 @@ func (j *jsiiProxy_GoogleFilestoreInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
 func NewGoogleFilestoreInstance(scope constructs.Construct, id *string, config *GoogleFilestoreInstanceConfig) GoogleFilestoreInstance {
 	_init_.Initialize()
 
@@ -917,7 +917,7 @@ func NewGoogleFilestoreInstance(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
 func NewGoogleFilestoreInstance_Override(g GoogleFilestoreInstance, scope constructs.Construct, id *string, config *GoogleFilestoreInstanceConfig) {
 	_init_.Initialize()
 

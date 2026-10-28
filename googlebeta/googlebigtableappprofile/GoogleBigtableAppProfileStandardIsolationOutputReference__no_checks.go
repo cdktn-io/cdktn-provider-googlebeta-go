@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) val
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) validatePutMemoryConfigParameters(value *GoogleBigtableAppProfileStandardIsolationMemoryConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

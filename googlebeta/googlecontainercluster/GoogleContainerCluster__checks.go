@@ -719,6 +719,17 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutRollbackSafeUpgradeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) validatePutScheduleUpgradeConfigParameters(value *GoogleContainerClusterScheduleUpgradeConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) validatePutSecretManagerConfigParameters(value *GoogleContainerClusterSecretManagerConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

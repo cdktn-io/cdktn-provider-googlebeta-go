@@ -281,6 +281,17 @@ func (g *jsiiProxy_GoogleBigqueryConnection) validatePutConfigurationParameters(
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryConnection) validatePutSalesforceDataCloudParameters(value *GoogleBigqueryConnectionSalesforceDataCloud) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryConnection) validatePutSparkParameters(value *GoogleBigqueryConnectionSpark) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

@@ -7,11 +7,11 @@ package googlevertexairagcorpus
 type GoogleVertexAiRagCorpusVectorDbConfigApiAuthApiKeyConfig struct {
 	// The SecretManager secret version resource name storing API key. e.g. projects/{project}/secrets/{secret}/versions/{version}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_rag_corpus#api_key_secret_version GoogleVertexAiRagCorpus#api_key_secret_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_rag_corpus#api_key_secret_version GoogleVertexAiRagCorpus#api_key_secret_version}
 	ApiKeySecretVersion *string `field:"optional" json:"apiKeySecretVersion" yaml:"apiKeySecretVersion"`
 	// The API key string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_rag_corpus#api_key_string GoogleVertexAiRagCorpus#api_key_string}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_rag_corpus#api_key_string GoogleVertexAiRagCorpus#api_key_string}
 	ApiKeyString *string `field:"optional" json:"apiKeyString" yaml:"apiKeyString"`
 }
 

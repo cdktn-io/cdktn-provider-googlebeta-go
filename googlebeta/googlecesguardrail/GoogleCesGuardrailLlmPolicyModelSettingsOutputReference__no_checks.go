@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleCesGuardrailLlmPolicyModelSettingsOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesGuardrailLlmPolicyModelSettingsOutputReference) validateSetThinkingLevelParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleCesGuardrailLlmPolicyModelSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

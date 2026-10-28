@@ -5,14 +5,14 @@ package datagooglebigqueryroutineiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebigqueryroutineiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebigqueryroutineiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_bigquery_routine_iam_policy google_bigquery_routine_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_bigquery_routine_iam_policy google_bigquery_routine_iam_policy}.
 type DataGoogleBigqueryRoutineIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataGoogleBigqueryRoutineIamPolicy) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_bigquery_routine_iam_policy google_bigquery_routine_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_bigquery_routine_iam_policy google_bigquery_routine_iam_policy} Data Source.
 func NewDataGoogleBigqueryRoutineIamPolicy(scope constructs.Construct, id *string, config *DataGoogleBigqueryRoutineIamPolicyConfig) DataGoogleBigqueryRoutineIamPolicy {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataGoogleBigqueryRoutineIamPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_bigquery_routine_iam_policy google_bigquery_routine_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_bigquery_routine_iam_policy google_bigquery_routine_iam_policy} Data Source.
 func NewDataGoogleBigqueryRoutineIamPolicy_Override(d DataGoogleBigqueryRoutineIamPolicy, scope constructs.Construct, id *string, config *DataGoogleBigqueryRoutineIamPolicyConfig) {
 	_init_.Initialize()
 

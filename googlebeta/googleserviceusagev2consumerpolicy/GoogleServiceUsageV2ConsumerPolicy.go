@@ -5,14 +5,14 @@ package googleserviceusagev2consumerpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleserviceusagev2consumerpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleserviceusagev2consumerpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy}.
 type GoogleServiceUsageV2ConsumerPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -37,8 +37,8 @@ type GoogleServiceUsageV2ConsumerPolicy interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnableRules() GoogleServiceUsageV2ConsumerPolicyEnableRulesList
-	EnableRulesInput() interface{}
+	EnableRules() GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference
+	EnableRulesInput() *GoogleServiceUsageV2ConsumerPolicyEnableRules
 	Etag() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -163,7 +163,7 @@ type GoogleServiceUsageV2ConsumerPolicy interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutEnableRules(value interface{})
+	PutEnableRules(value *GoogleServiceUsageV2ConsumerPolicyEnableRules)
 	PutTimeouts(value *GoogleServiceUsageV2ConsumerPolicyTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -303,8 +303,8 @@ func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) EnableRules() GoogleServiceUsageV2ConsumerPolicyEnableRulesList {
-	var returns GoogleServiceUsageV2ConsumerPolicyEnableRulesList
+func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) EnableRules() GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference {
+	var returns GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference
 	_jsii_.Get(
 		j,
 		"enableRules",
@@ -313,8 +313,8 @@ func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) EnableRules() GoogleServi
 	return returns
 }
 
-func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) EnableRulesInput() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) EnableRulesInput() *GoogleServiceUsageV2ConsumerPolicyEnableRules {
+	var returns *GoogleServiceUsageV2ConsumerPolicyEnableRules
 	_jsii_.Get(
 		j,
 		"enableRulesInput",
@@ -544,7 +544,7 @@ func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) ValidateDependenciesInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource.
 func NewGoogleServiceUsageV2ConsumerPolicy(scope constructs.Construct, id *string, config *GoogleServiceUsageV2ConsumerPolicyConfig) GoogleServiceUsageV2ConsumerPolicy {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewGoogleServiceUsageV2ConsumerPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource.
 func NewGoogleServiceUsageV2ConsumerPolicy_Override(g GoogleServiceUsageV2ConsumerPolicy, scope constructs.Construct, id *string, config *GoogleServiceUsageV2ConsumerPolicyConfig) {
 	_init_.Initialize()
 
@@ -1076,7 +1076,7 @@ func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) OverrideLogicalId(newLogi
 	)
 }
 
-func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) PutEnableRules(value interface{}) {
+func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) PutEnableRules(value *GoogleServiceUsageV2ConsumerPolicyEnableRules) {
 	if err := g.validatePutEnableRulesParameters(value); err != nil {
 		panic(err)
 	}

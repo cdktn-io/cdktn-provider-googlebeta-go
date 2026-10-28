@@ -5,14 +5,14 @@ package datagoogleapigeeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleapigeeinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagoogleapigeeinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_apigee_instance google_apigee_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_apigee_instance google_apigee_instance}.
 type DataGoogleApigeeInstance interface {
 	cdktn.TerraformDataSource
 	AccessLoggingConfig() DataGoogleApigeeInstanceAccessLoggingConfigList
@@ -465,7 +465,7 @@ func (j *jsiiProxy_DataGoogleApigeeInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_apigee_instance google_apigee_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_apigee_instance google_apigee_instance} Data Source.
 func NewDataGoogleApigeeInstance(scope constructs.Construct, id *string, config *DataGoogleApigeeInstanceConfig) DataGoogleApigeeInstance {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewDataGoogleApigeeInstance(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_apigee_instance google_apigee_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_apigee_instance google_apigee_instance} Data Source.
 func NewDataGoogleApigeeInstance_Override(d DataGoogleApigeeInstance, scope constructs.Construct, id *string, config *DataGoogleApigeeInstanceConfig) {
 	_init_.Initialize()
 

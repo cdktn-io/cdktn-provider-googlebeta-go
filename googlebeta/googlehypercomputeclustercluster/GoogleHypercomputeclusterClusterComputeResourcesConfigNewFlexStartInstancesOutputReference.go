@@ -5,9 +5,9 @@ package googlehypercomputeclustercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,9 @@ type GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances
 	MaxDuration() *string
 	SetMaxDuration(val *string)
 	MaxDurationInput() *string
+	NetworkTags() *[]*string
+	SetNetworkTags(val *[]*string)
+	NetworkTagsInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,6 +76,7 @@ type GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetNetworkTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -173,6 +177,26 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlex
 	_jsii_.Get(
 		j,
 		"maxDurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference) NetworkTags() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference) NetworkTagsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTagsInput",
 		&returns,
 	)
 	return returns
@@ -297,6 +321,17 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlex
 	_jsii_.Set(
 		j,
 		"maxDuration",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference)SetNetworkTags(val *[]*string) {
+	if err := j.validateSetNetworkTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkTags",
 		val,
 	)
 }
@@ -518,6 +553,14 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlex
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference) ResetNetworkTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkTags",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

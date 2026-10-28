@@ -5,9 +5,9 @@ package googlecesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,9 @@ type GoogleCesAppModelSettingsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ThinkingLevel() *string
+	SetThinkingLevel(val *string)
+	ThinkingLevelInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type GoogleCesAppModelSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetModel()
 	ResetTemperature()
+	ResetThinkingLevel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_GoogleCesAppModelSettingsOutputReference) TerraformResource()
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesAppModelSettingsOutputReference) ThinkingLevel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"thinkingLevel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppModelSettingsOutputReference) ThinkingLevelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"thinkingLevelInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleCesAppModelSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleCesAppModelSettingsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_GoogleCesAppModelSettingsOutputReference)SetTerraformResource
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesAppModelSettingsOutputReference)SetThinkingLevel(val *string) {
+	if err := j.validateSetThinkingLevelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"thinkingLevel",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleCesAppModelSettingsOutputReference) ResetTemperature() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetTemperature",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAppModelSettingsOutputReference) ResetThinkingLevel() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetThinkingLevel",
 		nil, // no parameters
 	)
 }

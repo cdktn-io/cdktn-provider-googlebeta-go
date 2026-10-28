@@ -5,14 +5,14 @@ package googlenetappvolumereplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetappvolumereplication/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetappvolumereplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication}.
 type GoogleNetappVolumeReplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -854,7 +854,7 @@ func (j *jsiiProxy_GoogleNetappVolumeReplication) WaitForMirrorInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource.
 func NewGoogleNetappVolumeReplication(scope constructs.Construct, id *string, config *GoogleNetappVolumeReplicationConfig) GoogleNetappVolumeReplication {
 	_init_.Initialize()
 
@@ -872,7 +872,7 @@ func NewGoogleNetappVolumeReplication(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource.
 func NewGoogleNetappVolumeReplication_Override(g GoogleNetappVolumeReplication, scope constructs.Construct, id *string, config *GoogleNetappVolumeReplicationConfig) {
 	_init_.Initialize()
 

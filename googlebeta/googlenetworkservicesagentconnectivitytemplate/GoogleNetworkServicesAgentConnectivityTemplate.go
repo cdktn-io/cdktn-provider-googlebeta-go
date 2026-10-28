@@ -5,14 +5,14 @@ package googlenetworkservicesagentconnectivitytemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesagentconnectivitytemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkservicesagentconnectivitytemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template}.
 type GoogleNetworkServicesAgentConnectivityTemplate interface {
 	cdktn.TerraformResource
 	AccessPath() *string
@@ -719,7 +719,7 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) UpdateTime() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
 func NewGoogleNetworkServicesAgentConnectivityTemplate(scope constructs.Construct, id *string, config *GoogleNetworkServicesAgentConnectivityTemplateConfig) GoogleNetworkServicesAgentConnectivityTemplate {
 	_init_.Initialize()
 
@@ -737,7 +737,7 @@ func NewGoogleNetworkServicesAgentConnectivityTemplate(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
 func NewGoogleNetworkServicesAgentConnectivityTemplate_Override(g GoogleNetworkServicesAgentConnectivityTemplate, scope constructs.Construct, id *string, config *GoogleNetworkServicesAgentConnectivityTemplateConfig) {
 	_init_.Initialize()
 

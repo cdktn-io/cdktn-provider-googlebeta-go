@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) validateSetCatalogsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
@@ -59,7 +63,7 @@ func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) validateSetInternalValueParameters(val interface{}) error {
+func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference) validateSetInternalValueParameters(val *GoogleServiceUsageV2ConsumerPolicyEnableRules) error {
 	return nil
 }
 
@@ -75,7 +79,7 @@ func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)
 	return nil
 }
 
-func validateNewGoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

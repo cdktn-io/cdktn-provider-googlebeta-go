@@ -7,11 +7,11 @@ package googledialogflowgenerator
 type GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoToolCallResultError struct {
 	// The error message of the function.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#message GoogleDialogflowGenerator#message}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_generator#message GoogleDialogflowGenerator#message}
 	Message *string `field:"optional" json:"message" yaml:"message"`
 	// Specifies whether the tool call is retryable.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#retryable GoogleDialogflowGenerator#retryable}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_generator#retryable GoogleDialogflowGenerator#retryable}
 	Retryable interface{} `field:"optional" json:"retryable" yaml:"retryable"`
 }
 

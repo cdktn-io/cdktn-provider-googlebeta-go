@@ -5,15 +5,15 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/provider/internal"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/providerfunctions"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/providerfunctions"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs google-beta}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs google-beta}.
 type GoogleBetaProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -475,6 +475,9 @@ type GoogleBetaProvider interface {
 	NetworkSecurityCustomEndpoint() *string
 	SetNetworkSecurityCustomEndpoint(val *string)
 	NetworkSecurityCustomEndpointInput() *string
+	NetworkServices2CustomEndpoint() *string
+	SetNetworkServices2CustomEndpoint(val *string)
+	NetworkServices2CustomEndpointInput() *string
 	NetworkServicesCustomEndpoint() *string
 	SetNetworkServicesCustomEndpoint(val *string)
 	NetworkServicesCustomEndpointInput() *string
@@ -865,6 +868,7 @@ type GoogleBetaProvider interface {
 	ResetNetworkManagementCustomEndpoint()
 	ResetNetworkManagementv1CustomEndpoint()
 	ResetNetworkSecurityCustomEndpoint()
+	ResetNetworkServices2CustomEndpoint()
 	ResetNetworkServicesCustomEndpoint()
 	ResetObservabilityCustomEndpoint()
 	ResetOracleDatabaseCustomEndpoint()
@@ -4006,6 +4010,26 @@ func (j *jsiiProxy_GoogleBetaProvider) NetworkSecurityCustomEndpointInput() *str
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBetaProvider) NetworkServices2CustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkServices2CustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) NetworkServices2CustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkServices2CustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBetaProvider) NetworkServicesCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -5477,7 +5501,7 @@ func (j *jsiiProxy_GoogleBetaProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs google-beta} Resource.
 func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) GoogleBetaProvider {
 	_init_.Initialize()
 
@@ -5495,7 +5519,7 @@ func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs google-beta} Resource.
 func NewGoogleBetaProvider_Override(g GoogleBetaProvider, scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) {
 	_init_.Initialize()
 
@@ -6703,6 +6727,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetNetworkSecurityCustomEndpoint(val *stri
 	_jsii_.Set(
 		j,
 		"networkSecurityCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetNetworkServices2CustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"networkServices2CustomEndpoint",
 		val,
 	)
 }
@@ -8608,6 +8640,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetNetworkSecurityCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetNetworkSecurityCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetNetworkServices2CustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkServices2CustomEndpoint",
 		nil, // no parameters
 	)
 }

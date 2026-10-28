@@ -5,14 +5,14 @@ package googlemonitoringgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemonitoringgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemonitoringgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_group google_monitoring_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_group google_monitoring_group}.
 type GoogleMonitoringGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_GoogleMonitoringGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_group google_monitoring_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_group google_monitoring_group} Resource.
 func NewGoogleMonitoringGroup(scope constructs.Construct, id *string, config *GoogleMonitoringGroupConfig) GoogleMonitoringGroup {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewGoogleMonitoringGroup(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_group google_monitoring_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_group google_monitoring_group} Resource.
 func NewGoogleMonitoringGroup_Override(g GoogleMonitoringGroup, scope constructs.Construct, id *string, config *GoogleMonitoringGroupConfig) {
 	_init_.Initialize()
 

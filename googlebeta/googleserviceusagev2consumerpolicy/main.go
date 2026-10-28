@@ -98,31 +98,11 @@ func init() {
 		reflect.TypeOf((*GoogleServiceUsageV2ConsumerPolicyEnableRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList",
-		reflect.TypeOf((*GoogleServiceUsageV2ConsumerPolicyEnableRulesList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_GoogleServiceUsageV2ConsumerPolicyEnableRulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
 		"@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference",
 		reflect.TypeOf((*GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "catalogs", GoGetter: "Catalogs"},
+			_jsii_.MemberProperty{JsiiProperty: "catalogsInput", GoGetter: "CatalogsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -140,6 +120,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCatalogs", GoMethod: "ResetCatalogs"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServices", GoMethod: "ResetServices"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "services", GoGetter: "Services"},

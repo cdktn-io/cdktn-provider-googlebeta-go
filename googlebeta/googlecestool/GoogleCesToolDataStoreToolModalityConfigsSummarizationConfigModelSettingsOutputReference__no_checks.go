@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigM
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference) validateSetThinkingLevelParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

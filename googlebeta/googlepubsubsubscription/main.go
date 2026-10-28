@@ -20,6 +20,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "bigqueryConfig", GoGetter: "BigqueryConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "bigqueryConfigInput", GoGetter: "BigqueryConfigInput"},
+			_jsii_.MemberProperty{JsiiProperty: "bigtableConfig", GoGetter: "BigtableConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "bigtableConfigInput", GoGetter: "BigtableConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudStorageConfig", GoGetter: "CloudStorageConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudStorageConfigInput", GoGetter: "CloudStorageConfigInput"},
@@ -79,6 +81,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "pushConfig", GoGetter: "PushConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "pushConfigInput", GoGetter: "PushConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putBigqueryConfig", GoMethod: "PutBigqueryConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putBigtableConfig", GoMethod: "PutBigtableConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putCloudStorageConfig", GoMethod: "PutCloudStorageConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putDeadLetterPolicy", GoMethod: "PutDeadLetterPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putExpirationPolicy", GoMethod: "PutExpirationPolicy"},
@@ -90,6 +93,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAckDeadlineSeconds", GoMethod: "ResetAckDeadlineSeconds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBigqueryConfig", GoMethod: "ResetBigqueryConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBigtableConfig", GoMethod: "ResetBigtableConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCloudStorageConfig", GoMethod: "ResetCloudStorageConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeadLetterPolicy", GoMethod: "ResetDeadLetterPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeletionPolicy", GoMethod: "ResetDeletionPolicy"},
@@ -185,6 +189,179 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GooglePubsubSubscriptionBigqueryConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig",
+		reflect.TypeOf((*GooglePubsubSubscriptionBigtableConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping",
+		reflect.TypeOf((*GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey",
+		reflect.TypeOf((*GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference",
+		reflect.TypeOf((*GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "delimiter", GoGetter: "Delimiter"},
+			_jsii_.MemberProperty{JsiiProperty: "delimiterInput", GoGetter: "DelimiterInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "keyFields", GoGetter: "KeyFields"},
+			_jsii_.MemberProperty{JsiiProperty: "keyFieldsInput", GoGetter: "KeyFieldsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDelimiter", GoMethod: "ResetDelimiter"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference",
+		reflect.TypeOf((*GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "delimitedKey", GoGetter: "DelimitedKey"},
+			_jsii_.MemberProperty{JsiiProperty: "delimitedKeyInput", GoGetter: "DelimitedKeyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putDelimitedKey", GoMethod: "PutDelimitedKey"},
+			_jsii_.MemberMethod{JsiiMethod: "putRowKeySchema", GoMethod: "PutRowKeySchema"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDelimitedKey", GoMethod: "ResetDelimitedKey"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRowKeySchema", GoMethod: "ResetRowKeySchema"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "rowKeySchema", GoGetter: "RowKeySchema"},
+			_jsii_.MemberProperty{JsiiProperty: "rowKeySchemaInput", GoGetter: "RowKeySchemaInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema",
+		reflect.TypeOf((*GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference",
+		reflect.TypeOf((*GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference",
+		reflect.TypeOf((*GooglePubsubSubscriptionBigtableConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "appProfileId", GoGetter: "AppProfileId"},
+			_jsii_.MemberProperty{JsiiProperty: "appProfileIdInput", GoGetter: "AppProfileIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "columnFamilyMapping", GoGetter: "ColumnFamilyMapping"},
+			_jsii_.MemberProperty{JsiiProperty: "columnFamilyMappingInput", GoGetter: "ColumnFamilyMappingInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putColumnFamilyMapping", GoMethod: "PutColumnFamilyMapping"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAppProfileId", GoMethod: "ResetAppProfileId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetColumnFamilyMapping", GoMethod: "ResetColumnFamilyMapping"},
+			_jsii_.MemberMethod{JsiiMethod: "resetServiceAccountEmail", GoMethod: "ResetServiceAccountEmail"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWriteMetadata", GoMethod: "ResetWriteMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccountEmail", GoGetter: "ServiceAccountEmail"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccountEmailInput", GoGetter: "ServiceAccountEmailInput"},
+			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
+			_jsii_.MemberProperty{JsiiProperty: "table", GoGetter: "Table"},
+			_jsii_.MemberProperty{JsiiProperty: "tableInput", GoGetter: "TableInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "writeMetadata", GoGetter: "WriteMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "writeMetadataInput", GoGetter: "WriteMetadataInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GooglePubsubSubscriptionBigtableConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

@@ -5,14 +5,14 @@ package datagoogledataplexentrygroupiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogledataplexentrygroupiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagoogledataplexentrygroupiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_dataplex_entry_group_iam_policy google_dataplex_entry_group_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_dataplex_entry_group_iam_policy google_dataplex_entry_group_iam_policy}.
 type DataGoogleDataplexEntryGroupIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataGoogleDataplexEntryGroupIamPolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_dataplex_entry_group_iam_policy google_dataplex_entry_group_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_dataplex_entry_group_iam_policy google_dataplex_entry_group_iam_policy} Data Source.
 func NewDataGoogleDataplexEntryGroupIamPolicy(scope constructs.Construct, id *string, config *DataGoogleDataplexEntryGroupIamPolicyConfig) DataGoogleDataplexEntryGroupIamPolicy {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewDataGoogleDataplexEntryGroupIamPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_dataplex_entry_group_iam_policy google_dataplex_entry_group_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_dataplex_entry_group_iam_policy google_dataplex_entry_group_iam_policy} Data Source.
 func NewDataGoogleDataplexEntryGroupIamPolicy_Override(d DataGoogleDataplexEntryGroupIamPolicy, scope constructs.Construct, id *string, config *DataGoogleDataplexEntryGroupIamPolicyConfig) {
 	_init_.Initialize()
 

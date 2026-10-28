@@ -16,6 +16,7 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
+			_jsii_.MemberProperty{JsiiProperty: "addressId", GoGetter: "AddressId"},
 			_jsii_.MemberProperty{JsiiProperty: "addressType", GoGetter: "AddressType"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},

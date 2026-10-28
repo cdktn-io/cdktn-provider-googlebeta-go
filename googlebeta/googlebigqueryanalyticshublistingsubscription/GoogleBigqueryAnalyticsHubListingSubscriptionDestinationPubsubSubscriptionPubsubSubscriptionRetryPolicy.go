@@ -9,13 +9,13 @@ type GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionP
 	//
 	// Value should be between 0 and 600 seconds. Defaults to 600 seconds.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_listing_subscription#maximum_backoff GoogleBigqueryAnalyticsHubListingSubscription#maximum_backoff}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_listing_subscription#maximum_backoff GoogleBigqueryAnalyticsHubListingSubscription#maximum_backoff}
 	MaximumBackoff *string `field:"optional" json:"maximumBackoff" yaml:"maximumBackoff"`
 	// The minimum delay between consecutive deliveries of a given message.
 	//
 	// Value should be between 0 and 600 seconds. Defaults to 10 seconds.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_listing_subscription#minimum_backoff GoogleBigqueryAnalyticsHubListingSubscription#minimum_backoff}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_listing_subscription#minimum_backoff GoogleBigqueryAnalyticsHubListingSubscription#minimum_backoff}
 	MinimumBackoff *string `field:"optional" json:"minimumBackoff" yaml:"minimumBackoff"`
 }
 

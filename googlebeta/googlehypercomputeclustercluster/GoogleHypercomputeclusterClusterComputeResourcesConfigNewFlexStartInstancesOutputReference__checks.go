@@ -190,6 +190,14 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlex
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference) validateSetNetworkTagsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

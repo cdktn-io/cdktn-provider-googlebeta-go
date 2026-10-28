@@ -5,9 +5,9 @@ package googlehypercomputeclustercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,8 @@ type GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference inter
 	ExistingFilestoreInput() *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore
 	ExistingLustre() GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference
 	ExistingLustreInput() *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre
+	ExistingNfs() GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference
+	ExistingNfsInput() *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleHypercomputeclusterClusterStorageResourcesConfig
@@ -79,12 +81,14 @@ type GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference inter
 	PutExistingBucket(value *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket)
 	PutExistingFilestore(value *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore)
 	PutExistingLustre(value *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre)
+	PutExistingNfs(value *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs)
 	PutNewBucket(value *GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket)
 	PutNewFilestore(value *GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore)
 	PutNewLustre(value *GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre)
 	ResetExistingBucket()
 	ResetExistingFilestore()
 	ResetExistingLustre()
+	ResetExistingNfs()
 	ResetNewBucket()
 	ResetNewFilestore()
 	ResetNewLustre()
@@ -188,6 +192,26 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputR
 	_jsii_.Get(
 		j,
 		"existingLustreInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference) ExistingNfs() GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference {
+	var returns GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference
+	_jsii_.Get(
+		j,
+		"existingNfs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference) ExistingNfsInput() *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs {
+	var returns *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs
+	_jsii_.Get(
+		j,
+		"existingNfsInput",
 		&returns,
 	)
 	return returns
@@ -595,6 +619,17 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputR
 	)
 }
 
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference) PutExistingNfs(value *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs) {
+	if err := g.validatePutExistingNfsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putExistingNfs",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference) PutNewBucket(value *GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket) {
 	if err := g.validatePutNewBucketParameters(value); err != nil {
 		panic(err)
@@ -648,6 +683,14 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputR
 	_jsii_.InvokeVoid(
 		g,
 		"resetExistingLustre",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference) ResetExistingNfs() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExistingNfs",
 		nil, // no parameters
 	)
 }

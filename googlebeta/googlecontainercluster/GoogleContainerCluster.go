@@ -5,14 +5,14 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_container_cluster google_container_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_container_cluster google_container_cluster}.
 type GoogleContainerCluster interface {
 	cdktn.TerraformResource
 	AddonsConfig() GoogleContainerClusterAddonsConfigOutputReference
@@ -263,6 +263,8 @@ type GoogleContainerCluster interface {
 	ResourceUsageExportConfigInput() *GoogleContainerClusterResourceUsageExportConfig
 	RollbackSafeUpgrade() GoogleContainerClusterRollbackSafeUpgradeOutputReference
 	RollbackSafeUpgradeInput() *GoogleContainerClusterRollbackSafeUpgrade
+	ScheduleUpgradeConfig() GoogleContainerClusterScheduleUpgradeConfigOutputReference
+	ScheduleUpgradeConfigInput() *GoogleContainerClusterScheduleUpgradeConfig
 	SecretManagerConfig() GoogleContainerClusterSecretManagerConfigOutputReference
 	SecretManagerConfigInput() *GoogleContainerClusterSecretManagerConfig
 	SecretSyncConfig() GoogleContainerClusterSecretSyncConfigOutputReference
@@ -422,6 +424,7 @@ type GoogleContainerCluster interface {
 	PutReleaseChannel(value *GoogleContainerClusterReleaseChannel)
 	PutResourceUsageExportConfig(value *GoogleContainerClusterResourceUsageExportConfig)
 	PutRollbackSafeUpgrade(value *GoogleContainerClusterRollbackSafeUpgrade)
+	PutScheduleUpgradeConfig(value *GoogleContainerClusterScheduleUpgradeConfig)
 	PutSecretManagerConfig(value *GoogleContainerClusterSecretManagerConfig)
 	PutSecretSyncConfig(value *GoogleContainerClusterSecretSyncConfig)
 	PutSecurityPostureConfig(value *GoogleContainerClusterSecurityPostureConfig)
@@ -529,6 +532,7 @@ type GoogleContainerCluster interface {
 	ResetResourceLabels()
 	ResetResourceUsageExportConfig()
 	ResetRollbackSafeUpgrade()
+	ResetScheduleUpgradeConfig()
 	ResetSecretManagerConfig()
 	ResetSecretSyncConfig()
 	ResetSecurityPostureConfig()
@@ -2398,6 +2402,26 @@ func (j *jsiiProxy_GoogleContainerCluster) RollbackSafeUpgradeInput() *GoogleCon
 	return returns
 }
 
+func (j *jsiiProxy_GoogleContainerCluster) ScheduleUpgradeConfig() GoogleContainerClusterScheduleUpgradeConfigOutputReference {
+	var returns GoogleContainerClusterScheduleUpgradeConfigOutputReference
+	_jsii_.Get(
+		j,
+		"scheduleUpgradeConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) ScheduleUpgradeConfigInput() *GoogleContainerClusterScheduleUpgradeConfig {
+	var returns *GoogleContainerClusterScheduleUpgradeConfig
+	_jsii_.Get(
+		j,
+		"scheduleUpgradeConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleContainerCluster) SecretManagerConfig() GoogleContainerClusterSecretManagerConfigOutputReference {
 	var returns GoogleContainerClusterSecretManagerConfigOutputReference
 	_jsii_.Get(
@@ -2709,7 +2733,7 @@ func (j *jsiiProxy_GoogleContainerCluster) WorkloadIdentityConfigInput() *Google
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_container_cluster google_container_cluster} Resource.
 func NewGoogleContainerCluster(scope constructs.Construct, id *string, config *GoogleContainerClusterConfig) GoogleContainerCluster {
 	_init_.Initialize()
 
@@ -2727,7 +2751,7 @@ func NewGoogleContainerCluster(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_container_cluster google_container_cluster} Resource.
 func NewGoogleContainerCluster_Override(g GoogleContainerCluster, scope constructs.Construct, id *string, config *GoogleContainerClusterConfig) {
 	_init_.Initialize()
 
@@ -4099,6 +4123,17 @@ func (g *jsiiProxy_GoogleContainerCluster) PutRollbackSafeUpgrade(value *GoogleC
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) PutScheduleUpgradeConfig(value *GoogleContainerClusterScheduleUpgradeConfig) {
+	if err := g.validatePutScheduleUpgradeConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putScheduleUpgradeConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) PutSecretManagerConfig(value *GoogleContainerClusterSecretManagerConfig) {
 	if err := g.validatePutSecretManagerConfigParameters(value); err != nil {
 		panic(err)
@@ -4872,6 +4907,14 @@ func (g *jsiiProxy_GoogleContainerCluster) ResetRollbackSafeUpgrade() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetRollbackSafeUpgrade",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerCluster) ResetScheduleUpgradeConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScheduleUpgradeConfig",
 		nil, // no parameters
 	)
 }

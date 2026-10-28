@@ -5,9 +5,9 @@ package googlehypercomputeclustercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesO
 	MachineType() *string
 	SetMachineType(val *string)
 	MachineTypeInput() *string
+	NetworkTags() *[]*string
+	SetNetworkTags(val *[]*string)
+	NetworkTagsInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,6 +73,7 @@ type GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesO
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetNetworkTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -150,6 +154,26 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDe
 	_jsii_.Get(
 		j,
 		"machineTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference) NetworkTags() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference) NetworkTagsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTagsInput",
 		&returns,
 	)
 	return returns
@@ -263,6 +287,17 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDe
 	_jsii_.Set(
 		j,
 		"machineType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference)SetNetworkTags(val *[]*string) {
+	if err := j.validateSetNetworkTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkTags",
 		val,
 	)
 }
@@ -484,6 +519,14 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDe
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference) ResetNetworkTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkTags",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

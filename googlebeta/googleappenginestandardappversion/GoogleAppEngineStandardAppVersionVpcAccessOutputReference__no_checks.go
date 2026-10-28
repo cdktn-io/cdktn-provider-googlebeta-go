@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference) va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference) validateSetVpcEgressParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleAppEngineStandardAppVersionVpcAccessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

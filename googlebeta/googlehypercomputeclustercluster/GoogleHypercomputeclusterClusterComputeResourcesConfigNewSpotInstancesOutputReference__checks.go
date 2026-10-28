@@ -182,6 +182,14 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpot
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference) validateSetNetworkTagsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference) validateSetTerminationActionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

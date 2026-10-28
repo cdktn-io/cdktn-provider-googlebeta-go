@@ -5,9 +5,9 @@ package googlehypercomputeclustercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutpu
 	MachineType() *string
 	SetMachineType(val *string)
 	MachineTypeInput() *string
+	NetworkTags() *[]*string
+	SetNetworkTags(val *[]*string)
+	NetworkTagsInput() *[]*string
 	TerminationAction() *string
 	SetTerminationAction(val *string)
 	TerminationActionInput() *string
@@ -73,6 +76,7 @@ type GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutpu
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetNetworkTags()
 	ResetTerminationAction()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -154,6 +158,26 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpot
 	_jsii_.Get(
 		j,
 		"machineTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference) NetworkTags() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference) NetworkTagsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"networkTagsInput",
 		&returns,
 	)
 	return returns
@@ -287,6 +311,17 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpot
 	_jsii_.Set(
 		j,
 		"machineType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference)SetNetworkTags(val *[]*string) {
+	if err := j.validateSetNetworkTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkTags",
 		val,
 	)
 }
@@ -519,6 +554,14 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpot
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference) ResetNetworkTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkTags",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference) ResetTerminationAction() {

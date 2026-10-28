@@ -5,14 +5,14 @@ package googlecontactcenterinsightsqaquestion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecontactcenterinsightsqaquestion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecontactcenterinsightsqaquestion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question}.
 type GoogleContactCenterInsightsQaQuestion interface {
 	cdktn.TerraformResource
 	Abbreviation() *string
@@ -806,7 +806,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsQaQuestion) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
 func NewGoogleContactCenterInsightsQaQuestion(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaQuestionConfig) GoogleContactCenterInsightsQaQuestion {
 	_init_.Initialize()
 
@@ -824,7 +824,7 @@ func NewGoogleContactCenterInsightsQaQuestion(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
 func NewGoogleContactCenterInsightsQaQuestion_Override(g GoogleContactCenterInsightsQaQuestion, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaQuestionConfig) {
 	_init_.Initialize()
 

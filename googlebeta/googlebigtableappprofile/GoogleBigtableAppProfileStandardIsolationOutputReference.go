@@ -5,9 +5,9 @@ package googlebigtableappprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigtableappprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigtableappprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type GoogleBigtableAppProfileStandardIsolationOutputReference interface {
 	Fqn() *string
 	InternalValue() *GoogleBigtableAppProfileStandardIsolation
 	SetInternalValue(val *GoogleBigtableAppProfileStandardIsolation)
+	MemoryConfig() GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference
+	MemoryConfigInput() *GoogleBigtableAppProfileStandardIsolationMemoryConfig
 	Priority() *string
 	SetPriority(val *string)
 	PriorityInput() *string
@@ -67,6 +69,8 @@ type GoogleBigtableAppProfileStandardIsolationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutMemoryConfig(value *GoogleBigtableAppProfileStandardIsolationMemoryConfig)
+	ResetMemoryConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -127,6 +131,26 @@ func (j *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) Int
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) MemoryConfig() GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference {
+	var returns GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference
+	_jsii_.Get(
+		j,
+		"memoryConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) MemoryConfigInput() *GoogleBigtableAppProfileStandardIsolationMemoryConfig {
+	var returns *GoogleBigtableAppProfileStandardIsolationMemoryConfig
+	_jsii_.Get(
+		j,
+		"memoryConfigInput",
 		&returns,
 	)
 	return returns
@@ -450,6 +474,25 @@ func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) Int
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) PutMemoryConfig(value *GoogleBigtableAppProfileStandardIsolationMemoryConfig) {
+	if err := g.validatePutMemoryConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putMemoryConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) ResetMemoryConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMemoryConfig",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

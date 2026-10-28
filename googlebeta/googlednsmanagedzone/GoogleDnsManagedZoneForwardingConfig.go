@@ -7,7 +7,11 @@ package googlednsmanagedzone
 type GoogleDnsManagedZoneForwardingConfig struct {
 	// target_name_servers block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#target_name_servers GoogleDnsManagedZone#target_name_servers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#target_name_servers GoogleDnsManagedZone#target_name_servers}
 	TargetNameServers interface{} `field:"required" json:"targetNameServers" yaml:"targetNameServers"`
+	// outbound_endpoints block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#outbound_endpoints GoogleDnsManagedZone#outbound_endpoints}
+	OutboundEndpoints interface{} `field:"optional" json:"outboundEndpoints" yaml:"outboundEndpoints"`
 }
 

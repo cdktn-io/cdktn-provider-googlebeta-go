@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleComputeNetworkEndpoint) validateSetIpAddressParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeNetworkEndpoint) validateSetIpv6AddressParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeNetworkEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

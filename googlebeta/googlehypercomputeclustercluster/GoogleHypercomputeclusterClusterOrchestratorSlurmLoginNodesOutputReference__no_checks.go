@@ -91,6 +91,10 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOu
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference) validateSetNetworkTagsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference) validateSetStartupScriptParameters(val *string) error {
 	return nil
 }

@@ -71,6 +71,10 @@ func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublished
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference) validateSetModelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

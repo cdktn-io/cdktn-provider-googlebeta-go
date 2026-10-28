@@ -5,14 +5,14 @@ package googlecomputeorganizationsnapshotrecyclebinpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeorganizationsnapshotrecyclebinpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeorganizationsnapshotrecyclebinpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_organization_snapshot_recycle_bin_policy google_compute_organization_snapshot_recycle_bin_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_organization_snapshot_recycle_bin_policy google_compute_organization_snapshot_recycle_bin_policy}.
 type GoogleComputeOrganizationSnapshotRecycleBinPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_GoogleComputeOrganizationSnapshotRecycleBinPolicy) TimeoutsIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_organization_snapshot_recycle_bin_policy google_compute_organization_snapshot_recycle_bin_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_organization_snapshot_recycle_bin_policy google_compute_organization_snapshot_recycle_bin_policy} Resource.
 func NewGoogleComputeOrganizationSnapshotRecycleBinPolicy(scope constructs.Construct, id *string, config *GoogleComputeOrganizationSnapshotRecycleBinPolicyConfig) GoogleComputeOrganizationSnapshotRecycleBinPolicy {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewGoogleComputeOrganizationSnapshotRecycleBinPolicy(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_organization_snapshot_recycle_bin_policy google_compute_organization_snapshot_recycle_bin_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_organization_snapshot_recycle_bin_policy google_compute_organization_snapshot_recycle_bin_policy} Resource.
 func NewGoogleComputeOrganizationSnapshotRecycleBinPolicy_Override(g GoogleComputeOrganizationSnapshotRecycleBinPolicy, scope constructs.Construct, id *string, config *GoogleComputeOrganizationSnapshotRecycleBinPolicyConfig) {
 	_init_.Initialize()
 

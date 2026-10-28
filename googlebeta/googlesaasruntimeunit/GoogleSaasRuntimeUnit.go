@@ -5,19 +5,22 @@ package googlesaasruntimeunit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesaasruntimeunit/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesaasruntimeunit/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit}.
 type GoogleSaasRuntimeUnit interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
+	Application() *string
+	SetApplication(val *string)
+	ApplicationInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	Conditions() GoogleSaasRuntimeUnitConditionsList
@@ -209,6 +212,7 @@ type GoogleSaasRuntimeUnit interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAnnotations()
+	ResetApplication()
 	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
@@ -263,6 +267,26 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnit) AnnotationsInput() *map[string]*string
 	_jsii_.Get(
 		j,
 		"annotationsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnit) Application() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"application",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnit) ApplicationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"applicationInput",
 		&returns,
 	)
 	return returns
@@ -839,7 +863,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnit) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit} Resource.
 func NewGoogleSaasRuntimeUnit(scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitConfig) GoogleSaasRuntimeUnit {
 	_init_.Initialize()
 
@@ -857,7 +881,7 @@ func NewGoogleSaasRuntimeUnit(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit} Resource.
 func NewGoogleSaasRuntimeUnit_Override(g GoogleSaasRuntimeUnit, scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitConfig) {
 	_init_.Initialize()
 
@@ -875,6 +899,17 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnit)SetAnnotations(val *map[string]*string)
 	_jsii_.Set(
 		j,
 		"annotations",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnit)SetApplication(val *string) {
+	if err := j.validateSetApplicationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"application",
 		val,
 	)
 }
@@ -1452,6 +1487,14 @@ func (g *jsiiProxy_GoogleSaasRuntimeUnit) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnit) ResetApplication() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetApplication",
 		nil, // no parameters
 	)
 }

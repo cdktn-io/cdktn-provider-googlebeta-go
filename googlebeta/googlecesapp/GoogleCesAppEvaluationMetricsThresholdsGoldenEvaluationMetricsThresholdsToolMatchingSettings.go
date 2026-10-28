@@ -11,7 +11,7 @@ type GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToo
 	// tool call is a tool call that is present in the execution but does
 	// not match any tool call in the golden expectation. Possible values: ["FAIL", "ALLOW"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_app#extra_tool_call_behavior GoogleCesApp#extra_tool_call_behavior}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_app#extra_tool_call_behavior GoogleCesApp#extra_tool_call_behavior}
 	ExtraToolCallBehavior *string `field:"optional" json:"extraToolCallBehavior" yaml:"extraToolCallBehavior"`
 }
 

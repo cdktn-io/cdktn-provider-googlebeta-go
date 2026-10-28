@@ -5,19 +5,23 @@ package googlesaasruntimeunitkind
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesaasruntimeunitkind/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesaasruntimeunitkind/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind}.
 type GoogleSaasRuntimeUnitKind interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
+	ApplicationTemplateComponent() GoogleSaasRuntimeUnitKindApplicationTemplateComponentOutputReference
+	ApplicationTemplateComponentInput() *GoogleSaasRuntimeUnitKindApplicationTemplateComponent
+	AppParams() GoogleSaasRuntimeUnitKindAppParamsOutputReference
+	AppParamsInput() *GoogleSaasRuntimeUnitKindAppParams
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -183,6 +187,8 @@ type GoogleSaasRuntimeUnitKind interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutApplicationTemplateComponent(value *GoogleSaasRuntimeUnitKindApplicationTemplateComponent)
+	PutAppParams(value *GoogleSaasRuntimeUnitKindAppParams)
 	PutDependencies(value interface{})
 	PutInputVariableMappings(value interface{})
 	PutOutputVariableMappings(value interface{})
@@ -201,6 +207,8 @@ type GoogleSaasRuntimeUnitKind interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAnnotations()
+	ResetApplicationTemplateComponent()
+	ResetAppParams()
 	ResetDefaultRelease()
 	ResetDeletionPolicy()
 	ResetDependencies()
@@ -255,6 +263,46 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) AnnotationsInput() *map[string]*st
 	_jsii_.Get(
 		j,
 		"annotationsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) ApplicationTemplateComponent() GoogleSaasRuntimeUnitKindApplicationTemplateComponentOutputReference {
+	var returns GoogleSaasRuntimeUnitKindApplicationTemplateComponentOutputReference
+	_jsii_.Get(
+		j,
+		"applicationTemplateComponent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) ApplicationTemplateComponentInput() *GoogleSaasRuntimeUnitKindApplicationTemplateComponent {
+	var returns *GoogleSaasRuntimeUnitKindApplicationTemplateComponent
+	_jsii_.Get(
+		j,
+		"applicationTemplateComponentInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) AppParams() GoogleSaasRuntimeUnitKindAppParamsOutputReference {
+	var returns GoogleSaasRuntimeUnitKindAppParamsOutputReference
+	_jsii_.Get(
+		j,
+		"appParams",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) AppParamsInput() *GoogleSaasRuntimeUnitKindAppParams {
+	var returns *GoogleSaasRuntimeUnitKindAppParams
+	_jsii_.Get(
+		j,
+		"appParamsInput",
 		&returns,
 	)
 	return returns
@@ -741,7 +789,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource.
 func NewGoogleSaasRuntimeUnitKind(scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitKindConfig) GoogleSaasRuntimeUnitKind {
 	_init_.Initialize()
 
@@ -759,7 +807,7 @@ func NewGoogleSaasRuntimeUnitKind(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource.
 func NewGoogleSaasRuntimeUnitKind_Override(g GoogleSaasRuntimeUnitKind, scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitKindConfig) {
 	_init_.Initialize()
 
@@ -1306,6 +1354,28 @@ func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) OverrideLogicalId(newLogicalId *st
 	)
 }
 
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) PutApplicationTemplateComponent(value *GoogleSaasRuntimeUnitKindApplicationTemplateComponent) {
+	if err := g.validatePutApplicationTemplateComponentParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putApplicationTemplateComponent",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) PutAppParams(value *GoogleSaasRuntimeUnitKindAppParams) {
+	if err := g.validatePutAppParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAppParams",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) PutDependencies(value interface{}) {
 	if err := g.validatePutDependenciesParameters(value); err != nil {
 		panic(err)
@@ -1365,6 +1435,22 @@ func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) ResetApplicationTemplateComponent() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetApplicationTemplateComponent",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) ResetAppParams() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAppParams",
 		nil, // no parameters
 	)
 }

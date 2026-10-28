@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutput
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference) validateSetMaxSnippetsParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

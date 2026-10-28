@@ -5,14 +5,14 @@ package googlebigqueryconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection google_bigquery_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection google_bigquery_connection}.
 type GoogleBigqueryConnection interface {
 	cdktn.TerraformResource
 	Aws() GoogleBigqueryConnectionAwsOutputReference
@@ -93,6 +93,8 @@ type GoogleBigqueryConnection interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	SalesforceDataCloud() GoogleBigqueryConnectionSalesforceDataCloudOutputReference
+	SalesforceDataCloudInput() *GoogleBigqueryConnectionSalesforceDataCloud
 	Spark() GoogleBigqueryConnectionSparkOutputReference
 	SparkInput() *GoogleBigqueryConnectionSpark
 	// Experimental.
@@ -188,6 +190,7 @@ type GoogleBigqueryConnection interface {
 	PutCloudSpanner(value *GoogleBigqueryConnectionCloudSpanner)
 	PutCloudSql(value *GoogleBigqueryConnectionCloudSql)
 	PutConfiguration(value *GoogleBigqueryConnectionConfiguration)
+	PutSalesforceDataCloud(value *GoogleBigqueryConnectionSalesforceDataCloud)
 	PutSpark(value *GoogleBigqueryConnectionSpark)
 	PutTimeouts(value *GoogleBigqueryConnectionTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -220,6 +223,7 @@ type GoogleBigqueryConnection interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetSalesforceDataCloud()
 	ResetSpark()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -679,6 +683,26 @@ func (j *jsiiProxy_GoogleBigqueryConnection) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBigqueryConnection) SalesforceDataCloud() GoogleBigqueryConnectionSalesforceDataCloudOutputReference {
+	var returns GoogleBigqueryConnectionSalesforceDataCloudOutputReference
+	_jsii_.Get(
+		j,
+		"salesforceDataCloud",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryConnection) SalesforceDataCloudInput() *GoogleBigqueryConnectionSalesforceDataCloud {
+	var returns *GoogleBigqueryConnectionSalesforceDataCloud
+	_jsii_.Get(
+		j,
+		"salesforceDataCloudInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBigqueryConnection) Spark() GoogleBigqueryConnectionSparkOutputReference {
 	var returns GoogleBigqueryConnectionSparkOutputReference
 	_jsii_.Get(
@@ -750,7 +774,7 @@ func (j *jsiiProxy_GoogleBigqueryConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection google_bigquery_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection google_bigquery_connection} Resource.
 func NewGoogleBigqueryConnection(scope constructs.Construct, id *string, config *GoogleBigqueryConnectionConfig) GoogleBigqueryConnection {
 	_init_.Initialize()
 
@@ -768,7 +792,7 @@ func NewGoogleBigqueryConnection(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection google_bigquery_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection google_bigquery_connection} Resource.
 func NewGoogleBigqueryConnection_Override(g GoogleBigqueryConnection, scope constructs.Construct, id *string, config *GoogleBigqueryConnectionConfig) {
 	_init_.Initialize()
 
@@ -1370,6 +1394,17 @@ func (g *jsiiProxy_GoogleBigqueryConnection) PutConfiguration(value *GoogleBigqu
 	)
 }
 
+func (g *jsiiProxy_GoogleBigqueryConnection) PutSalesforceDataCloud(value *GoogleBigqueryConnectionSalesforceDataCloud) {
+	if err := g.validatePutSalesforceDataCloudParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSalesforceDataCloud",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBigqueryConnection) PutSpark(value *GoogleBigqueryConnectionSpark) {
 	if err := g.validatePutSparkParameters(value); err != nil {
 		panic(err)
@@ -1519,6 +1554,14 @@ func (g *jsiiProxy_GoogleBigqueryConnection) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryConnection) ResetSalesforceDataCloud() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSalesforceDataCloud",
 		nil, // no parameters
 	)
 }

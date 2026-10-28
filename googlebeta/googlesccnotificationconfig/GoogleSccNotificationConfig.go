@@ -5,14 +5,14 @@ package googlesccnotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccnotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesccnotificationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_notification_config google_scc_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_notification_config google_scc_notification_config}.
 type GoogleSccNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleSccNotificationConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionNotificationsEnabled() interface{}
+	SetDeletionNotificationsEnabled(val interface{})
+	DeletionNotificationsEnabledInput() interface{}
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -179,6 +182,7 @@ type GoogleSccNotificationConfig interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetDeletionNotificationsEnabled()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
@@ -268,6 +272,26 @@ func (j *jsiiProxy_GoogleSccNotificationConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSccNotificationConfig) DeletionNotificationsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSccNotificationConfig) DeletionNotificationsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -554,7 +578,7 @@ func (j *jsiiProxy_GoogleSccNotificationConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_notification_config google_scc_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_notification_config google_scc_notification_config} Resource.
 func NewGoogleSccNotificationConfig(scope constructs.Construct, id *string, config *GoogleSccNotificationConfigConfig) GoogleSccNotificationConfig {
 	_init_.Initialize()
 
@@ -572,7 +596,7 @@ func NewGoogleSccNotificationConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_notification_config google_scc_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_notification_config google_scc_notification_config} Resource.
 func NewGoogleSccNotificationConfig_Override(g GoogleSccNotificationConfig, scope constructs.Construct, id *string, config *GoogleSccNotificationConfigConfig) {
 	_init_.Initialize()
 
@@ -612,6 +636,17 @@ func (j *jsiiProxy_GoogleSccNotificationConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSccNotificationConfig)SetDeletionNotificationsEnabled(val interface{}) {
+	if err := j.validateSetDeletionNotificationsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionNotificationsEnabled",
 		val,
 	)
 }
@@ -1116,6 +1151,14 @@ func (g *jsiiProxy_GoogleSccNotificationConfig) RegisterProviderFeatureUsage(fea
 		g,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (g *jsiiProxy_GoogleSccNotificationConfig) ResetDeletionNotificationsEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionNotificationsEnabled",
+		nil, // no parameters
 	)
 }
 

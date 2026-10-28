@@ -7,7 +7,7 @@ package googlebackupdrautoprotectionpolicy
 type GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditions struct {
 	// label_condition block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#label_condition GoogleBackupDrAutoProtectionPolicy#label_condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#label_condition GoogleBackupDrAutoProtectionPolicy#label_condition}
 	LabelCondition *GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsLabelCondition `field:"optional" json:"labelCondition" yaml:"labelCondition"`
 }
 

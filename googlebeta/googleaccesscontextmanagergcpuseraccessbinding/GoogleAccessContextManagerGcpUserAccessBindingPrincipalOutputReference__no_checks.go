@@ -59,6 +59,10 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutput
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference) validateSetFederatedPrincipalParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference) validateSetInternalValueParameters(val *GoogleAccessContextManagerGcpUserAccessBindingPrincipal) error {
 	return nil
 }

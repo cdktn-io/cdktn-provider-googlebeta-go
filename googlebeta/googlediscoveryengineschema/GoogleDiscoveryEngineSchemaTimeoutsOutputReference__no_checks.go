@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSchemaTimeoutsOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineSchemaTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleDiscoveryEngineSchemaTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

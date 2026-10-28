@@ -87,6 +87,10 @@ func (j *jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference) validateSetWorkerReleaseParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleCloudbuildWorkerPoolWorkerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

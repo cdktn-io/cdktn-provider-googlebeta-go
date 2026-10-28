@@ -7,11 +7,11 @@ package googlecomputebackendservice
 type GoogleComputeBackendServiceDynamicForwarding struct {
 	// forward_proxy block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_backend_service#forward_proxy GoogleComputeBackendService#forward_proxy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_backend_service#forward_proxy GoogleComputeBackendService#forward_proxy}
 	ForwardProxy *GoogleComputeBackendServiceDynamicForwardingForwardProxy `field:"optional" json:"forwardProxy" yaml:"forwardProxy"`
 	// ip_port_selection block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_backend_service#ip_port_selection GoogleComputeBackendService#ip_port_selection}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_backend_service#ip_port_selection GoogleComputeBackendService#ip_port_selection}
 	IpPortSelection *GoogleComputeBackendServiceDynamicForwardingIpPortSelection `field:"optional" json:"ipPortSelection" yaml:"ipPortSelection"`
 }
 

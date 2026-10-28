@@ -5,14 +5,14 @@ package googlecomputefirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputefirewallpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputefirewallpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_firewall_policy google_compute_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_firewall_policy google_compute_firewall_policy}.
 type GoogleComputeFirewallPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -563,7 +563,7 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_firewall_policy google_compute_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_firewall_policy google_compute_firewall_policy} Resource.
 func NewGoogleComputeFirewallPolicy(scope constructs.Construct, id *string, config *GoogleComputeFirewallPolicyConfig) GoogleComputeFirewallPolicy {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewGoogleComputeFirewallPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_firewall_policy google_compute_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_firewall_policy google_compute_firewall_policy} Resource.
 func NewGoogleComputeFirewallPolicy_Override(g GoogleComputeFirewallPolicy, scope constructs.Construct, id *string, config *GoogleComputeFirewallPolicyConfig) {
 	_init_.Initialize()
 

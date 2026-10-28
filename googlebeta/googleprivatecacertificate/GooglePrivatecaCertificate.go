@@ -5,14 +5,14 @@ package googleprivatecacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleprivatecacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleprivatecacertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_privateca_certificate google_privateca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_certificate google_privateca_certificate}.
 type GooglePrivatecaCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -96,6 +96,9 @@ type GooglePrivatecaCertificate interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RequestedNotBeforeTime() *string
+	SetRequestedNotBeforeTime(val *string)
+	RequestedNotBeforeTimeInput() *string
 	RevocationDetails() GooglePrivatecaCertificateRevocationDetailsList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -213,6 +216,7 @@ type GooglePrivatecaCertificate interface {
 	ResetOverrideLogicalId()
 	ResetPemCsr()
 	ResetProject()
+	ResetRequestedNotBeforeTime()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -671,6 +675,26 @@ func (j *jsiiProxy_GooglePrivatecaCertificate) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GooglePrivatecaCertificate) RequestedNotBeforeTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requestedNotBeforeTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePrivatecaCertificate) RequestedNotBeforeTimeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requestedNotBeforeTimeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GooglePrivatecaCertificate) RevocationDetails() GooglePrivatecaCertificateRevocationDetailsList {
 	var returns GooglePrivatecaCertificateRevocationDetailsList
 	_jsii_.Get(
@@ -752,7 +776,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_privateca_certificate google_privateca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_certificate google_privateca_certificate} Resource.
 func NewGooglePrivatecaCertificate(scope constructs.Construct, id *string, config *GooglePrivatecaCertificateConfig) GooglePrivatecaCertificate {
 	_init_.Initialize()
 
@@ -770,7 +794,7 @@ func NewGooglePrivatecaCertificate(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_privateca_certificate google_privateca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_certificate google_privateca_certificate} Resource.
 func NewGooglePrivatecaCertificate_Override(g GooglePrivatecaCertificate, scope constructs.Construct, id *string, config *GooglePrivatecaCertificateConfig) {
 	_init_.Initialize()
 
@@ -966,6 +990,17 @@ func (j *jsiiProxy_GooglePrivatecaCertificate)SetProvisioners(val *[]interface{}
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GooglePrivatecaCertificate)SetRequestedNotBeforeTime(val *string) {
+	if err := j.validateSetRequestedNotBeforeTimeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"requestedNotBeforeTime",
 		val,
 	)
 }
@@ -1448,6 +1483,14 @@ func (g *jsiiProxy_GooglePrivatecaCertificate) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GooglePrivatecaCertificate) ResetRequestedNotBeforeTime() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRequestedNotBeforeTime",
 		nil, // no parameters
 	)
 }

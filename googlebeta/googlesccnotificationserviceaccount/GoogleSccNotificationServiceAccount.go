@@ -5,14 +5,14 @@ package googlesccnotificationserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccnotificationserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesccnotificationserviceaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_notification_service_account google_scc_notification_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_notification_service_account google_scc_notification_service_account}.
 type GoogleSccNotificationServiceAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_GoogleSccNotificationServiceAccount) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_notification_service_account google_scc_notification_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_notification_service_account google_scc_notification_service_account} Resource.
 func NewGoogleSccNotificationServiceAccount(scope constructs.Construct, id *string, config *GoogleSccNotificationServiceAccountConfig) GoogleSccNotificationServiceAccount {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewGoogleSccNotificationServiceAccount(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_notification_service_account google_scc_notification_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_notification_service_account google_scc_notification_service_account} Resource.
 func NewGoogleSccNotificationServiceAccount_Override(g GoogleSccNotificationServiceAccount, scope constructs.Construct, id *string, config *GoogleSccNotificationServiceAccountConfig) {
 	_init_.Initialize()
 

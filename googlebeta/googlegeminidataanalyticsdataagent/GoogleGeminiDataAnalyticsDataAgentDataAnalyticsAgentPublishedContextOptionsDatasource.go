@@ -7,7 +7,7 @@ package googlegeminidataanalyticsdataagent
 type GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsDatasource struct {
 	// Optional. Limits the bytes billed for each BigQuery query job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent#big_query_max_billed_bytes GoogleGeminiDataAnalyticsDataAgent#big_query_max_billed_bytes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent#big_query_max_billed_bytes GoogleGeminiDataAnalyticsDataAgent#big_query_max_billed_bytes}
 	BigQueryMaxBilledBytes *float64 `field:"optional" json:"bigQueryMaxBilledBytes" yaml:"bigQueryMaxBilledBytes"`
 }
 

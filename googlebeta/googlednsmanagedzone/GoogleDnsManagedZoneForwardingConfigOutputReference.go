@@ -5,9 +5,9 @@ package googlednsmanagedzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlednsmanagedzone/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlednsmanagedzone/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type GoogleDnsManagedZoneForwardingConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *GoogleDnsManagedZoneForwardingConfig
 	SetInternalValue(val *GoogleDnsManagedZoneForwardingConfig)
+	OutboundEndpoints() GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList
+	OutboundEndpointsInput() interface{}
 	TargetNameServers() GoogleDnsManagedZoneForwardingConfigTargetNameServersList
 	TargetNameServersInput() interface{}
 	// Experimental.
@@ -66,7 +68,9 @@ type GoogleDnsManagedZoneForwardingConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOutboundEndpoints(value interface{})
 	PutTargetNameServers(value interface{})
+	ResetOutboundEndpoints()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -127,6 +131,26 @@ func (j *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) Internal
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) OutboundEndpoints() GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList {
+	var returns GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList
+	_jsii_.Get(
+		j,
+		"outboundEndpoints",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) OutboundEndpointsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"outboundEndpointsInput",
 		&returns,
 	)
 	return returns
@@ -441,6 +465,17 @@ func (g *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) Interpol
 	return returns
 }
 
+func (g *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) PutOutboundEndpoints(value interface{}) {
+	if err := g.validatePutOutboundEndpointsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putOutboundEndpoints",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) PutTargetNameServers(value interface{}) {
 	if err := g.validatePutTargetNameServersParameters(value); err != nil {
 		panic(err)
@@ -449,6 +484,14 @@ func (g *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) PutTarge
 		g,
 		"putTargetNameServers",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) ResetOutboundEndpoints() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOutboundEndpoints",
+		nil, // no parameters
 	)
 }
 

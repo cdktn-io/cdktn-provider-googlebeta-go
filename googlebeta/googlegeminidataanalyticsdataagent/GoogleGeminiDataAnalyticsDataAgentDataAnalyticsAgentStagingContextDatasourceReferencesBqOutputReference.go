@@ -5,9 +5,9 @@ package googlegeminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourc
 	Fqn() *string
 	InternalValue() *GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBq
 	SetInternalValue(val *GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBq)
+	PropertyGraphReferences() GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqPropertyGraphReferencesList
+	PropertyGraphReferencesInput() interface{}
 	TableReferences() GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqTableReferencesList
 	TableReferencesInput() interface{}
 	// Experimental.
@@ -66,7 +68,9 @@ type GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourc
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPropertyGraphReferences(value interface{})
 	PutTableReferences(value interface{})
+	ResetPropertyGraphReferences()
 	ResetTableReferences()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingCo
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqOutputReference) PropertyGraphReferences() GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqPropertyGraphReferencesList {
+	var returns GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqPropertyGraphReferencesList
+	_jsii_.Get(
+		j,
+		"propertyGraphReferences",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqOutputReference) PropertyGraphReferencesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"propertyGraphReferencesInput",
 		&returns,
 	)
 	return returns
@@ -442,6 +466,17 @@ func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingCo
 	return returns
 }
 
+func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqOutputReference) PutPropertyGraphReferences(value interface{}) {
+	if err := g.validatePutPropertyGraphReferencesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPropertyGraphReferences",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqOutputReference) PutTableReferences(value interface{}) {
 	if err := g.validatePutTableReferencesParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingCo
 		g,
 		"putTableReferences",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBqOutputReference) ResetPropertyGraphReferences() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPropertyGraphReferences",
+		nil, // no parameters
 	)
 }
 

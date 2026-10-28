@@ -167,6 +167,10 @@ func (j *jsiiProxy_GooglePrivatecaCertificate) validateSetProvisionersParameters
 	return nil
 }
 
+func (j *jsiiProxy_GooglePrivatecaCertificate) validateSetRequestedNotBeforeTimeParameters(val *string) error {
+	return nil
+}
+
 func validateNewGooglePrivatecaCertificateParameters(scope constructs.Construct, id *string, config *GooglePrivatecaCertificateConfig) error {
 	return nil
 }

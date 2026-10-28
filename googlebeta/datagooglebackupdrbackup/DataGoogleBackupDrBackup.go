@@ -5,14 +5,14 @@ package datagooglebackupdrbackup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup google_backup_dr_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup google_backup_dr_backup}.
 type DataGoogleBackupDrBackup interface {
 	cdktn.TerraformDataSource
 	Backups() DataGoogleBackupDrBackupBackupsList
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataGoogleBackupDrBackup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup google_backup_dr_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup google_backup_dr_backup} Data Source.
 func NewDataGoogleBackupDrBackup(scope constructs.Construct, id *string, config *DataGoogleBackupDrBackupConfig) DataGoogleBackupDrBackup {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDataGoogleBackupDrBackup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup google_backup_dr_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup google_backup_dr_backup} Data Source.
 func NewDataGoogleBackupDrBackup_Override(d DataGoogleBackupDrBackup, scope constructs.Construct, id *string, config *DataGoogleBackupDrBackupConfig) {
 	_init_.Initialize()
 

@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleSaasRuntimeSaas) validateOverrideLogicalIdParameters(ne
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSaasRuntimeSaas) validatePutApplicationTemplateParameters(value *GoogleSaasRuntimeSaasApplicationTemplate) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSaasRuntimeSaas) validatePutLocationsParameters(value interface{}) error {
 	return nil
 }

@@ -5,9 +5,9 @@ package googlecomputenetworkendpoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputenetworkendpoints/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputenetworkendpoints/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,9 @@ type GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference interface {
 	IpAddress() *string
 	SetIpAddress(val *string)
 	IpAddressInput() *string
+	Ipv6Address() *string
+	SetIpv6Address(val *string)
+	Ipv6AddressInput() *string
 	Port() *float64
 	SetPort(val *float64)
 	PortInput() *float64
@@ -75,6 +78,7 @@ type GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetInstance()
 	ResetIpAddress()
+	ResetIpv6Address()
 	ResetPort()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -176,6 +180,26 @@ func (j *jsiiProxy_GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference)
 	_jsii_.Get(
 		j,
 		"ipAddressInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference) Ipv6Address() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6Address",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference) Ipv6AddressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6AddressInput",
 		&returns,
 	)
 	return returns
@@ -300,6 +324,17 @@ func (j *jsiiProxy_GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference)
 	_jsii_.Set(
 		j,
 		"ipAddress",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference)SetIpv6Address(val *string) {
+	if err := j.validateSetIpv6AddressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipv6Address",
 		val,
 	)
 }
@@ -535,6 +570,14 @@ func (g *jsiiProxy_GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference)
 	_jsii_.InvokeVoid(
 		g,
 		"resetIpAddress",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference) ResetIpv6Address() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIpv6Address",
 		nil, // no parameters
 	)
 }

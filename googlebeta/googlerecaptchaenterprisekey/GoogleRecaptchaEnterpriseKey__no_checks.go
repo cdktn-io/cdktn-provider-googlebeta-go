@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutAndroidSettingsParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutExpressSettingsParameters(value *GoogleRecaptchaEnterpriseKeyExpressSettings) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutIosSettingsParameters(value *GoogleRecaptchaEnterpriseKeyIosSettings) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutTestingOptionsParame
 }
 
 func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutTimeoutsParameters(value *GoogleRecaptchaEnterpriseKeyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutUniversalSettingsParameters(value *GoogleRecaptchaEnterpriseKeyUniversalSettings) error {
 	return nil
 }
 

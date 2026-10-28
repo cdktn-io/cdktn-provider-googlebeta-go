@@ -175,6 +175,10 @@ func (j *jsiiProxy_GoogleVectorSearchIndex) validateSetProvisionersParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVectorSearchIndex) validateSetSkipWaitParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVectorSearchIndex) validateSetStoreFieldsParameters(val *[]*string) error {
 	return nil
 }

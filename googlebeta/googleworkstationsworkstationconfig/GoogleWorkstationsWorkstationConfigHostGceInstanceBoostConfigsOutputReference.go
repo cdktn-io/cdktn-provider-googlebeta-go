@@ -5,9 +5,9 @@ package googleworkstationsworkstationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkstationsworkstationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleworkstationsworkstationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,9 @@ type GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReferen
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnableAutomaticFailover() interface{}
+	SetEnableAutomaticFailover(val interface{})
+	EnableAutomaticFailoverInput() interface{}
 	EnableNestedVirtualization() interface{}
 	SetEnableNestedVirtualization(val interface{})
 	EnableNestedVirtualizationInput() interface{}
@@ -84,6 +87,7 @@ type GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReferen
 	PutAccelerators(value interface{})
 	ResetAccelerators()
 	ResetBootDiskSizeGb()
+	ResetEnableAutomaticFailover()
 	ResetEnableNestedVirtualization()
 	ResetMachineType()
 	ResetPoolSize()
@@ -167,6 +171,26 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfig
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReference) EnableAutomaticFailover() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableAutomaticFailover",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReference) EnableAutomaticFailoverInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableAutomaticFailoverInput",
 		&returns,
 	)
 	return returns
@@ -349,6 +373,17 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfig
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReference)SetEnableAutomaticFailover(val interface{}) {
+	if err := j.validateSetEnableAutomaticFailoverParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableAutomaticFailover",
 		val,
 	)
 }
@@ -639,6 +674,14 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfig
 	_jsii_.InvokeVoid(
 		g,
 		"resetBootDiskSizeGb",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReference) ResetEnableAutomaticFailover() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEnableAutomaticFailover",
 		nil, // no parameters
 	)
 }

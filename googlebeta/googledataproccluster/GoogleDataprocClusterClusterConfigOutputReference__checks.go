@@ -232,6 +232,17 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutMasterFlexibleConfigParameters(value *GoogleDataprocClusterClusterConfigMasterFlexibleConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutMetastoreConfigParameters(value *GoogleDataprocClusterClusterConfigMetastoreConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -244,6 +255,17 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePu
 }
 
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutPreemptibleWorkerConfigParameters(value *GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutSecondaryWorkerFlexibleConfigParameters(value *GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
@@ -277,6 +299,17 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePu
 }
 
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutWorkerConfigParameters(value *GoogleDataprocClusterClusterConfigWorkerConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) validatePutWorkerFlexibleConfigParameters(value *GoogleDataprocClusterClusterConfigWorkerFlexibleConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

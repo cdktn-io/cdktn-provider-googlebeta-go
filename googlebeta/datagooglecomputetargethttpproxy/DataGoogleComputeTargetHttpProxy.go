@@ -5,14 +5,14 @@ package datagooglecomputetargethttpproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputetargethttpproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglecomputetargethttpproxy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_compute_target_http_proxy google_compute_target_http_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_compute_target_http_proxy google_compute_target_http_proxy}.
 type DataGoogleComputeTargetHttpProxy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -433,7 +433,7 @@ func (j *jsiiProxy_DataGoogleComputeTargetHttpProxy) UrlMap() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_compute_target_http_proxy google_compute_target_http_proxy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_compute_target_http_proxy google_compute_target_http_proxy} Data Source.
 func NewDataGoogleComputeTargetHttpProxy(scope constructs.Construct, id *string, config *DataGoogleComputeTargetHttpProxyConfig) DataGoogleComputeTargetHttpProxy {
 	_init_.Initialize()
 
@@ -451,7 +451,7 @@ func NewDataGoogleComputeTargetHttpProxy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_compute_target_http_proxy google_compute_target_http_proxy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_compute_target_http_proxy google_compute_target_http_proxy} Data Source.
 func NewDataGoogleComputeTargetHttpProxy_Override(d DataGoogleComputeTargetHttpProxy, scope constructs.Construct, id *string, config *DataGoogleComputeTargetHttpProxyConfig) {
 	_init_.Initialize()
 

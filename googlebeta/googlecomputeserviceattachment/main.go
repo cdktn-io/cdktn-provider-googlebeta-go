@@ -102,6 +102,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "selfLink", GoGetter: "SelfLink"},
 			_jsii_.MemberProperty{JsiiProperty: "sendPropagatedConnectionLimitIfZero", GoGetter: "SendPropagatedConnectionLimitIfZero"},
 			_jsii_.MemberProperty{JsiiProperty: "sendPropagatedConnectionLimitIfZeroInput", GoGetter: "SendPropagatedConnectionLimitIfZeroInput"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAttachmentId", GoGetter: "ServiceAttachmentId"},
 			_jsii_.MemberProperty{JsiiProperty: "showNatIps", GoGetter: "ShowNatIps"},
 			_jsii_.MemberProperty{JsiiProperty: "showNatIpsInput", GoGetter: "ShowNatIpsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},

@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference) 
 	return nil
 }
 
+func (g *jsiiProxy_GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference) validatePutCustomContainerImageParameters(value *GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference) validatePutVmImageParameters(value *GoogleColabNotebookExecutionWorkbenchRuntimeVmImage) error {
 	return nil
 }

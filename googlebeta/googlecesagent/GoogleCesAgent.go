@@ -5,14 +5,14 @@ package googlecesagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesagent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecesagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent google_ces_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_agent google_ces_agent}.
 type GoogleCesAgent interface {
 	cdktn.TerraformResource
 	AfterAgentCallbacks() GoogleCesAgentAfterAgentCallbacksList
@@ -996,7 +996,7 @@ func (j *jsiiProxy_GoogleCesAgent) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_agent google_ces_agent} Resource.
 func NewGoogleCesAgent(scope constructs.Construct, id *string, config *GoogleCesAgentConfig) GoogleCesAgent {
 	_init_.Initialize()
 
@@ -1014,7 +1014,7 @@ func NewGoogleCesAgent(scope constructs.Construct, id *string, config *GoogleCes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_agent google_ces_agent} Resource.
 func NewGoogleCesAgent_Override(g GoogleCesAgent, scope constructs.Construct, id *string, config *GoogleCesAgentConfig) {
 	_init_.Initialize()
 

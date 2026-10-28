@@ -79,7 +79,7 @@ func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) validateOverrideLogicalId
 	return nil
 }
 
-func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) validatePutEnableRulesParameters(value interface{}) error {
+func (g *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) validatePutEnableRulesParameters(value *GoogleServiceUsageV2ConsumerPolicyEnableRules) error {
 	return nil
 }
 

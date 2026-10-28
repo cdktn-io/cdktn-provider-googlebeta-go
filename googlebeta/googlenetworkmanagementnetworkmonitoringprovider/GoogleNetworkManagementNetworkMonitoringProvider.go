@@ -5,14 +5,14 @@ package googlenetworkmanagementnetworkmonitoringprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkmanagementnetworkmonitoringprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkmanagementnetworkmonitoringprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider}.
 type GoogleNetworkManagementNetworkMonitoringProvider interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -575,7 +575,7 @@ func (j *jsiiProxy_GoogleNetworkManagementNetworkMonitoringProvider) UpdateTime(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider} Resource.
 func NewGoogleNetworkManagementNetworkMonitoringProvider(scope constructs.Construct, id *string, config *GoogleNetworkManagementNetworkMonitoringProviderConfig) GoogleNetworkManagementNetworkMonitoringProvider {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewGoogleNetworkManagementNetworkMonitoringProvider(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_management_network_monitoring_provider google_network_management_network_monitoring_provider} Resource.
 func NewGoogleNetworkManagementNetworkMonitoringProvider_Override(g GoogleNetworkManagementNetworkMonitoringProvider, scope constructs.Construct, id *string, config *GoogleNetworkManagementNetworkMonitoringProviderConfig) {
 	_init_.Initialize()
 

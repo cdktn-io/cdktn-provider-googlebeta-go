@@ -5,14 +5,14 @@ package googlegeminigibqobservabilitysetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminigibqobservabilitysetting/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminigibqobservabilitysetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting google_gemini_gibq_observability_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gibq_observability_setting google_gemini_gibq_observability_setting}.
 type GoogleGeminiGibqObservabilitySetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -590,7 +590,7 @@ func (j *jsiiProxy_GoogleGeminiGibqObservabilitySetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting google_gemini_gibq_observability_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gibq_observability_setting google_gemini_gibq_observability_setting} Resource.
 func NewGoogleGeminiGibqObservabilitySetting(scope constructs.Construct, id *string, config *GoogleGeminiGibqObservabilitySettingConfig) GoogleGeminiGibqObservabilitySetting {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewGoogleGeminiGibqObservabilitySetting(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting google_gemini_gibq_observability_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gibq_observability_setting google_gemini_gibq_observability_setting} Resource.
 func NewGoogleGeminiGibqObservabilitySetting_Override(g GoogleGeminiGibqObservabilitySetting, scope constructs.Construct, id *string, config *GoogleGeminiGibqObservabilitySettingConfig) {
 	_init_.Initialize()
 

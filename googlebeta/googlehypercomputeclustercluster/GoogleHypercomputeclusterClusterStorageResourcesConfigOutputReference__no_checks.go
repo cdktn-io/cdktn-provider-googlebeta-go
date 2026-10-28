@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputR
 	return nil
 }
 
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference) validatePutExistingNfsParameters(value *GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference) validatePutNewBucketParameters(value *GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket) error {
 	return nil
 }

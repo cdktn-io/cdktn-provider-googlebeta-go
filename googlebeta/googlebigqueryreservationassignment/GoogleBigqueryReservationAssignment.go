@@ -5,14 +5,14 @@ package googlebigqueryreservationassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryreservationassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryreservationassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment}.
 type GoogleBigqueryReservationAssignment interface {
 	cdktn.TerraformResource
 	Assignee() *string
@@ -80,6 +80,8 @@ type GoogleBigqueryReservationAssignment interface {
 	Reservation() *string
 	SetReservation(val *string)
 	ReservationInput() *string
+	SchedulingPolicy() GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference
+	SchedulingPolicyInput() *GoogleBigqueryReservationAssignmentSchedulingPolicy
 	State() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -168,6 +170,7 @@ type GoogleBigqueryReservationAssignment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutSchedulingPolicy(value *GoogleBigqueryReservationAssignmentSchedulingPolicy)
 	PutTimeouts(value *GoogleBigqueryReservationAssignmentTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -184,12 +187,14 @@ type GoogleBigqueryReservationAssignment interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDeletionPolicy()
 	ResetId()
+	ResetJobType()
 	ResetLocation()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPrincipal()
 	ResetProject()
+	ResetSchedulingPolicy()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -518,6 +523,26 @@ func (j *jsiiProxy_GoogleBigqueryReservationAssignment) ReservationInput() *stri
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBigqueryReservationAssignment) SchedulingPolicy() GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference {
+	var returns GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"schedulingPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryReservationAssignment) SchedulingPolicyInput() *GoogleBigqueryReservationAssignmentSchedulingPolicy {
+	var returns *GoogleBigqueryReservationAssignmentSchedulingPolicy
+	_jsii_.Get(
+		j,
+		"schedulingPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBigqueryReservationAssignment) State() *string {
 	var returns *string
 	_jsii_.Get(
@@ -579,7 +604,7 @@ func (j *jsiiProxy_GoogleBigqueryReservationAssignment) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment} Resource.
 func NewGoogleBigqueryReservationAssignment(scope constructs.Construct, id *string, config *GoogleBigqueryReservationAssignmentConfig) GoogleBigqueryReservationAssignment {
 	_init_.Initialize()
 
@@ -597,7 +622,7 @@ func NewGoogleBigqueryReservationAssignment(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment} Resource.
 func NewGoogleBigqueryReservationAssignment_Override(g GoogleBigqueryReservationAssignment, scope constructs.Construct, id *string, config *GoogleBigqueryReservationAssignmentConfig) {
 	_init_.Initialize()
 
@@ -1133,6 +1158,17 @@ func (g *jsiiProxy_GoogleBigqueryReservationAssignment) OverrideLogicalId(newLog
 	)
 }
 
+func (g *jsiiProxy_GoogleBigqueryReservationAssignment) PutSchedulingPolicy(value *GoogleBigqueryReservationAssignmentSchedulingPolicy) {
+	if err := g.validatePutSchedulingPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSchedulingPolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBigqueryReservationAssignment) PutTimeouts(value *GoogleBigqueryReservationAssignmentTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1171,6 +1207,14 @@ func (g *jsiiProxy_GoogleBigqueryReservationAssignment) ResetId() {
 	)
 }
 
+func (g *jsiiProxy_GoogleBigqueryReservationAssignment) ResetJobType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetJobType",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleBigqueryReservationAssignment) ResetLocation() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1199,6 +1243,14 @@ func (g *jsiiProxy_GoogleBigqueryReservationAssignment) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryReservationAssignment) ResetSchedulingPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSchedulingPolicy",
 		nil, // no parameters
 	)
 }

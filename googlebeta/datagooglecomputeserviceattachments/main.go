@@ -263,6 +263,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "selfLink", GoGetter: "SelfLink"},
 			_jsii_.MemberProperty{JsiiProperty: "sendPropagatedConnectionLimitIfZero", GoGetter: "SendPropagatedConnectionLimitIfZero"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAttachmentId", GoGetter: "ServiceAttachmentId"},
 			_jsii_.MemberProperty{JsiiProperty: "showNatIps", GoGetter: "ShowNatIps"},
 			_jsii_.MemberProperty{JsiiProperty: "targetService", GoGetter: "TargetService"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},

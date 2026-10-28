@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetEnableCust
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetGeminiEnterpriseProjectParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetGeminiGcpEnablementSettingIdParameters(val *string) error {
 	return nil
 }
@@ -152,6 +156,10 @@ func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetProjectPar
 }
 
 func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetReleaseChannelParameters(val *string) error {
 	return nil
 }
 

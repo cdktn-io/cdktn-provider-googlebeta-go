@@ -5,9 +5,9 @@ package googleappenginestandardappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleappenginestandardappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleappenginestandardappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -45,6 +45,9 @@ type GoogleAppEngineStandardAppVersionVpcAccessOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	VpcEgress() *string
+	SetVpcEgress(val *string)
+	VpcEgressInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type GoogleAppEngineStandardAppVersionVpcAccessOutputReference interface {
 	PutNetworkInterfaces(value interface{})
 	ResetEgressSetting()
 	ResetNetworkInterfaces()
+	ResetVpcEgress()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference) Te
 	return returns
 }
 
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference) VpcEgress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vpcEgress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference) VpcEgressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vpcEgressInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleAppEngineStandardAppVersionVpcAccessOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleAppEngineStandardAppVersionVpcAccessOutputReference {
 	_init_.Initialize()
@@ -287,6 +311,17 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference)Set
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference)SetVpcEgress(val *string) {
+	if err := j.validateSetVpcEgressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vpcEgress",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference) Re
 	_jsii_.InvokeVoid(
 		g,
 		"resetNetworkInterfaces",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference) ResetVpcEgress() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVpcEgress",
 		nil, // no parameters
 	)
 }

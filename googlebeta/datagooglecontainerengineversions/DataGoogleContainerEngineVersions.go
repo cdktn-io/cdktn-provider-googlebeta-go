@@ -5,14 +5,14 @@ package datagooglecontainerengineversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecontainerengineversions/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglecontainerengineversions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_container_engine_versions google_container_engine_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_container_engine_versions google_container_engine_versions}.
 type DataGoogleContainerEngineVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleContainerEngineVersions interface {
 	// Experimental.
 	SetCount(val interface{})
 	DefaultClusterVersion() *string
+	DefaultImageType() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -68,6 +69,7 @@ type DataGoogleContainerEngineVersions interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	ValidImageTypes() *[]*string
 	ValidMasterVersions() *[]*string
 	ValidNodeVersions() *[]*string
 	VersionPrefix() *string
@@ -181,6 +183,16 @@ func (j *jsiiProxy_DataGoogleContainerEngineVersions) DefaultClusterVersion() *s
 	_jsii_.Get(
 		j,
 		"defaultClusterVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerEngineVersions) DefaultImageType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"defaultImageType",
 		&returns,
 	)
 	return returns
@@ -406,6 +418,16 @@ func (j *jsiiProxy_DataGoogleContainerEngineVersions) TerraformResourceType() *s
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleContainerEngineVersions) ValidImageTypes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"validImageTypes",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleContainerEngineVersions) ValidMasterVersions() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -447,7 +469,7 @@ func (j *jsiiProxy_DataGoogleContainerEngineVersions) VersionPrefixInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_container_engine_versions google_container_engine_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_container_engine_versions google_container_engine_versions} Data Source.
 func NewDataGoogleContainerEngineVersions(scope constructs.Construct, id *string, config *DataGoogleContainerEngineVersionsConfig) DataGoogleContainerEngineVersions {
 	_init_.Initialize()
 
@@ -465,7 +487,7 @@ func NewDataGoogleContainerEngineVersions(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_container_engine_versions google_container_engine_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_container_engine_versions google_container_engine_versions} Data Source.
 func NewDataGoogleContainerEngineVersions_Override(d DataGoogleContainerEngineVersions, scope constructs.Construct, id *string, config *DataGoogleContainerEngineVersionsConfig) {
 	_init_.Initialize()
 

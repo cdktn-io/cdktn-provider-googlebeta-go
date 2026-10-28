@@ -59,6 +59,10 @@ func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigO
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateSetFractionLeafNodesToSearchParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateSetInternalValueParameters(val *GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig) error {
 	return nil
 }

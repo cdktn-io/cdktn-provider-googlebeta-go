@@ -5,9 +5,9 @@ package datagooglecloudbuildworkerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecloudbuildworkerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglecloudbuildworkerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,6 +44,7 @@ type DataGoogleCloudbuildWorkerPoolWorkerConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	WorkerRelease() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -188,6 +189,16 @@ func (j *jsiiProxy_DataGoogleCloudbuildWorkerPoolWorkerConfigOutputReference) Te
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudbuildWorkerPoolWorkerConfigOutputReference) WorkerRelease() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workerRelease",
 		&returns,
 	)
 	return returns

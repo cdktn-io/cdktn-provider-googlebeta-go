@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleCesAppModelSettingsOutputReference) validateSetTerrafor
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesAppModelSettingsOutputReference) validateSetThinkingLevelParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleCesAppModelSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

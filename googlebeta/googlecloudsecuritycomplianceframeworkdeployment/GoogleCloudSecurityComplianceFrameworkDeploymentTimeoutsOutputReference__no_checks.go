@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutpu
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleCloudSecurityComplianceFrameworkDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

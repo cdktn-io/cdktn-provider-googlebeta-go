@@ -5,14 +5,14 @@ package googlevertexaionlineevaluator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaionlineevaluator/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaionlineevaluator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_online_evaluator google_vertex_ai_online_evaluator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_online_evaluator google_vertex_ai_online_evaluator}.
 type GoogleVertexAiOnlineEvaluator interface {
 	cdktn.TerraformResource
 	AgentResource() *string
@@ -635,7 +635,7 @@ func (j *jsiiProxy_GoogleVertexAiOnlineEvaluator) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_online_evaluator google_vertex_ai_online_evaluator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_online_evaluator google_vertex_ai_online_evaluator} Resource.
 func NewGoogleVertexAiOnlineEvaluator(scope constructs.Construct, id *string, config *GoogleVertexAiOnlineEvaluatorConfig) GoogleVertexAiOnlineEvaluator {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewGoogleVertexAiOnlineEvaluator(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_online_evaluator google_vertex_ai_online_evaluator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_online_evaluator google_vertex_ai_online_evaluator} Resource.
 func NewGoogleVertexAiOnlineEvaluator_Override(g GoogleVertexAiOnlineEvaluator, scope constructs.Construct, id *string, config *GoogleVertexAiOnlineEvaluatorConfig) {
 	_init_.Initialize()
 

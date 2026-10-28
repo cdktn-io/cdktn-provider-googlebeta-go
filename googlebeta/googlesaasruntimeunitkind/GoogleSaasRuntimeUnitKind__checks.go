@@ -215,6 +215,28 @@ func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) validateOverrideLogicalIdParameter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) validatePutApplicationTemplateComponentParameters(value *GoogleSaasRuntimeUnitKindApplicationTemplateComponent) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) validatePutAppParamsParameters(value *GoogleSaasRuntimeUnitKindAppParams) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSaasRuntimeUnitKind) validatePutDependenciesParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

@@ -5,9 +5,9 @@ package googleaccesscontextmanagergcpuseraccessbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanagergcpuseraccessbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleaccesscontextmanagergcpuseraccessbinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,9 @@ type GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference inte
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	FederatedPrincipal() *string
+	SetFederatedPrincipal(val *string)
+	FederatedPrincipalInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleAccessContextManagerGcpUserAccessBindingPrincipal
@@ -70,6 +73,7 @@ type GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference inte
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetFederatedPrincipal()
 	ResetServiceAccount()
 	ResetServiceAccountProjectNumber()
 	// Produce the Token's value at resolution time.
@@ -112,6 +116,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutput
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference) FederatedPrincipal() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"federatedPrincipal",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference) FederatedPrincipalInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"federatedPrincipalInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +267,17 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutput
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference)SetFederatedPrincipal(val *string) {
+	if err := j.validateSetFederatedPrincipalParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"federatedPrincipal",
 		val,
 	)
 }
@@ -486,6 +521,14 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutput
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference) ResetFederatedPrincipal() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetFederatedPrincipal",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference) ResetServiceAccount() {

@@ -5,14 +5,14 @@ package googlefirebaseappcheckdevicecheckconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseappcheckdevicecheckconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlefirebaseappcheckdevicecheckconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_firebase_app_check_device_check_config google_firebase_app_check_device_check_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firebase_app_check_device_check_config google_firebase_app_check_device_check_config}.
 type GoogleFirebaseAppCheckDeviceCheckConfig interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) TokenTtlInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_firebase_app_check_device_check_config google_firebase_app_check_device_check_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firebase_app_check_device_check_config google_firebase_app_check_device_check_config} Resource.
 func NewGoogleFirebaseAppCheckDeviceCheckConfig(scope constructs.Construct, id *string, config *GoogleFirebaseAppCheckDeviceCheckConfigConfig) GoogleFirebaseAppCheckDeviceCheckConfig {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewGoogleFirebaseAppCheckDeviceCheckConfig(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_firebase_app_check_device_check_config google_firebase_app_check_device_check_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firebase_app_check_device_check_config google_firebase_app_check_device_check_config} Resource.
 func NewGoogleFirebaseAppCheckDeviceCheckConfig_Override(g GoogleFirebaseAppCheckDeviceCheckConfig, scope constructs.Construct, id *string, config *GoogleFirebaseAppCheckDeviceCheckConfigConfig) {
 	_init_.Initialize()
 

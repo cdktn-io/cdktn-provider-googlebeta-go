@@ -5,14 +5,14 @@ package googlegeminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent google_gemini_data_analytics_data_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent google_gemini_data_analytics_data_agent}.
 type GoogleGeminiDataAnalyticsDataAgent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -683,7 +683,7 @@ func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgent) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent google_gemini_data_analytics_data_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent google_gemini_data_analytics_data_agent} Resource.
 func NewGoogleGeminiDataAnalyticsDataAgent(scope constructs.Construct, id *string, config *GoogleGeminiDataAnalyticsDataAgentConfig) GoogleGeminiDataAnalyticsDataAgent {
 	_init_.Initialize()
 
@@ -701,7 +701,7 @@ func NewGoogleGeminiDataAnalyticsDataAgent(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent google_gemini_data_analytics_data_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent google_gemini_data_analytics_data_agent} Resource.
 func NewGoogleGeminiDataAnalyticsDataAgent_Override(g GoogleGeminiDataAnalyticsDataAgent, scope constructs.Construct, id *string, config *GoogleGeminiDataAnalyticsDataAgentConfig) {
 	_init_.Initialize()
 

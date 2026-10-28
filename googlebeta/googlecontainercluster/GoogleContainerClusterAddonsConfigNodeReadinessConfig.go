@@ -5,7 +5,7 @@ package googlecontainercluster
 
 
 type GoogleContainerClusterAddonsConfigNodeReadinessConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_container_cluster#enabled GoogleContainerCluster#enabled}.
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
 }
 

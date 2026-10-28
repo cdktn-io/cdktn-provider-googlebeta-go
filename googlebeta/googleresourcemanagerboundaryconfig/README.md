@@ -1,0 +1,3 @@
+# `google_resource_manager_boundary_config`
+
+Refer to the Terraform Registry for docs: [`google_resource_manager_boundary_config`](https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_resource_manager_boundary_config).

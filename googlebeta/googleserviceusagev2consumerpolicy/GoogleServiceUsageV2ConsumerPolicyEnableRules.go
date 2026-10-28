@@ -5,9 +5,13 @@ package googleserviceusagev2consumerpolicy
 
 
 type GoogleServiceUsageV2ConsumerPolicyEnableRules struct {
-	// (Optional): List of service names to be enabled in the format of services/<service_name>.
+	// List of service catalog names to be enabled in the format of catalogs/<catalog_name>, for example catalogs/default-cloud-services.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#services GoogleServiceUsageV2ConsumerPolicy#services}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#catalogs GoogleServiceUsageV2ConsumerPolicy#catalogs}
+	Catalogs *[]*string `field:"optional" json:"catalogs" yaml:"catalogs"`
+	// List of service names to be enabled in the format of services/<service_name>.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#services GoogleServiceUsageV2ConsumerPolicy#services}
 	Services *[]*string `field:"optional" json:"services" yaml:"services"`
 }
 

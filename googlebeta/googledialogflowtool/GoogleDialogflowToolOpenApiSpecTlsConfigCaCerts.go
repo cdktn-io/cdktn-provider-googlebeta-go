@@ -12,11 +12,11 @@ type GoogleDialogflowToolOpenApiSpecTlsConfigCaCerts struct {
 	// N.B. Make sure the HTTPS server certificates are signed with "subject alt name".
 	// A base64-encoded string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#cert GoogleDialogflowTool#cert}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#cert GoogleDialogflowTool#cert}
 	Cert *string `field:"required" json:"cert" yaml:"cert"`
 	// The name of the allowed custom CA certificates. This can be used to disambiguate the custom CA certificates.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#display_name GoogleDialogflowTool#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#display_name GoogleDialogflowTool#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 }
 

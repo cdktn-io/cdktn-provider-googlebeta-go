@@ -5,9 +5,9 @@ package datagooglestoragecontrolfolderintelligencefindingssummary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglestoragecontrolfolderintelligencefindingssummary/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglestoragecontrolfolderintelligencefindingssummary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

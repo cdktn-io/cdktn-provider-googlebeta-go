@@ -5,21 +5,25 @@ package googleagenticapplicationsanalystagentpersona
 
 
 type GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfig struct {
+	// audit_trail_export_options block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agentic_applications_analyst_agent_persona#audit_trail_export_options GoogleAgenticApplicationsAnalystAgentPersona#audit_trail_export_options}
+	AuditTrailExportOptions *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions `field:"optional" json:"auditTrailExportOptions" yaml:"auditTrailExportOptions"`
 	// document_generation_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agentic_applications_analyst_agent_persona#document_generation_options GoogleAgenticApplicationsAnalystAgentPersona#document_generation_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agentic_applications_analyst_agent_persona#document_generation_options GoogleAgenticApplicationsAnalystAgentPersona#document_generation_options}
 	DocumentGenerationOptions *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions `field:"optional" json:"documentGenerationOptions" yaml:"documentGenerationOptions"`
 	// methodology_export_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agentic_applications_analyst_agent_persona#methodology_export_options GoogleAgenticApplicationsAnalystAgentPersona#methodology_export_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agentic_applications_analyst_agent_persona#methodology_export_options GoogleAgenticApplicationsAnalystAgentPersona#methodology_export_options}
 	MethodologyExportOptions *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions `field:"optional" json:"methodologyExportOptions" yaml:"methodologyExportOptions"`
 	// slide_generation_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agentic_applications_analyst_agent_persona#slide_generation_options GoogleAgenticApplicationsAnalystAgentPersona#slide_generation_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agentic_applications_analyst_agent_persona#slide_generation_options GoogleAgenticApplicationsAnalystAgentPersona#slide_generation_options}
 	SlideGenerationOptions *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions `field:"optional" json:"slideGenerationOptions" yaml:"slideGenerationOptions"`
 	// visualization_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_options GoogleAgenticApplicationsAnalystAgentPersona#visualization_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_options GoogleAgenticApplicationsAnalystAgentPersona#visualization_options}
 	VisualizationOptions *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions `field:"optional" json:"visualizationOptions" yaml:"visualizationOptions"`
 }
 

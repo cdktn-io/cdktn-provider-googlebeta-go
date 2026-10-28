@@ -7,7 +7,7 @@ package googlechronicleparserextension
 type GoogleChronicleParserExtensionDynamicParsing struct {
 	// opted_fields block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_parser_extension#opted_fields GoogleChronicleParserExtension#opted_fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_parser_extension#opted_fields GoogleChronicleParserExtension#opted_fields}
 	OptedFields interface{} `field:"optional" json:"optedFields" yaml:"optedFields"`
 }
 

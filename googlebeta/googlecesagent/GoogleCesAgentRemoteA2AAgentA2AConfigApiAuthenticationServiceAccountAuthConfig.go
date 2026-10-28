@@ -16,11 +16,11 @@ type GoogleCesAgentRemoteA2AAgentA2AConfigApiAuthenticationServiceAccountAuthCon
 	// CES service agent
 	// 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#service_account GoogleCesAgent#service_account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_agent#service_account GoogleCesAgent#service_account}
 	ServiceAccount *string `field:"required" json:"serviceAccount" yaml:"serviceAccount"`
 	// The OAuth scopes to grant. If not specified, the default scope 'https://www.googleapis.com/auth/cloud-platform' is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#scopes GoogleCesAgent#scopes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_agent#scopes GoogleCesAgent#scopes}
 	Scopes *[]*string `field:"optional" json:"scopes" yaml:"scopes"`
 }
 

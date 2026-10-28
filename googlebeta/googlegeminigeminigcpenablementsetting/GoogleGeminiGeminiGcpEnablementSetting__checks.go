@@ -412,6 +412,14 @@ func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetEnableCust
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetGeminiEnterpriseProjectParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetGeminiGcpEnablementSettingIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -521,6 +529,14 @@ func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetProvisione
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetReleaseChannelParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

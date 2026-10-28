@@ -949,10 +949,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkInterfaces", GoMethod: "PutNetworkInterfaces"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEgressSetting", GoMethod: "ResetEgressSetting"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkInterfaces", GoMethod: "ResetNetworkInterfaces"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVpcEgress", GoMethod: "ResetVpcEgress"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcEgress", GoGetter: "VpcEgress"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcEgressInput", GoGetter: "VpcEgressInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessOutputReference{}

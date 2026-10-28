@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleBigqueryReservation) validatePutAutoscaleParameters(val
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryReservation) validatePutSchedulingPolicyParameters(value *GoogleBigqueryReservationSchedulingPolicy) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryReservation) validatePutTimeoutsParameters(value *GoogleBigqueryReservationTimeouts) error {
 	return nil
 }

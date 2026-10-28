@@ -5,14 +5,14 @@ package googlestoragemanagedfolderiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragemanagedfolderiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestoragemanagedfolderiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_managed_folder_iam_binding google_storage_managed_folder_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder_iam_binding google_storage_managed_folder_iam_binding}.
 type GoogleStorageManagedFolderIamBinding interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamBinding) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_managed_folder_iam_binding google_storage_managed_folder_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder_iam_binding google_storage_managed_folder_iam_binding} Resource.
 func NewGoogleStorageManagedFolderIamBinding(scope constructs.Construct, id *string, config *GoogleStorageManagedFolderIamBindingConfig) GoogleStorageManagedFolderIamBinding {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewGoogleStorageManagedFolderIamBinding(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_managed_folder_iam_binding google_storage_managed_folder_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder_iam_binding google_storage_managed_folder_iam_binding} Resource.
 func NewGoogleStorageManagedFolderIamBinding_Override(g GoogleStorageManagedFolderIamBinding, scope constructs.Construct, id *string, config *GoogleStorageManagedFolderIamBindingConfig) {
 	_init_.Initialize()
 

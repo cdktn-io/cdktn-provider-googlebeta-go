@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) validate
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) validatePutOutboundEndpointsParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDnsManagedZoneForwardingConfigOutputReference) validatePutTargetNameServersParameters(value interface{}) error {
 	return nil
 }

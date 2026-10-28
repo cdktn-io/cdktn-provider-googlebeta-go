@@ -226,6 +226,17 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutAndroidSettingsParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutExpressSettingsParameters(value *GoogleRecaptchaEnterpriseKeyExpressSettings) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutIosSettingsParameters(value *GoogleRecaptchaEnterpriseKeyIosSettings) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -249,6 +260,17 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutTestingOptionsParame
 }
 
 func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutTimeoutsParameters(value *GoogleRecaptchaEnterpriseKeyTimeouts) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutUniversalSettingsParameters(value *GoogleRecaptchaEnterpriseKeyUniversalSettings) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

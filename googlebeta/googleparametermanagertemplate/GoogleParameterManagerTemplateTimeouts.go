@@ -5,11 +5,11 @@ package googleparametermanagertemplate
 
 
 type GoogleParameterManagerTemplateTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#create GoogleParameterManagerTemplate#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#create GoogleParameterManagerTemplate#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#delete GoogleParameterManagerTemplate#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#delete GoogleParameterManagerTemplate#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#update GoogleParameterManagerTemplate#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#update GoogleParameterManagerTemplate#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

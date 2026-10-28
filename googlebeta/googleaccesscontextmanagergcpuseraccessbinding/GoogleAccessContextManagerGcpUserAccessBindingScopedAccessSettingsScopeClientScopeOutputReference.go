@@ -5,9 +5,9 @@ package googleaccesscontextmanagergcpuseraccessbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanagergcpuseraccessbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleaccesscontextmanagergcpuseraccessbinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,8 @@ type GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClie
 	SetInternalValue(val *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScope)
 	RestrictedClientApplication() GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationOutputReference
 	RestrictedClientApplicationInput() *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication
+	RestrictedProject() GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProjectOutputReference
+	RestrictedProjectInput() *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClie
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutRestrictedClientApplication(value *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication)
+	PutRestrictedProject(value *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject)
 	ResetRestrictedClientApplication()
+	ResetRestrictedProject()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSet
 	_jsii_.Get(
 		j,
 		"restrictedClientApplicationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) RestrictedProject() GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProjectOutputReference {
+	var returns GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProjectOutputReference
+	_jsii_.Get(
+		j,
+		"restrictedProject",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) RestrictedProjectInput() *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject {
+	var returns *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject
+	_jsii_.Get(
+		j,
+		"restrictedProjectInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSet
 	)
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) PutRestrictedProject(value *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject) {
+	if err := g.validatePutRestrictedProjectParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRestrictedProject",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) ResetRestrictedClientApplication() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetRestrictedClientApplication",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) ResetRestrictedProject() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRestrictedProject",
 		nil, // no parameters
 	)
 }

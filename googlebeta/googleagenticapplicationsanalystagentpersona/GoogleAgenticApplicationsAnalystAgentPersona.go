@@ -5,14 +5,14 @@ package googleagenticapplicationsanalystagentpersona
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleagenticapplicationsanalystagentpersona/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona}.
 type GoogleAgenticApplicationsAnalystAgentPersona interface {
 	cdktn.TerraformResource
 	AnalystAgentPersonaId() *string
@@ -878,7 +878,7 @@ func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersona) WebSearchConfig
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
 func NewGoogleAgenticApplicationsAnalystAgentPersona(scope constructs.Construct, id *string, config *GoogleAgenticApplicationsAnalystAgentPersonaConfig) GoogleAgenticApplicationsAnalystAgentPersona {
 	_init_.Initialize()
 
@@ -896,7 +896,7 @@ func NewGoogleAgenticApplicationsAnalystAgentPersona(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
 func NewGoogleAgenticApplicationsAnalystAgentPersona_Override(g GoogleAgenticApplicationsAnalystAgentPersona, scope constructs.Construct, id *string, config *GoogleAgenticApplicationsAnalystAgentPersonaConfig) {
 	_init_.Initialize()
 

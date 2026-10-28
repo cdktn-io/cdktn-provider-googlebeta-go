@@ -22,24 +22,24 @@ type GoogleGeminiDataAnalyticsDataAgentIamBindingConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#data_agent_id GoogleGeminiDataAnalyticsDataAgentIamBinding#data_agent_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#data_agent_id GoogleGeminiDataAnalyticsDataAgentIamBinding#data_agent_id}.
 	DataAgentId *string `field:"required" json:"dataAgentId" yaml:"dataAgentId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#members GoogleGeminiDataAnalyticsDataAgentIamBinding#members}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#members GoogleGeminiDataAnalyticsDataAgentIamBinding#members}.
 	Members *[]*string `field:"required" json:"members" yaml:"members"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#role GoogleGeminiDataAnalyticsDataAgentIamBinding#role}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#role GoogleGeminiDataAnalyticsDataAgentIamBinding#role}.
 	Role *string `field:"required" json:"role" yaml:"role"`
 	// condition block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#condition GoogleGeminiDataAnalyticsDataAgentIamBinding#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#condition GoogleGeminiDataAnalyticsDataAgentIamBinding#condition}
 	Condition *GoogleGeminiDataAnalyticsDataAgentIamBindingCondition `field:"optional" json:"condition" yaml:"condition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#id GoogleGeminiDataAnalyticsDataAgentIamBinding#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#id GoogleGeminiDataAnalyticsDataAgentIamBinding#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#location GoogleGeminiDataAnalyticsDataAgentIamBinding#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#location GoogleGeminiDataAnalyticsDataAgentIamBinding#location}.
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#project GoogleGeminiDataAnalyticsDataAgentIamBinding#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_binding#project GoogleGeminiDataAnalyticsDataAgentIamBinding#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

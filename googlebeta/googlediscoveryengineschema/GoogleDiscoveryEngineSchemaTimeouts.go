@@ -5,9 +5,11 @@ package googlediscoveryengineschema
 
 
 type GoogleDiscoveryEngineSchemaTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#create GoogleDiscoveryEngineSchema#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_schema#create GoogleDiscoveryEngineSchema#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_schema#delete GoogleDiscoveryEngineSchema#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_schema#delete GoogleDiscoveryEngineSchema#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_schema#update GoogleDiscoveryEngineSchema#update}.
+	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

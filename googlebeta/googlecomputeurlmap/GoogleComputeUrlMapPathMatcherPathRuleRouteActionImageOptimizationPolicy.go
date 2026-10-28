@@ -10,7 +10,7 @@ type GoogleComputeUrlMapPathMatcherPathRuleRouteActionImageOptimizationPolicy st
 	// If not specified, the default
 	// value is DISABLED. Possible values: ["DISABLED", "ENABLED"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_url_map#query_parameter_interpretation GoogleComputeUrlMap#query_parameter_interpretation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_url_map#query_parameter_interpretation GoogleComputeUrlMap#query_parameter_interpretation}
 	QueryParameterInterpretation *string `field:"optional" json:"queryParameterInterpretation" yaml:"queryParameterInterpretation"`
 }
 

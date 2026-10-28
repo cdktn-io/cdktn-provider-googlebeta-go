@@ -5,9 +5,9 @@ package googlevertexaiindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaiindex/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaiindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -30,6 +30,9 @@ type GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	FractionLeafNodesToSearch() *float64
+	SetFractionLeafNodesToSearch(val *float64)
+	FractionLeafNodesToSearchInput() *float64
 	InternalValue() *GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig
 	SetInternalValue(val *GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig)
 	LeafNodeEmbeddingCount() *float64
@@ -70,6 +73,7 @@ type GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetFractionLeafNodesToSearch()
 	ResetLeafNodeEmbeddingCount()
 	ResetLeafNodesToSearchPercent()
 	// Produce the Token's value at resolution time.
@@ -122,6 +126,26 @@ func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigO
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) FractionLeafNodesToSearch() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"fractionLeafNodesToSearch",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) FractionLeafNodesToSearchInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"fractionLeafNodesToSearchInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +267,17 @@ func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigO
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference)SetFractionLeafNodesToSearch(val *float64) {
+	if err := j.validateSetFractionLeafNodesToSearchParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"fractionLeafNodesToSearch",
 		val,
 	)
 }
@@ -486,6 +521,14 @@ func (g *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigO
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) ResetFractionLeafNodesToSearch() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetFractionLeafNodesToSearch",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) ResetLeafNodeEmbeddingCount() {

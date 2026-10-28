@@ -5,14 +5,14 @@ package datagooglecomputeserviceattachments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeserviceattachments/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglecomputeserviceattachments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_compute_service_attachments google_compute_service_attachments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_compute_service_attachments google_compute_service_attachments}.
 type DataGoogleComputeServiceAttachments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataGoogleComputeServiceAttachments) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_compute_service_attachments google_compute_service_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_compute_service_attachments google_compute_service_attachments} Data Source.
 func NewDataGoogleComputeServiceAttachments(scope constructs.Construct, id *string, config *DataGoogleComputeServiceAttachmentsConfig) DataGoogleComputeServiceAttachments {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewDataGoogleComputeServiceAttachments(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_compute_service_attachments google_compute_service_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_compute_service_attachments google_compute_service_attachments} Data Source.
 func NewDataGoogleComputeServiceAttachments_Override(d DataGoogleComputeServiceAttachments, scope constructs.Construct, id *string, config *DataGoogleComputeServiceAttachmentsConfig) {
 	_init_.Initialize()
 

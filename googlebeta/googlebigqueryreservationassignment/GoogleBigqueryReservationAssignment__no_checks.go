@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleBigqueryReservationAssignment) validateOverrideLogicalI
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryReservationAssignment) validatePutSchedulingPolicyParameters(value *GoogleBigqueryReservationAssignmentSchedulingPolicy) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryReservationAssignment) validatePutTimeoutsParameters(value *GoogleBigqueryReservationAssignmentTimeouts) error {
 	return nil
 }

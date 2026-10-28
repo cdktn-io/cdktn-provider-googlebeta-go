@@ -1,0 +1,23 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googlecloudrunv2instance
+
+
+type GoogleCloudRunV2InstanceContainersEnv struct {
+	// Name of the environment variable. Must be a C_IDENTIFIER, and may not exceed 32768 characters.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_cloud_run_v2_instance#name GoogleCloudRunV2Instance#name}
+	Name *string `field:"required" json:"name" yaml:"name"`
+	// Literal value of the environment variable.
+	//
+	// Defaults to "" and the maximum allowed length is 32768 characters. Variable references are not supported in Cloud Run.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_cloud_run_v2_instance#value GoogleCloudRunV2Instance#value}
+	Value *string `field:"optional" json:"value" yaml:"value"`
+	// value_source block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_cloud_run_v2_instance#value_source GoogleCloudRunV2Instance#value_source}
+	ValueSource *GoogleCloudRunV2InstanceContainersEnvValueSource `field:"optional" json:"valueSource" yaml:"valueSource"`
+}
+

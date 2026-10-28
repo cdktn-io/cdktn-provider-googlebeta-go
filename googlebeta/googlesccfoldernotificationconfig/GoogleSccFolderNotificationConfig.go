@@ -5,14 +5,14 @@ package googlesccfoldernotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccfoldernotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesccfoldernotificationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config}.
 type GoogleSccFolderNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleSccFolderNotificationConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionNotificationsEnabled() interface{}
+	SetDeletionNotificationsEnabled(val interface{})
+	DeletionNotificationsEnabledInput() interface{}
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -179,6 +182,7 @@ type GoogleSccFolderNotificationConfig interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetDeletionNotificationsEnabled()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
@@ -268,6 +272,26 @@ func (j *jsiiProxy_GoogleSccFolderNotificationConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSccFolderNotificationConfig) DeletionNotificationsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSccFolderNotificationConfig) DeletionNotificationsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -554,7 +578,7 @@ func (j *jsiiProxy_GoogleSccFolderNotificationConfig) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config} Resource.
 func NewGoogleSccFolderNotificationConfig(scope constructs.Construct, id *string, config *GoogleSccFolderNotificationConfigConfig) GoogleSccFolderNotificationConfig {
 	_init_.Initialize()
 
@@ -572,7 +596,7 @@ func NewGoogleSccFolderNotificationConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config} Resource.
 func NewGoogleSccFolderNotificationConfig_Override(g GoogleSccFolderNotificationConfig, scope constructs.Construct, id *string, config *GoogleSccFolderNotificationConfigConfig) {
 	_init_.Initialize()
 
@@ -612,6 +636,17 @@ func (j *jsiiProxy_GoogleSccFolderNotificationConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSccFolderNotificationConfig)SetDeletionNotificationsEnabled(val interface{}) {
+	if err := j.validateSetDeletionNotificationsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionNotificationsEnabled",
 		val,
 	)
 }
@@ -1116,6 +1151,14 @@ func (g *jsiiProxy_GoogleSccFolderNotificationConfig) RegisterProviderFeatureUsa
 		g,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (g *jsiiProxy_GoogleSccFolderNotificationConfig) ResetDeletionNotificationsEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionNotificationsEnabled",
+		nil, // no parameters
 	)
 }
 

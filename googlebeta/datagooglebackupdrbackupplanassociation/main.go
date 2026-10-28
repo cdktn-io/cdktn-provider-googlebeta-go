@@ -15,6 +15,7 @@ func init() {
 		reflect.TypeOf((*DataGoogleBackupDrBackupPlanAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "autoProtectionPolicyBinding", GoGetter: "AutoProtectionPolicyBinding"},
 			_jsii_.MemberProperty{JsiiProperty: "backupPlan", GoGetter: "BackupPlan"},
 			_jsii_.MemberProperty{JsiiProperty: "backupPlanAssociationId", GoGetter: "BackupPlanAssociationId"},
 			_jsii_.MemberProperty{JsiiProperty: "backupPlanAssociationIdInput", GoGetter: "BackupPlanAssociationIdInput"},

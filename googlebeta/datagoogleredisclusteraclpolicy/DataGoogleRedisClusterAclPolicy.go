@@ -5,14 +5,14 @@ package datagoogleredisclusteraclpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleredisclusteraclpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagoogleredisclusteraclpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy}.
 type DataGoogleRedisClusterAclPolicy interface {
 	cdktn.TerraformDataSource
 	AclPolicyId() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataGoogleRedisClusterAclPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy} Data Source.
 func NewDataGoogleRedisClusterAclPolicy(scope constructs.Construct, id *string, config *DataGoogleRedisClusterAclPolicyConfig) DataGoogleRedisClusterAclPolicy {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDataGoogleRedisClusterAclPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy} Data Source.
 func NewDataGoogleRedisClusterAclPolicy_Override(d DataGoogleRedisClusterAclPolicy, scope constructs.Construct, id *string, config *DataGoogleRedisClusterAclPolicyConfig) {
 	_init_.Initialize()
 

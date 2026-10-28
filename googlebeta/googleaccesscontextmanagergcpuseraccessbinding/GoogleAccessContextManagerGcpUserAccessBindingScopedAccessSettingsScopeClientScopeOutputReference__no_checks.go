@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) validatePutRestrictedProjectParameters(value *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

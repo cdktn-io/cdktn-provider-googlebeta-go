@@ -5,21 +5,25 @@ package googlesaasruntimesaas
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesaasruntimesaas/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesaasruntimesaas/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas}.
 type GoogleSaasRuntimeSaas interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
+	ApplicationTemplate() GoogleSaasRuntimeSaasApplicationTemplateOutputReference
+	ApplicationTemplateInput() *GoogleSaasRuntimeSaasApplicationTemplate
+	BlueprintRepo() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	Conditions() GoogleSaasRuntimeSaasConditionsList
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,6 +44,7 @@ type GoogleSaasRuntimeSaas interface {
 	SetDependsOn(val *[]*string)
 	EffectiveAnnotations() cdktn.StringMap
 	EffectiveLabels() cdktn.StringMap
+	Error() GoogleSaasRuntimeSaasErrorList
 	Etag() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -83,6 +88,7 @@ type GoogleSaasRuntimeSaas interface {
 	SaasId() *string
 	SetSaasId(val *string)
 	SaasIdInput() *string
+	State() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -173,6 +179,7 @@ type GoogleSaasRuntimeSaas interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutApplicationTemplate(value *GoogleSaasRuntimeSaasApplicationTemplate)
 	PutLocations(value interface{})
 	PutTimeouts(value *GoogleSaasRuntimeSaasTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -189,6 +196,7 @@ type GoogleSaasRuntimeSaas interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAnnotations()
+	ResetApplicationTemplate()
 	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
@@ -245,11 +253,51 @@ func (j *jsiiProxy_GoogleSaasRuntimeSaas) AnnotationsInput() *map[string]*string
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSaasRuntimeSaas) ApplicationTemplate() GoogleSaasRuntimeSaasApplicationTemplateOutputReference {
+	var returns GoogleSaasRuntimeSaasApplicationTemplateOutputReference
+	_jsii_.Get(
+		j,
+		"applicationTemplate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeSaas) ApplicationTemplateInput() *GoogleSaasRuntimeSaasApplicationTemplate {
+	var returns *GoogleSaasRuntimeSaasApplicationTemplate
+	_jsii_.Get(
+		j,
+		"applicationTemplateInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeSaas) BlueprintRepo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"blueprintRepo",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSaasRuntimeSaas) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeSaas) Conditions() GoogleSaasRuntimeSaasConditionsList {
+	var returns GoogleSaasRuntimeSaasConditionsList
+	_jsii_.Get(
+		j,
+		"conditions",
 		&returns,
 	)
 	return returns
@@ -340,6 +388,16 @@ func (j *jsiiProxy_GoogleSaasRuntimeSaas) EffectiveLabels() cdktn.StringMap {
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeSaas) Error() GoogleSaasRuntimeSaasErrorList {
+	var returns GoogleSaasRuntimeSaasErrorList
+	_jsii_.Get(
+		j,
+		"error",
 		&returns,
 	)
 	return returns
@@ -565,6 +623,16 @@ func (j *jsiiProxy_GoogleSaasRuntimeSaas) SaasIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSaasRuntimeSaas) State() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"state",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSaasRuntimeSaas) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -646,7 +714,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeSaas) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
 func NewGoogleSaasRuntimeSaas(scope constructs.Construct, id *string, config *GoogleSaasRuntimeSaasConfig) GoogleSaasRuntimeSaas {
 	_init_.Initialize()
 
@@ -664,7 +732,7 @@ func NewGoogleSaasRuntimeSaas(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
 func NewGoogleSaasRuntimeSaas_Override(g GoogleSaasRuntimeSaas, scope constructs.Construct, id *string, config *GoogleSaasRuntimeSaasConfig) {
 	_init_.Initialize()
 
@@ -1189,6 +1257,17 @@ func (g *jsiiProxy_GoogleSaasRuntimeSaas) OverrideLogicalId(newLogicalId *string
 	)
 }
 
+func (g *jsiiProxy_GoogleSaasRuntimeSaas) PutApplicationTemplate(value *GoogleSaasRuntimeSaasApplicationTemplate) {
+	if err := g.validatePutApplicationTemplateParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putApplicationTemplate",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleSaasRuntimeSaas) PutLocations(value interface{}) {
 	if err := g.validatePutLocationsParameters(value); err != nil {
 		panic(err)
@@ -1226,6 +1305,14 @@ func (g *jsiiProxy_GoogleSaasRuntimeSaas) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeSaas) ResetApplicationTemplate() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetApplicationTemplate",
 		nil, // no parameters
 	)
 }

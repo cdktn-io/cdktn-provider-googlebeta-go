@@ -12,7 +12,7 @@ type GoogleIamFoldersPolicyBindingTarget struct {
 	// * Folder: '//cloudresourcemanager.googleapis.com/folders/FOLDER_ID'
 	// It must be parent by the policy binding's parent (the folder).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_iam_folders_policy_binding#principal_set GoogleIamFoldersPolicyBinding#principal_set}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_iam_folders_policy_binding#principal_set GoogleIamFoldersPolicyBinding#principal_set}
 	PrincipalSet *string `field:"optional" json:"principalSet" yaml:"principalSet"`
 	// Immutable.
 	//
@@ -21,7 +21,7 @@ type GoogleIamFoldersPolicyBindingTarget struct {
 	// * Folder: '//cloudresourcemanager.googleapis.com/folders/FOLDER_ID'
 	// It must be the policy binding's parent (the folder).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_iam_folders_policy_binding#resource GoogleIamFoldersPolicyBinding#resource}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_iam_folders_policy_binding#resource GoogleIamFoldersPolicyBinding#resource}
 	Resource *string `field:"optional" json:"resource" yaml:"resource"`
 }
 

@@ -5,9 +5,9 @@ package googlecestool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecestool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecestool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,9 +33,12 @@ type GoogleCesToolRemoteAgentToolOutputReference interface {
 	Description() *string
 	// Experimental.
 	Fqn() *string
+	InputVariableMapping() cdktn.StringMap
 	InternalValue() *GoogleCesToolRemoteAgentTool
 	SetInternalValue(val *GoogleCesToolRemoteAgentTool)
 	Name() *string
+	OutputVariableMapping() cdktn.StringMap
+	StatefulAgent() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -153,6 +156,16 @@ func (j *jsiiProxy_GoogleCesToolRemoteAgentToolOutputReference) Fqn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesToolRemoteAgentToolOutputReference) InputVariableMapping() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"inputVariableMapping",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCesToolRemoteAgentToolOutputReference) InternalValue() *GoogleCesToolRemoteAgentTool {
 	var returns *GoogleCesToolRemoteAgentTool
 	_jsii_.Get(
@@ -168,6 +181,26 @@ func (j *jsiiProxy_GoogleCesToolRemoteAgentToolOutputReference) Name() *string {
 	_jsii_.Get(
 		j,
 		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolRemoteAgentToolOutputReference) OutputVariableMapping() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"outputVariableMapping",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolRemoteAgentToolOutputReference) StatefulAgent() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"statefulAgent",
 		&returns,
 	)
 	return returns

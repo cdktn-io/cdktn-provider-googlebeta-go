@@ -5,14 +5,14 @@ package datagooglesqldatabaseinstancelatestrecoverytime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglesqldatabaseinstancelatestrecoverytime/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglesqldatabaseinstancelatestrecoverytime/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_sql_database_instance_latest_recovery_time google_sql_database_instance_latest_recovery_time}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_sql_database_instance_latest_recovery_time google_sql_database_instance_latest_recovery_time}.
 type DataGoogleSqlDatabaseInstanceLatestRecoveryTime interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceLatestRecoveryTime) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_sql_database_instance_latest_recovery_time google_sql_database_instance_latest_recovery_time} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_sql_database_instance_latest_recovery_time google_sql_database_instance_latest_recovery_time} Data Source.
 func NewDataGoogleSqlDatabaseInstanceLatestRecoveryTime(scope constructs.Construct, id *string, config *DataGoogleSqlDatabaseInstanceLatestRecoveryTimeConfig) DataGoogleSqlDatabaseInstanceLatestRecoveryTime {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewDataGoogleSqlDatabaseInstanceLatestRecoveryTime(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_sql_database_instance_latest_recovery_time google_sql_database_instance_latest_recovery_time} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_sql_database_instance_latest_recovery_time google_sql_database_instance_latest_recovery_time} Data Source.
 func NewDataGoogleSqlDatabaseInstanceLatestRecoveryTime_Override(d DataGoogleSqlDatabaseInstanceLatestRecoveryTime, scope constructs.Construct, id *string, config *DataGoogleSqlDatabaseInstanceLatestRecoveryTimeConfig) {
 	_init_.Initialize()
 

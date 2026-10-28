@@ -10,15 +10,15 @@ type GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypesInfoType s
 	// Either a name of your choosing when creating a CustomInfoType, or one of the names
 	// listed at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// sensitivity_score block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 	SensitivityScore *GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypesInfoTypeSensitivityScore `field:"optional" json:"sensitivityScore" yaml:"sensitivityScore"`
 	// Version name for this InfoType.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 	Version *string `field:"optional" json:"version" yaml:"version"`
 }
 

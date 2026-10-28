@@ -5,11 +5,11 @@ package googlemonitoringsnooze
 
 
 type GoogleMonitoringSnoozeTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

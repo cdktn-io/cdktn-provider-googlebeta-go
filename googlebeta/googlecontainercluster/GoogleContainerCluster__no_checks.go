@@ -255,6 +255,10 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutRollbackSafeUpgradeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) validatePutScheduleUpgradeConfigParameters(value *GoogleContainerClusterScheduleUpgradeConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) validatePutSecretManagerConfigParameters(value *GoogleContainerClusterSecretManagerConfig) error {
 	return nil
 }

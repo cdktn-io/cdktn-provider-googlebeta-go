@@ -5,14 +5,14 @@ package datagooglebackupdrdatasourcereferences
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrdatasourcereferences/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrdatasourcereferences/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references}.
 type DataGoogleBackupDrDataSourceReferences interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references} Data Source.
 func NewDataGoogleBackupDrDataSourceReferences(scope constructs.Construct, id *string, config *DataGoogleBackupDrDataSourceReferencesConfig) DataGoogleBackupDrDataSourceReferences {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataGoogleBackupDrDataSourceReferences(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references} Data Source.
 func NewDataGoogleBackupDrDataSourceReferences_Override(d DataGoogleBackupDrDataSourceReferences, scope constructs.Construct, id *string, config *DataGoogleBackupDrDataSourceReferencesConfig) {
 	_init_.Initialize()
 

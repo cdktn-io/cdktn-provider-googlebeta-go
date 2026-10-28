@@ -5,9 +5,9 @@ package googlegeminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,9 @@ type GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptions
 	Fqn() *string
 	InternalValue() *GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptions
 	SetInternalValue(val *GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptions)
+	Model() *string
+	SetModel(val *string)
+	ModelInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptions
 	PutDatasource(value *GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsDatasource)
 	ResetAnalysis()
 	ResetDatasource()
+	ResetModel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -177,6 +181,26 @@ func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublished
 	return returns
 }
 
+func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference) Model() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"model",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference) ModelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -254,6 +278,17 @@ func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublished
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference)SetModel(val *string) {
+	if err := j.validateSetModelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"model",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublished
 	_jsii_.InvokeVoid(
 		g,
 		"resetDatasource",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference) ResetModel() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetModel",
 		nil, // no parameters
 	)
 }

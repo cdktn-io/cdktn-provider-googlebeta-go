@@ -7,7 +7,7 @@ package googledialogflowgenerator
 type GoogleDialogflowGeneratorFreeFormContext struct {
 	// Optional. Free form text input to LLM.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator#text GoogleDialogflowGenerator#text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_generator#text GoogleDialogflowGenerator#text}
 	Text *string `field:"optional" json:"text" yaml:"text"`
 }
 

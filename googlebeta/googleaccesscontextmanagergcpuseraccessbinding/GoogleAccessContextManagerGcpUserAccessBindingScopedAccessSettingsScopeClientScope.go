@@ -7,7 +7,11 @@ package googleaccesscontextmanagergcpuseraccessbinding
 type GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScope struct {
 	// restricted_client_application block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_access_context_manager_gcp_user_access_binding#restricted_client_application GoogleAccessContextManagerGcpUserAccessBinding#restricted_client_application}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_access_context_manager_gcp_user_access_binding#restricted_client_application GoogleAccessContextManagerGcpUserAccessBinding#restricted_client_application}
 	RestrictedClientApplication *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication `field:"optional" json:"restrictedClientApplication" yaml:"restrictedClientApplication"`
+	// restricted_project block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_access_context_manager_gcp_user_access_binding#restricted_project GoogleAccessContextManagerGcpUserAccessBinding#restricted_project}
+	RestrictedProject *GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject `field:"optional" json:"restrictedProject" yaml:"restrictedProject"`
 }
 

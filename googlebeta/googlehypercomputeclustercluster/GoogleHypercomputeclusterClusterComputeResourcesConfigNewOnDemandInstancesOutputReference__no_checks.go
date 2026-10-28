@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference) validateSetNetworkTagsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

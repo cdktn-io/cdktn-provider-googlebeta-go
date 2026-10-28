@@ -83,6 +83,10 @@ func (g *jsiiProxy_GooglePubsubSubscription) validatePutBigqueryConfigParameters
 	return nil
 }
 
+func (g *jsiiProxy_GooglePubsubSubscription) validatePutBigtableConfigParameters(value *GooglePubsubSubscriptionBigtableConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePubsubSubscription) validatePutCloudStorageConfigParameters(value *GooglePubsubSubscriptionCloudStorageConfig) error {
 	return nil
 }

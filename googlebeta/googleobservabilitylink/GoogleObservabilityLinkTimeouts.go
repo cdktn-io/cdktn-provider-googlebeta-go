@@ -5,11 +5,11 @@ package googleobservabilitylink
 
 
 type GoogleObservabilityLinkTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#create GoogleObservabilityLink#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_observability_link#create GoogleObservabilityLink#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#delete GoogleObservabilityLink#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_observability_link#delete GoogleObservabilityLink#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link#update GoogleObservabilityLink#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_observability_link#update GoogleObservabilityLink#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

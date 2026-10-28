@@ -5,9 +5,9 @@ package googledataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -60,10 +60,14 @@ type GoogleDataprocClusterClusterConfigOutputReference interface {
 	LifecycleConfigInput() *GoogleDataprocClusterClusterConfigLifecycleConfig
 	MasterConfig() GoogleDataprocClusterClusterConfigMasterConfigOutputReference
 	MasterConfigInput() *GoogleDataprocClusterClusterConfigMasterConfig
+	MasterFlexibleConfig() GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference
+	MasterFlexibleConfigInput() *GoogleDataprocClusterClusterConfigMasterFlexibleConfig
 	MetastoreConfig() GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference
 	MetastoreConfigInput() *GoogleDataprocClusterClusterConfigMetastoreConfig
 	PreemptibleWorkerConfig() GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigOutputReference
 	PreemptibleWorkerConfigInput() *GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig
+	SecondaryWorkerFlexibleConfig() GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference
+	SecondaryWorkerFlexibleConfigInput() *GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig
 	SecurityConfig() GoogleDataprocClusterClusterConfigSecurityConfigOutputReference
 	SecurityConfigInput() *GoogleDataprocClusterClusterConfigSecurityConfig
 	SoftwareConfig() GoogleDataprocClusterClusterConfigSoftwareConfigOutputReference
@@ -84,6 +88,8 @@ type GoogleDataprocClusterClusterConfigOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WorkerConfig() GoogleDataprocClusterClusterConfigWorkerConfigOutputReference
 	WorkerConfigInput() *GoogleDataprocClusterClusterConfigWorkerConfig
+	WorkerFlexibleConfig() GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference
+	WorkerFlexibleConfigInput() *GoogleDataprocClusterClusterConfigWorkerFlexibleConfig
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -117,11 +123,14 @@ type GoogleDataprocClusterClusterConfigOutputReference interface {
 	PutInitializationAction(value interface{})
 	PutLifecycleConfig(value *GoogleDataprocClusterClusterConfigLifecycleConfig)
 	PutMasterConfig(value *GoogleDataprocClusterClusterConfigMasterConfig)
+	PutMasterFlexibleConfig(value *GoogleDataprocClusterClusterConfigMasterFlexibleConfig)
 	PutMetastoreConfig(value *GoogleDataprocClusterClusterConfigMetastoreConfig)
 	PutPreemptibleWorkerConfig(value *GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig)
+	PutSecondaryWorkerFlexibleConfig(value *GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig)
 	PutSecurityConfig(value *GoogleDataprocClusterClusterConfigSecurityConfig)
 	PutSoftwareConfig(value *GoogleDataprocClusterClusterConfigSoftwareConfig)
 	PutWorkerConfig(value *GoogleDataprocClusterClusterConfigWorkerConfig)
+	PutWorkerFlexibleConfig(value *GoogleDataprocClusterClusterConfigWorkerFlexibleConfig)
 	ResetAutoscalingConfig()
 	ResetAuxiliaryNodeGroups()
 	ResetClusterTier()
@@ -134,13 +143,16 @@ type GoogleDataprocClusterClusterConfigOutputReference interface {
 	ResetInitializationAction()
 	ResetLifecycleConfig()
 	ResetMasterConfig()
+	ResetMasterFlexibleConfig()
 	ResetMetastoreConfig()
 	ResetPreemptibleWorkerConfig()
+	ResetSecondaryWorkerFlexibleConfig()
 	ResetSecurityConfig()
 	ResetSoftwareConfig()
 	ResetStagingBucket()
 	ResetTempBucket()
 	ResetWorkerConfig()
+	ResetWorkerFlexibleConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -456,6 +468,26 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) MasterConf
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) MasterFlexibleConfig() GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference {
+	var returns GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference
+	_jsii_.Get(
+		j,
+		"masterFlexibleConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) MasterFlexibleConfigInput() *GoogleDataprocClusterClusterConfigMasterFlexibleConfig {
+	var returns *GoogleDataprocClusterClusterConfigMasterFlexibleConfig
+	_jsii_.Get(
+		j,
+		"masterFlexibleConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) MetastoreConfig() GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference {
 	var returns GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference
 	_jsii_.Get(
@@ -491,6 +523,26 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) Preemptibl
 	_jsii_.Get(
 		j,
 		"preemptibleWorkerConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) SecondaryWorkerFlexibleConfig() GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference {
+	var returns GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference
+	_jsii_.Get(
+		j,
+		"secondaryWorkerFlexibleConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) SecondaryWorkerFlexibleConfigInput() *GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig {
+	var returns *GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig
+	_jsii_.Get(
+		j,
+		"secondaryWorkerFlexibleConfigInput",
 		&returns,
 	)
 	return returns
@@ -611,6 +663,26 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) WorkerConf
 	_jsii_.Get(
 		j,
 		"workerConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) WorkerFlexibleConfig() GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference {
+	var returns GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference
+	_jsii_.Get(
+		j,
+		"workerFlexibleConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) WorkerFlexibleConfigInput() *GoogleDataprocClusterClusterConfigWorkerFlexibleConfig {
+	var returns *GoogleDataprocClusterClusterConfigWorkerFlexibleConfig
+	_jsii_.Get(
+		j,
+		"workerFlexibleConfigInput",
 		&returns,
 	)
 	return returns
@@ -1039,6 +1111,17 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) PutMasterC
 	)
 }
 
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) PutMasterFlexibleConfig(value *GoogleDataprocClusterClusterConfigMasterFlexibleConfig) {
+	if err := g.validatePutMasterFlexibleConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putMasterFlexibleConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) PutMetastoreConfig(value *GoogleDataprocClusterClusterConfigMetastoreConfig) {
 	if err := g.validatePutMetastoreConfigParameters(value); err != nil {
 		panic(err)
@@ -1057,6 +1140,17 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) PutPreempt
 	_jsii_.InvokeVoid(
 		g,
 		"putPreemptibleWorkerConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) PutSecondaryWorkerFlexibleConfig(value *GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig) {
+	if err := g.validatePutSecondaryWorkerFlexibleConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSecondaryWorkerFlexibleConfig",
 		[]interface{}{value},
 	)
 }
@@ -1090,6 +1184,17 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) PutWorkerC
 	_jsii_.InvokeVoid(
 		g,
 		"putWorkerConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) PutWorkerFlexibleConfig(value *GoogleDataprocClusterClusterConfigWorkerFlexibleConfig) {
+	if err := g.validatePutWorkerFlexibleConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWorkerFlexibleConfig",
 		[]interface{}{value},
 	)
 }
@@ -1190,6 +1295,14 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) ResetMaste
 	)
 }
 
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) ResetMasterFlexibleConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMasterFlexibleConfig",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) ResetMetastoreConfig() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1202,6 +1315,14 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) ResetPreem
 	_jsii_.InvokeVoid(
 		g,
 		"resetPreemptibleWorkerConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) ResetSecondaryWorkerFlexibleConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSecondaryWorkerFlexibleConfig",
 		nil, // no parameters
 	)
 }
@@ -1242,6 +1363,14 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) ResetWorke
 	_jsii_.InvokeVoid(
 		g,
 		"resetWorkerConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigOutputReference) ResetWorkerFlexibleConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkerFlexibleConfig",
 		nil, // no parameters
 	)
 }

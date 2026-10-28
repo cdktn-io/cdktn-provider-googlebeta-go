@@ -5,9 +5,9 @@ package googledialogflowconversationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowconversationprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledialogflowconversationprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,8 @@ type GoogleDialogflowConversationProfileSttConfigOutputReference interface {
 	EnableWordInfoInput() interface{}
 	// Experimental.
 	Fqn() *string
+	GeminiAsrConfig() GoogleDialogflowConversationProfileSttConfigGeminiAsrConfigOutputReference
+	GeminiAsrConfigInput() *GoogleDialogflowConversationProfileSttConfigGeminiAsrConfig
 	InternalValue() *GoogleDialogflowConversationProfileSttConfig
 	SetInternalValue(val *GoogleDialogflowConversationProfileSttConfig)
 	LanguageCode() *string
@@ -58,6 +60,9 @@ type GoogleDialogflowConversationProfileSttConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseGeminiAsr() interface{}
+	SetUseGeminiAsr(val interface{})
+	UseGeminiAsrInput() interface{}
 	UseTimeoutBasedEndpointing() interface{}
 	SetUseTimeoutBasedEndpointing(val interface{})
 	UseTimeoutBasedEndpointingInput() interface{}
@@ -85,12 +90,15 @@ type GoogleDialogflowConversationProfileSttConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutGeminiAsrConfig(value *GoogleDialogflowConversationProfileSttConfigGeminiAsrConfig)
 	ResetAudioEncoding()
 	ResetEnableWordInfo()
+	ResetGeminiAsrConfig()
 	ResetLanguageCode()
 	ResetModel()
 	ResetSampleRateHertz()
 	ResetSpeechModelVariant()
+	ResetUseGeminiAsr()
 	ResetUseTimeoutBasedEndpointing()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -182,6 +190,26 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) 
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) GeminiAsrConfig() GoogleDialogflowConversationProfileSttConfigGeminiAsrConfigOutputReference {
+	var returns GoogleDialogflowConversationProfileSttConfigGeminiAsrConfigOutputReference
+	_jsii_.Get(
+		j,
+		"geminiAsrConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) GeminiAsrConfigInput() *GoogleDialogflowConversationProfileSttConfigGeminiAsrConfig {
+	var returns *GoogleDialogflowConversationProfileSttConfigGeminiAsrConfig
+	_jsii_.Get(
+		j,
+		"geminiAsrConfigInput",
 		&returns,
 	)
 	return returns
@@ -292,6 +320,26 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) 
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) UseGeminiAsr() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useGeminiAsr",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) UseGeminiAsrInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useGeminiAsrInput",
 		&returns,
 	)
 	return returns
@@ -462,6 +510,17 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference)S
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference)SetUseGeminiAsr(val interface{}) {
+	if err := j.validateSetUseGeminiAsrParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useGeminiAsr",
 		val,
 	)
 }
@@ -663,6 +722,17 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) 
 	return returns
 }
 
+func (g *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) PutGeminiAsrConfig(value *GoogleDialogflowConversationProfileSttConfigGeminiAsrConfig) {
+	if err := g.validatePutGeminiAsrConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putGeminiAsrConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) ResetAudioEncoding() {
 	_jsii_.InvokeVoid(
 		g,
@@ -675,6 +745,14 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) 
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnableWordInfo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) ResetGeminiAsrConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGeminiAsrConfig",
 		nil, // no parameters
 	)
 }
@@ -707,6 +785,14 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) 
 	_jsii_.InvokeVoid(
 		g,
 		"resetSpeechModelVariant",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowConversationProfileSttConfigOutputReference) ResetUseGeminiAsr() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUseGeminiAsr",
 		nil, // no parameters
 	)
 }

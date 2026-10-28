@@ -38,6 +38,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "disabledInput", GoGetter: "DisabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "enableLogging", GoGetter: "EnableLogging"},
 			_jsii_.MemberProperty{JsiiProperty: "enableLoggingInput", GoGetter: "EnableLoggingInput"},
+			_jsii_.MemberProperty{JsiiProperty: "firewallId", GoGetter: "FirewallId"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},

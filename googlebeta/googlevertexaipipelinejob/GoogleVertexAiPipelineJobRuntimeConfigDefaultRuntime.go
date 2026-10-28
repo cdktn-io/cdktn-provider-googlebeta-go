@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googlevertexaipipelinejob
+
+
+type GoogleVertexAiPipelineJobRuntimeConfigDefaultRuntime struct {
+	// persistent_resource_runtime_detail block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_pipeline_job#persistent_resource_runtime_detail GoogleVertexAiPipelineJob#persistent_resource_runtime_detail}
+	PersistentResourceRuntimeDetail *GoogleVertexAiPipelineJobRuntimeConfigDefaultRuntimePersistentResourceRuntimeDetail `field:"optional" json:"persistentResourceRuntimeDetail" yaml:"persistentResourceRuntimeDetail"`
+}
+

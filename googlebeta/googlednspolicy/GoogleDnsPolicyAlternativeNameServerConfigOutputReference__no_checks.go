@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) va
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) validatePutOutboundEndpointsParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) validatePutTargetNameServersParameters(value interface{}) error {
 	return nil
 }

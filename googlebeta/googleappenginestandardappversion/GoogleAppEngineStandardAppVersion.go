@@ -5,14 +5,14 @@ package googleappenginestandardappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleappenginestandardappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleappenginestandardappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version}.
 type GoogleAppEngineStandardAppVersion interface {
 	cdktn.TerraformResource
 	AppEngineApis() interface{}
@@ -975,7 +975,7 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) VpcAccessInput() *GoogleAp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewGoogleAppEngineStandardAppVersion(scope constructs.Construct, id *string, config *GoogleAppEngineStandardAppVersionConfig) GoogleAppEngineStandardAppVersion {
 	_init_.Initialize()
 
@@ -993,7 +993,7 @@ func NewGoogleAppEngineStandardAppVersion(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewGoogleAppEngineStandardAppVersion_Override(g GoogleAppEngineStandardAppVersion, scope constructs.Construct, id *string, config *GoogleAppEngineStandardAppVersionConfig) {
 	_init_.Initialize()
 

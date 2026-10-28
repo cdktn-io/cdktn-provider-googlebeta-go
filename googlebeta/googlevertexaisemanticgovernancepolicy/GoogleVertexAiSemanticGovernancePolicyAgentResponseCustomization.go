@@ -10,7 +10,7 @@ type GoogleVertexAiSemanticGovernancePolicyAgentResponseCustomization struct {
 	// Use this
 	// to explain the rationale to the user. Max 1000 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#denial_message GoogleVertexAiSemanticGovernancePolicy#denial_message}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#denial_message GoogleVertexAiSemanticGovernancePolicy#denial_message}
 	DenialMessage *string `field:"optional" json:"denialMessage" yaml:"denialMessage"`
 }
 

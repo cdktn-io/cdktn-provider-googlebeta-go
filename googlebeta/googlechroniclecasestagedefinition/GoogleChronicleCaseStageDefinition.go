@@ -5,14 +5,14 @@ package googlechroniclecasestagedefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclecasestagedefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlechroniclecasestagedefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition}.
 type GoogleChronicleCaseStageDefinition interface {
 	cdktn.TerraformResource
 	CaseStageDefinitionId() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_GoogleChronicleCaseStageDefinition) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource.
 func NewGoogleChronicleCaseStageDefinition(scope constructs.Construct, id *string, config *GoogleChronicleCaseStageDefinitionConfig) GoogleChronicleCaseStageDefinition {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewGoogleChronicleCaseStageDefinition(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource.
 func NewGoogleChronicleCaseStageDefinition_Override(g GoogleChronicleCaseStageDefinition, scope constructs.Construct, id *string, config *GoogleChronicleCaseStageDefinitionConfig) {
 	_init_.Initialize()
 

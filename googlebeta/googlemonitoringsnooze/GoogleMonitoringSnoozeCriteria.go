@@ -24,7 +24,7 @@ type GoogleMonitoringSnoozeCriteria struct {
 	//
 	// "filter": "resource.labels.instance_id=\"1234567890\" AND metric.labels.instance_name=\"test_group\" AND metadata.user_labels.foo=\"bar\" AND metadata.system_labels.region=\"us-central1\""
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#filter GoogleMonitoringSnooze#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#filter GoogleMonitoringSnooze#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
 	// The specific AlertPolicy names for the alert that should be snoozed.
 	//
@@ -33,7 +33,7 @@ type GoogleMonitoringSnoozeCriteria struct {
 	// snooze creation. Exactly 1 alert policy is required if filter is specified
 	// at the same time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#policies GoogleMonitoringSnooze#policies}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#policies GoogleMonitoringSnooze#policies}
 	Policies *[]*string `field:"optional" json:"policies" yaml:"policies"`
 }
 

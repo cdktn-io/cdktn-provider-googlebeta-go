@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputRefe
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputReference) validatePutRaySpecParameters(value *GoogleVertexAiPersistentResourceResourceRuntimeSpecRaySpec) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiPersistentResourceResourceRuntimeSpecOutputReference) validatePutServiceAccountSpecParameters(value *GoogleVertexAiPersistentResourceResourceRuntimeSpecServiceAccountSpec) error {
 	return nil
 }

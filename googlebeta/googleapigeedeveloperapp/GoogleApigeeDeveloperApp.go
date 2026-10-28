@@ -5,14 +5,14 @@ package googleapigeedeveloperapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedeveloperapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleapigeedeveloperapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_apigee_developer_app google_apigee_developer_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_developer_app google_apigee_developer_app}.
 type GoogleApigeeDeveloperApp interface {
 	cdktn.TerraformResource
 	ApiProducts() *[]*string
@@ -755,7 +755,7 @@ func (j *jsiiProxy_GoogleApigeeDeveloperApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_apigee_developer_app google_apigee_developer_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_developer_app google_apigee_developer_app} Resource.
 func NewGoogleApigeeDeveloperApp(scope constructs.Construct, id *string, config *GoogleApigeeDeveloperAppConfig) GoogleApigeeDeveloperApp {
 	_init_.Initialize()
 
@@ -773,7 +773,7 @@ func NewGoogleApigeeDeveloperApp(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_apigee_developer_app google_apigee_developer_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_developer_app google_apigee_developer_app} Resource.
 func NewGoogleApigeeDeveloperApp_Override(g GoogleApigeeDeveloperApp, scope constructs.Construct, id *string, config *GoogleApigeeDeveloperAppConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package googlednspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlednspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlednspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type GoogleDnsPolicyAlternativeNameServerConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *GoogleDnsPolicyAlternativeNameServerConfig
 	SetInternalValue(val *GoogleDnsPolicyAlternativeNameServerConfig)
+	OutboundEndpoints() GoogleDnsPolicyAlternativeNameServerConfigOutboundEndpointsList
+	OutboundEndpointsInput() interface{}
 	TargetNameServers() GoogleDnsPolicyAlternativeNameServerConfigTargetNameServersList
 	TargetNameServersInput() interface{}
 	// Experimental.
@@ -66,7 +68,9 @@ type GoogleDnsPolicyAlternativeNameServerConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOutboundEndpoints(value interface{})
 	PutTargetNameServers(value interface{})
+	ResetOutboundEndpoints()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -127,6 +131,26 @@ func (j *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) In
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) OutboundEndpoints() GoogleDnsPolicyAlternativeNameServerConfigOutboundEndpointsList {
+	var returns GoogleDnsPolicyAlternativeNameServerConfigOutboundEndpointsList
+	_jsii_.Get(
+		j,
+		"outboundEndpoints",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) OutboundEndpointsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"outboundEndpointsInput",
 		&returns,
 	)
 	return returns
@@ -441,6 +465,17 @@ func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) In
 	return returns
 }
 
+func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) PutOutboundEndpoints(value interface{}) {
+	if err := g.validatePutOutboundEndpointsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putOutboundEndpoints",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) PutTargetNameServers(value interface{}) {
 	if err := g.validatePutTargetNameServersParameters(value); err != nil {
 		panic(err)
@@ -449,6 +484,14 @@ func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) Pu
 		g,
 		"putTargetNameServers",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) ResetOutboundEndpoints() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOutboundEndpoints",
+		nil, // no parameters
 	)
 }
 

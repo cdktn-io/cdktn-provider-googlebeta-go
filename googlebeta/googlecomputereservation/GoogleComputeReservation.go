@@ -5,14 +5,14 @@ package googlecomputereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputereservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_reservation google_compute_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_reservation google_compute_reservation}.
 type GoogleComputeReservation interface {
 	cdktn.TerraformResource
 	BlockNames() *[]*string
@@ -787,7 +787,7 @@ func (j *jsiiProxy_GoogleComputeReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation(scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) GoogleComputeReservation {
 	_init_.Initialize()
 
@@ -805,7 +805,7 @@ func NewGoogleComputeReservation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation_Override(g GoogleComputeReservation, scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) {
 	_init_.Initialize()
 

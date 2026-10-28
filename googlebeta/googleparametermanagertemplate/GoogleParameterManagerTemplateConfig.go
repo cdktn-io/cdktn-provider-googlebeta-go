@@ -24,7 +24,7 @@ type GoogleParameterManagerTemplateConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// This must be unique within the project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#template_id GoogleParameterManagerTemplate#template_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#template_id GoogleParameterManagerTemplate#template_id}
 	TemplateId *string `field:"required" json:"templateId" yaml:"templateId"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -36,13 +36,13 @@ type GoogleParameterManagerTemplateConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#deletion_policy GoogleParameterManagerTemplate#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#deletion_policy GoogleParameterManagerTemplate#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// The format type of the template resource. Default value: "TEMPLATE_FORMAT_YAML" Possible values: ["TEMPLATE_FORMAT_YAML", "TEMPLATE_FORMAT_JSON"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#format GoogleParameterManagerTemplate#format}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#format GoogleParameterManagerTemplate#format}
 	Format *string `field:"optional" json:"format" yaml:"format"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#id GoogleParameterManagerTemplate#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#id GoogleParameterManagerTemplate#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,13 +64,13 @@ type GoogleParameterManagerTemplateConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#labels GoogleParameterManagerTemplate#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#labels GoogleParameterManagerTemplate#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#project GoogleParameterManagerTemplate#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#project GoogleParameterManagerTemplate#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_parameter_manager_template#timeouts GoogleParameterManagerTemplate#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_parameter_manager_template#timeouts GoogleParameterManagerTemplate#timeouts}
 	Timeouts *GoogleParameterManagerTemplateTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 
